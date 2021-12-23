@@ -1,0 +1,1824 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - foul_words
+  - emotionless
+  - cafa
+  - f_enrollment
+  - f_docs_submission
+  - hello
+  - enrollment
+  - feature_love
+  - tertiary_education_act
+  - challenge_college_degree_courses
+  - challenge_graduate_school
+  - challenge_courses_quantity_overall
+  - challenge_amang_id
+  - challenge_amang_school
+  - challenge_ervhs_abbreviation
+  - challenge_earmsat_abbreviation
+  - challenge_earist_history
+  - challenge_amang_speculation
+  - challenge_vision
+  - challenge_mission
+  - challenge_goals
+  - challenge_objectives
+  - challenge_philosophy
+  - challenge_hymn
+  - challenge_apply_job
+  - challenge_available_job
+  - req_documents
+  - cafa_faculty
+  - cas
+  - cas_faculty
+  - cba
+  - cba_faculty
+  - ced
+  - ced_faculty
+  - cen
+  - cen_faculty
+  - chm
+  - chm_faculty
+  - cit
+  - cit_faculty
+  - cpac
+  - cpac_faculty
+  - grad_school
+  - ecat
+  - online_payment
+  - sarms_credo
+  - email_form
+  - email_fee
+  - inc_docu
+  - ecat_release_examination_date
+  - challenge_ecat_abbreviation
+  - ecat_exam_d
+  - ecat_results
+  - library_rules_regulations1
+  - library_rules_regulations2
+  - library_rules_regulations3
+  - library_rules_regulations4
+  - library_rules_regulations5
+  - library_rules_regulations6
+  - library_rules_regulations7
+  - library_rules_regulations8
+  - library_rules_regulations9
+  - library_rules_regulations10
+  - library_rules_regulations11
+  - library_rules_regulations12
+  - library_rules_regulations13
+  - library_rules_regulations14
+  - library_rules_regulations15
+  - financial_rep
+  - article1_admission_polc
+  - sect1_academic_load_1.1
+  - sect1_academic_load_1.2
+  - sect1_academic_load_1.3
+  - sect1_academic_load_1.4
+  - sect1_academic_load_1.5
+  - sect1_academic_load_1.6
+  - sect1_academic_load_1.7
+  - sect2_registration2.1
+  - sect2_registration2.2
+  - sect2_registration2.3
+  - sect2_registration2.5
+  - sect2_shifters2.6.1
+  - sect2_shifters2.6.2
+  - sect2_shifters2.7
+  - sect3_csd3.1
+  - sect3_csd3.2
+  - sect3_csd3.3
+  - sect3_csd3.4
+  - sect3_csd3.5
+  - sect4_classification_4.2.1
+  - sect4_classification_4.2.2
+  - sect4_classification_4.2.3
+  - sect4_classification_4.3.1
+  - sect4_classification_4.3.2
+  - sect4_classification_4.3.3
+  - sect4_classification_4.3.4
+  - sect4_classification_4.3.5
+  - sect5_attendance5.1
+  - sect5_attendance5.2
+  - sect5_attendance5.5
+  - sect5_attendance5.6
+  - sect5_attendance5.7
+  - sect5_attendance5.8
+  - sect5_attendance5.9
+  - sect5_attendance5.10
+  - sect6_grading_sys6.1_grade1
+  - sect6_grading_sys6.1_grade2
+  - sect6_grading_sys6.1_grade3
+  - sect6_grading_sys6.1_grade4
+  - sect6_grading_sys6.1_grade5
+  - sect6_grading_sys6.1_grade6
+  - sect6_grading_sys6.1_grade7
+  - sect6_grading_sys6.1_grade8
+  - sect6_grading_sys6.1_grade9
+  - sect6_grading_sys6.1_grade10
+  - sect6_grading_sys6.1_grade11
+  - sect6_grading_sys6.1_grade12
+  - sect6_grading_sys6.1_grade13
+  - sect6_grading_sys6.3
+  - sect6_grading_sys6.4
+  - sect6_grading_sys6.5
+  - sect7_removal_inc
+  - sect7_removal_inc7.2
+  - sect7_removal_inc7.3
+  - sect8_retention_polc8.1
+  - sect8_retention_polc8.2
+  - sect8_retention_polc8.3
+  - sect8_retention_polc8.4
+  - sect8_retention_polc8.5
+  - sect8_retention_polc8.6
+  - sect8_retention_polc8.7
+  - sect8_retention_polc8.8
+  - sect8_retention_polc8.9
+  - sect8_retention_polc8.10
+  - sect8_retention_polc8.11
+  - sect9_tenure9.1
+  - sect9_tenure9.1.2
+  - sect9_tenure9.2
+  - sect9_tenure9.2_all
+  - sect9_tenure9.3.1
+  - sect9_tenure9.3.2
+  - sect9_tenure9.3.3
+  - sect9_tenure9.3.4
+  - sect10_grad_req_10.1
+  - sect10_grad_req_10.2
+  - sect10_grad_req_10.3
+  - sect10_grad_req_10.4
+  - sect10_grad_req_10.5
+  - sect11_grad_honors11.1
+  - sect11_grad_honors11.2
+  - sect11_grad_honors_must
+  - article_iv_scholarship_financial2.1.1
+  - article_iv_scholarship_financial2.1.2
+  - article_iv_scholarship_financial3.1.1
+  - article_iv_scholarship_financial3.1.2
+  - article_iv_scholarship_financial4.1
+  - article_iv_scholarship_financial_lists_sc
+  - article_v_sect1_rights_s
+  - article_v_sect1_rights_s_cont
+  - article_iv_sect5_sa
+  - article_iv_sect5_sa_apply
+  - article_v_sect1_respo_stu
+  - article_v_sect1_respo_stu_cont
+  - article_vi_sect1_e_code
+  - article_vi_sect2_conduct2.1
+  - article_vi_sect2_conduct2.2
+  - article_vi_sect2_conduct2.3
+  - article_vi_sect2_conduct2.4
+  - article_vi_sect2_conduct2.5
+  - article_vi_sect2_conduct2.6
+  - article_vi_sect2_conduct2.7
+  - article_vi_sect2_conduct2.8
+  - article_vi_sect3_stud_disc3.1.1
+  - article_vi_sect3_stud_disc3.1.2
+  - article_vi_sect3_stud_disc3.1.3
+  - article_vi_sect3_stud_disc3.1.4
+  - article_vi_sect3_stud_disc3.1.5
+  - article_vi_sect3_stud_disc3.1.6
+  - article_vi_sect3_stud_disc3.1.7
+  - article_vi_sect3_stud_disc3.1.8
+  - article_vi_sect3_stud_disc3.1.9
+  - article_vi_sect3_stud_disc3.1.10
+  - article_vi_sect3_stud_disc3.1.11
+  - article_vi_sect3_stud_disc3.1.12
+  - article_vi_sect3_stud_disc3.1.13
+  - article_vi_sect3_stud_disc3.1.14
+  - article_vi_sect3_stud_disc3.1.15
+  - article_vi_sect3_stud_disc3.1.16
+  - article_vi_sect3_stud_disc3.1.17
+  - article_vi_sect3_stud_disc3.1.18
+  - article_vi_sect3_stud_disc3.1.19
+  - article_vi_sect3_stud_disc3.1.20
+  - article_vi_sect3_stud_disc3.1.21
+  - article_vi_sect3_stud_disc3.1.22
+  - article_vi_sect3_stud_disc3.1.23
+  - article_vi_sect3_stud_disc3.1.24
+  - article_vi_sect3_stud_disc3.1.25
+  - article_vi_sect3_stud_disc3.1.26
+  - article_vi_sect3_stud_disc3.1.27
+  - article_vi_sect3_stud_disc3.1.d
+  - article_vi_sect3_stud_disc3.1.e
+  - article_vi_sect3_stud_disc3.1.f
+  - article_vi_sect3_stud_disc3.1.f_l
+  - article_vi_sect3_stud_disc3.1.f_lz
+  - article_vi_sect3_minor_off3.2.1
+  - article_vi_sect3_minor_off3.2.2
+  - article_vi_sect3_minor_off3.2.3
+  - article_vi_sect3_minor_off3.2.4
+  - article_vii_disc_sec1
+  - article_vii_disc_sec2
+  - article_vii_disc_sec3
+  - article_vii_disc_sec3_cont
+  - article_vii_disc_sec4
+  - article_vii_disc_sec5
+  - article_vii_disc_sec6
+  - article_vii_disc_sec7
+  - article_vii_disc_sec9
+  - article_vii_disc_sec10
+  - article_viii_sec1_b
+  - article_viii_sec1_c
+  - article_viii_sec1_d
+  - article_viii_sec1_e
+  - article_viii_sec1.3
+  - article_viii_sec1.4
+  - article_ix_stud_serv_sect1
+  - article_ix_stud_serv_sect2
+  - article_ix_stud_serv_sect3
+  - article_ix_stud_serv_sect4
+  - article_ix_stud_serv_sect5
+  - article_ix_stud_serv_sect6
+  - article_ix_stud_serv_sect7
+  - article_ix_stud_serv_sect8
+  - article_ix_stud_serv_sect9
+  - article_ix_stud_serv_sect10
+  - article_ix_stud_serv_sect11
+  - article_x_stud_stud_org_sec1
+  - article_x_stud_stud_org_sec2
+  - article_x_stud_stud_org_sec3
+  - article_x_stud_stud_org_sec4
+  - article_x_stud_stud_org_sec5
+  - article_x_stud_stud_org_sec6
+  - article_x_stud_stud_org_sec7
+  - article_x_stud_stud_org_sec8
+  - article_x_stud_stud_org_sec9
+  - article_x_stud_stud_org_sec10
+  - article_xi_stud_act_sec1.1
+  - article_xi_stud_act_sec2
+  - article_xi_stud_act_sec3
+  - article_xi_stud_act_sec3_cont
+  - article_xii_campus_publication_sec1
+  - article_xii_campus_publication_sec1_cont
+  - article_xii_campus_publication_sec2
+  - article_xii_campus_publication_res_sec
+  - article_xii_campus_publication_res_others
+  - article_xii_campus_publication_rel_act
+  - article_xii_campus_publication_cul_act
+  - article_xii_campus_publication_cul_act_cont
+  - mental_health
+  - cute
+  - challenge_school
+  - challenge_course
+  - respo_deny
+  - loc_otp
+  - vp_acad_affairs
+  - vp_ad_finance
+  - vp_res_ex
+  - dean_ced
+  - dean_cas
+  - dean_cba
+  - dean_cen
+  - dean_cafa
+  - dean_cpa
+  - dean_cit
+  - dean_chm
+  - dir_ins_serv
+  - earist_cavite_campus
+  - dir_res_serv
+  - dir_ext_serv
+  - dir_qual_ass
+  - dir_stud_add
+  - dir_admin_serv
+  - dir_stud_aff
+  - dir_nstp
+  - dir_fms
+  - dir_mng_info_sys
+  - dir_mng_info_public
+  - dir_inter_audit
+  - dir_plan_sys
+  - dir_lib_serv
+  - college_bs
+  - chief_is_hs
+  - chief_hr_ms
+  - chief_disb
+  - chief_proc_serv
+  - chief_bs_ds
+  - chief_pms
+  - chief_tms
+  - chief_ss
+  - chief_rs
+  - chief_mds
+  - challenge_sports
+  - campus_addr
+
+responses:
+  utter_welcome_message:
+  - text: "Hi I'm Coeus! Earist's virtual agent, don't worry I can understand tagalog. How may I help you?"
+
+<<<<<<< HEAD
+  utter_default:
+  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+=======
+#  utter_default:
+#  - text: "Sorry ☹️ I did not understand that, please rephrase and be specific, use either English/Tagalog Language."
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  utter_please_rephrase:
+  - text: "Sorry ☹️ I did not understand that, please rephrase and be specific, use either English/Tagalog Language."
+
+  utter_challenge_hymn:
+  - text: "Let the EARIST music fill the air  \nWith the echo of our spirit rise   \nThere’s a magic that will stir the hearts   \nWhen we sing our lively tuneful march   \nWhat a joy to sing the music gay   \nWith it sounds with a beat of martial air   \nLet the call to duty we obey   \nAnd the service we give every day.   \n\nEARIST, your name is in our hearts   \nEARIST, our love will always spark   \nWe pledge to stand by you, thru our   \nNoble thoughts and deeds   \nTo give you our love and loyalty, forever E-A-R-I-S-T, EARIST, forever."
+
+  utter_campus_addr:
+  - text: "Nagtahan St, Sampaloc, Manila, 1008 Metro Manila"
+
+  utter_campus_addr_link:
+  - text: "https://goo.gl/maps/fsds7QXXiQLFsGK19"
+
+  utter_challenge_sports:
+  - text: "List of Sports Available Here in EARIST Manila Campus:  \nArnis  \nVolleyball  \nDance sport  \nBasketball  \nSepak Takraw  \nTaekwondo  \nAthletics  \nSwimming  \n\nEARIST Cavite Campus:  \nFootball  \nBasketball  \nSepak Takraw  \nVolleyball"
+
+  utter_chief_mds:
+  - text: "Address: Ground Floor CEAFA Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 124"
+
+  utter_chief_rs:
+  - text: "Address: 3rd Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 132"
+
+  utter_chief_ss:
+  - text: "Address: Ground Floor Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 139"
+
+  utter_chief_tms:
+  - text: "Address: Ground Floor Computer Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 137"
+
+  utter_chief_pms:
+  - text: "Address: Mezzanine Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 130"
+
+  utter_chief_bs_ds:
+  - text: "Address: Ground Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 118"
+
+  utter_chief_proc_serv:
+  - text: "Address: Ground Floor Old Laboratory HS Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 129"
+
+  utter_chief_disb:
+  - text: "Address: Ground Floor Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 106"
+
+  utter_chief_hr_ms:
+  - text: "Address: Ground Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 120"
+
+  utter_chief_is_hs:
+  - text: "Address: 4th Floor Library Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 123"
+
+  utter_college_bs:
+  - text: "Address: 2nd Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 122"
+
+  utter_dir_lib_serv:
+  - text: "Address: 2nd Floor Library Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 125"
+
+  utter_dir_plan_sys:
+  - text: "Address: 2nd Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 121"
+
+  utter_dir_inter_audit:
+  - text: "Address: 2nd Floor Old Laboratory HS Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 138"
+
+  utter_dir_mng_info_public:
+  - text: "Address: Mezzanine Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 134"
+
+  utter_dir_mng_info_sys:
+  - text: "Address: 4th Floor Computer Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 117"
+
+  utter_dir_fms:
+  - text: "Address: Ground Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 125"
+
+  utter_dir_nstp:
+  - text: "Address: Ground Floor Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 126"
+
+  utter_dir_stud_aff:
+  - text: "Address: Ground Floor Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 127"
+
+  utter_dir_admin_serv:
+  - text: "Address: 3rd Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 105"
+
+  utter_dir_stud_add:
+  - text: "Address: Ground Floor Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 133"
+
+  utter_dir_qual_ass:
+  - text: "Address: 2nd Floor Old Laboratory HS Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 131"
+
+  utter_dir_ext_serv:
+  - text: "Address: Ground Floor Apilado Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 115"
+
+  utter_dir_res_serv:
+  - text: "Address: 2nd Floor ICT Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 117"
+
+  utter_earist_cavite_campus:
+  - text: "Address: General Mariano Alvarez Cavite"
+
+  utter_dir_ins_serv:
+  - text: "Address: Ground Floor Old Laboratory HS Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 116"
+
+  utter_dean_chm:
+  - text: "Address: Ground Floor Regala Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 112"
+
+  utter_dean_cit:
+  - text: "Address: 4th Floor ICT Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 113"
+
+  utter_dean_cpa:
+  - text: "Address: 2nd Floor Regala Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 114"
+
+  utter_dean_cafa:
+  - text: "Address: 3rd Floor CEAFA Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 107"
+
+  utter_dean_cen:
+  - text: "Address: 2nd Floor CEAFA Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 111"
+
+  utter_dean_cba:
+  - text: "Address: 2nd Floor Nudas Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 109"
+
+  utter_dean_cas:
+  - text: "Address: 4th Floor Nudas Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 108"
+
+  utter_dean_ced:
+  - text: "Address: 3rd Floor Nudas Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 110"
+
+  utter_vp_res_ex:
+  - text: "Address: 2nd Floor Old Laboratory HS Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 104"
+
+  utter_vp_ad_finance:
+  - text: "Address: 2nd Floor Old Laboratory HS Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 102"
+
+  utter_vp_acad_affairs:
+  - text: "Address: 3rd Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 103"
+
+  utter_loc_otp:
+  - text: "Address: 2nd Floor Administration Building Nagtahan Manila  \nContact Info: 243-9467 Loc. 101 230-2216"
+
+  utter_respo_deny:
+  - text: "Okay 😃"
+
+  utter_challenge_course:
+  - text: "The College of Arts and Sciences at EARIST is considered as the intellectual backbone of the Institute, conducting research, creative works and education in the fields of science and the liberal arts for the betterment of various industries."
+
+  utter_challenge_school:
+  - text: "Yup! EARIST is a good place to study it offers a lot of courses, but not to be biased, you can check EARIST reviews at finduniversity.ph."
+
+  utter_challenge_school_link:
+  - text: "https://www.finduniversity.ph/universities/eulogio-amang-rodriguez-institute-of-science-and-technology/reviews/#:~:text=About%20EARIST%3A%20I%20could%20say,learn%20and%20finish%20their%20studies."
+
+  utter_cute:
+  - text: "Yes, of course 😊 EARISTians are cute!"
+
+  utter_mental_health:
+  - text: "Yes, the institution raise awareness when it comes to the mental health of the students, in fact EARIST provide places where students can relax, such as quiet areas.  \nProfessors & Teachers listens to students concerns and issues.  \n\nThere's also a Guidance and Counseling service that provides a broad spectrum of counseling and psychological services designed to assist students in mobilizing their creative energies and in achieving more effective personal, social, educational, and vocational development. It offers the following services: psychological testing and personality evaluation, academic advising and career counseling, group counseling, life planning, and peer counseling."
+
+  utter_article_xii_campus_publication_cul_act:
+  - text: "The guidelines on Cultural Programs/Activities are too many, do you want to continue?"
+    buttons:
+      - title: "Yes"
+        payload: "cultural_programs_activities"
+      - title: "No"
+        payload: "payload_for_no_intent_identify_unq"
+
+  utter_article_xii_campus_publication_cul_act_cont:
+  - text: "Every proposed cultural program/activity shall be in pursuit of the objectives of the Academe.  \n\nEvery Cultural Program/Activity to be held in the Institute shall have prior clearance from the office of the President through the OSA.  \n\nAny bonafide faculty, administrative employee, or student organization that desires to present a cultural program/activity shall submit the following to the OSA through the EARIST Cultural Affairs Division (ECAD) and IGP Office: letter of request, tentative program, production staff, budget estimates and source of funding.  \n\nThe letter of request shall state the title and brief description of the activity, objective(s), inclusive date and time, venue of the presentation, and other pertinent information. It must also bear the signature of the authorized representative and endorsing/approving heads of office or advisers.  \n\nThe EARIST Cultural Affairs Division (ECAD) shall act upon the letter of request.  \na.) It shall make the necessary recommendation to the OSA.  \nb.) It shall inform the requesting organization if the activity is approved or not.  \n\nThe project proponents shall inform the ECAD of intended changes in the project within two days prior to its presentation. One week after the activity they shall submit the following for documentation/records purposes:  \na.) 3 Copies of the actual Program  \nb.) At least one picture of the presentation  \nc.) Press release, newspaper reports about the activity, if any; and  \nd.) Financial report (in case of a fund-raising project).  \n\nIn the case of fund-raising activity, the project proponents shall remit to the ECAD fund at least 10 percent of the net proceeds.  \n\nOther organizations and agencies outside the Institute may use the facilities of the Institute for their activities by arrangement with the EARIST Cultural Affairs Division, the Dean - OSA and IGP Office subject to existing policies, rules and regulations of the Institute."
+
+  utter_article_xii_campus_publication_rel_act:
+  - text: "All religious activities within the campus, except those which form part of official programs sponsored by the Institute or any of its units, shall be under the sponsorship of recognized student organizations or a faculty/administrative staff group and in coordination with the Campus Ministry. The Institute encourages ecuminism in the campus.  \n\nThe interfaith character of the institute chapel shall be preserved and respected.  \n\nClassrooms or any other facility of the Institute shall not be used by any religious group without writter permission from the institute authorities concerned  \n\nStudent religious groups shall comply with existing rules and regulations, as well as those that may be promulgated from time to time by the OSA."
+
+  utter_article_xii_campus_publication_res_others:
+  - text: "The staffers and adviser of the official student publication shall be duly appointed by the College President through the recommendation of the Editorial Committee who conducts the editorial examination and endorsed by the Dean, Office of the Student Affairs.  \n\nThe authority of the College as publisher of the school paper must be recognized at all times.  \n\nThe publication's Editorial Board shall be fully and solely responsible for materials they publish.  \n\nAny violation or failure to comply with any of the above provisions shall be subject to appropriate action by the EARIST Grievance Committee."
+
+  utter_article_xii_campus_publication_res_sec:
+  - text: "Student Publication shall be coordinated by the OSA, through a faculty adviser, which shall propose from time to time pertinent rules and regulations for the efficient management of each publication.  \nStudent Publication shall also cover all printed matters, such as newspapers, magazines, yearbooks, journals, newsletters, pamphlets, and the like produced by the students of the Institute, primary for their clientile.  \n\nThere shall be student newspaper and an Annual for EARIST:  \nThe EARIST Technozette and the Champion shall be the official student newspapers of the EARIST Main and EARIST Cavite Campus, respectively. As such, it shall observe the policies and guidelines on campus publication as mandated by Campus Journalism Act of 1991.  \nThe name 'EARISTians' shall be the official yearbook of the graduating students. It shall be funded by subscriptions voluntarily paid by the graduating students."
+
+  utter_article_xii_campus_publication_sec2:
+  - text: "Student Publications shall strive to:  \na.) Represent and advance the general interest, ideals, aspirations and sentiments of their respective clientele as well as those of the Academe.  \nb.) Stimulate responsible advocacy and healthy exchange of ideas, foster understanding and goodwill inside and outside the Institute.  \nc.) Serve as free expression and dissemination of news and views which are of interest to the EARIST academic community and to society at large.  \nd.) Promote intellectual excellence and truth."
+
+  utter_article_xii_campus_publication_sec1:
+  - text: "Guidelines on Campus Publication has too many information. Do you want to continue?"
+    buttons:
+      - title: "Yes"
+        payload: "guidelines_on_campus_publication_section_one"
+      - title: "No"
+        payload: "payload_for_no_intent_identify_unq"
+
+  utter_article_xii_campus_publication_sec1_cont:
+  - text: "The institute's basic policies on student publication shall be:  \na.) The Institute recognizes and upholds the right of its students to the free expression of ideas embodied in the Constitution of the Republic of the Philippines.  \nb.) The institute encourages its students to undertake quality publications for disseminating information, creative ideas, results of research, opinions, and constructive criticisms designed to broaden and advance the frontiers of knowledge and intellectual pursuit.  \nc.) The institute adheres to the universal concept that the exercise of the freedom of the press is a public trust that should never be used for unlawful, anti-social or divisive purposes.  \nd.) The Institute, likewise, recognizes the vital role of the student press as a medium of learning and as a constructive instrument for the attainment of the Institute School and national goals as provided by Campus Journalism Act of 1991."
+
+  utter_article_xi_stud_act_sec3:
+  - text: "Duly recognized student organizations/student government may be allowed to sponsor only one fund raising activity per school year. The rules on fund raising activities is too many, do you want to continue?"
+    buttons:
+      - title: "Yes"
+        payload: "article_xi_stud_act_sec3_cont"
+      - title: "No"
+        payload: "payload_for_no_intent_identify_unq"
+
+  utter_article_xi_stud_act_sec3_cont:
+  - text: "Limitations:   \na.) No fund raising activity shall be scheduled one week before the midterm and final examinations of each semester.  \nb.) No student acting on his own shall be allowed to engage in any fund raising activity.   \n\nApproval:  \nAll fund raising activities undertaken by recognized institutional student organizations/student government shall be duly approved by the Office of the EARIST President through the Dean, Office of Student Affairs. IGP Office and ISG. Fund-raising activities of recognized academic/college based organizations/student government shall be endorsed by the College Dean and recommended by the Dean-OSA, IGP Office and ISG.  \n\nApplication Requirements:  \nAn application to engage in a fund raising activity must be submitted to the Dean, OSA/College Dean at least thirty (30) days before the scheduled date for such activity. The application shall include the following:  \na.) Letter or Request (signed by the organization President and Adviser)  \nb.) Project Proposal and IGP Form  \nc.) Beneficiaries or payees of funds expected to be realized.  \nd.) Endorsement from the College Dean, if sponsored by academic/college-based organization and OSA Dean, if institutional organization.  \ne.) Resolution of organization officers.   \n\nFinancial Report:  \nAn audited financial report of the fund raising activity duly certified by the faculty adviser shall be submitted to the OSA within 10 days after the activity. Failure to submit shall be ground for prohibition in holding future activities.  \nThe Dean, OSA reserves the right to a re-audit of financial report."
+
+  utter_article_xi_stud_act_sec2:
+  - text: "Off-Campus Activities - recognized student organization shall submit:  \n\na.) Letter of Request (signed by the organization President and Adviser)  \nb.) Activity Proposal  \n(OSA - LF#2)  \nc.) Parent's Permit/Consent  \nd.) Resolution of the Students  \n\nAll of campus activity of recognized student organization must be closely supervised by their adviser."
+
+  utter_article_xi_stud_act_sec1.1:
+  - text: "All requests for extra and co-curricular activities shall be submitted 2 weeks prior to schedule of the proposed activity with the following documents:  \n\na.) Letter of Request signed by the organization head and faculty adviser  \nb.) OSA-LF #2 (Activity Proposal)  \nc.) Tentative Program  \n\nNo extra and co-curricular activities shall be scheduled one week before the mid-term and final examinations of each semester.  \n\nAll approved student activities must be disseminated and coordinated with the concerned College Dean and Security Office.  \nStudent Activity Performance Report (OSA - LF#5) and Activity Evaluation Form (OSA - LF#6) shall be submitted within 1 week after the activity. Failure to submit will prohibit the holding of future activities.  \nThe adviser shall closely supervise the organization activities."
+
+  utter_article_x_stud_stud_org_sec10:
+  - text: "Violations of any rules and regulations of the Institute shall be ground for withdrawal/non-renewal of the organization."
+
+  utter_article_x_stud_stud_org_sec9:
+  - text: "Rules on Posting Posters, Notices, etc.  \nPosters and Notices shall be posted only on freedom boards or any other location as may be duly authorized by the Dean, OSA. The sources/proponents should be identified in the posters/notices approved by OSA. Such proponents/sources shall be held answerable in case of complaints."
+
+  utter_article_x_stud_stud_org_sec8:
+  - text: "The student organizations shall be supervised as follows:  \na.) The OSA shall be notified of all the activities of any student organization for proper guidance and coordination. Dissemination of approved student activities must be coordinated with the College Deans and Security office.  \nb.) Recognized student organizations shall be entitled to privileges and benefits such as the use of the Institute's facilities.  \nc.) The OSA shall be officially notified of any change in the set of officers of any student organization."
+
+  utter_article_x_stud_stud_org_sec7:
+  - text: "Recognized student organization shall apply for renewal after one year and submit the following documents to the OSA through the Leadership and Scholar Division:  \na.) Accomplishment Report of the organization  \nb.) Financial Report prepared by the president, treasurer and auditor endorsed by the adviser  \nc.) Amendments to the Constitution and By-Laws, if any;  \nd.) Lists of new sets of officers and members, if any;  \ne.) Annual Action Plan of activities and;  \nf.) Faculty Adviser Conforme(OSA-LF#4)"
+
+  utter_article_x_stud_stud_org_sec6:
+  - text: "A student organization applying for recognition shall submit the following documents to the Office of Student Affairs through the Leadership and Scholar Division:  \na.) Letter of Application (2 copies)  \nb.) Constitution and By-Laws or Amendment(s) with proof of ratification (2 copies)  \nc.) List of Officers with specimen signatures, student number, majors, year levels, addresses, and tel/cell number and attached 2x2 I.D. Picture  \nd.) List of members with specimen signatures, student number, majors, year levels, addresses, and tel/cell number and attached 1x1 I.D. Picture.  \ne.) Photocopy of latest registration form (officers and members)  \nf.) Annual Action Plan of Activities which includes the goals, objectives, brief description and budget breakdown per activity  \ng.) Faculty Adviser Conforme(OSA-LF #4)  \nh.) Accomplishment Report with documentation (for renewal of recognition)  \ni.) Financial Report (for renewal)"
+
+  utter_article_x_stud_stud_org_sec5:
+  - text: "The Office of Student Affairs, in cooperation with the EARIST Student Government (ESG) shall coordinate the operations and activities of student organizations, clubs, associations, etc."
+
+  utter_article_x_stud_stud_org_sec4:
+  - text: "Each student organization shall have an adviser who is a full-time faculty. For college based academic organization, the Dean of the College shall designate the faculty adviser while the Dean of OSA shall designate the faculty adviser of institutional organization upon the recommendation of the organization concerned.  \na.) The faculty adviser shall not advise more than one organization  \nb.) No head of any service or academic department shall serve as adviser."
+
+  utter_article_x_stud_stud_org_sec3:
+  - text: "A Certificate of Recognition shall be a prerequisite for the operation of any student organization. It shall be signed by the President, the Dean of OSA and Leadership Coordinator and shall contain the name of organization being recognized and the date of effectivity."
+
+  utter_article_x_stud_stud_org_sec2:
+  - text: "All organizations, clubs, associations, societies, and any other student group shall be governed by the Institute Code and the rules and regulations promulgated pursuant thereto."
+
+  utter_article_x_stud_stud_org_sec1:
+  - text: "The institute recognizes the right of students to organize and develop creative and responsible leadership, thus it encourages students to form, join and participate in student organizations, clubs, associations, societies, or any other student group that will suit their legitimate needs, aspirations and interests."
+
+  utter_article_ix_stud_serv_sect11:
+  - text: "EARIST Canteen offers nutritious but affordable foods and corteous services to students, faculty, staff and visitors."
+
+  utter_article_ix_stud_serv_sect10:
+  - text: "EARIST 'Amang' Museum has extensive collection of valuable works, specimen, relics including the Amang Rodriguez Memorabilia."
+
+  utter_article_ix_stud_serv_sect9:
+  - text: "Medical, Dental and other Health Services - the Medical and Dental Services provides medical, dental and other health services to the EARIST community, placing emphasis on preventive medicine, the staff encourage students to seek advice on unusual symptoms and health problems as early as possible."
+
+  utter_article_ix_stud_serv_sect8:
+  - text: "Learning and Sharing Center - the institute has a multi-media facilities to cater for conferences, meetings, and similar activities requiring the use of audio-visual facilities."
+
+  utter_article_ix_stud_serv_sect7:
+  - text: "Library and Related Services the EARIST has a fully air-conditioned library and adopts open-shelves system."
+
+  utter_article_ix_stud_serv_sect6:
+  - text: "Scholarship and Financial Assistance the institute provides scholarship and financial assistance to deserving students."
+
+  utter_article_ix_stud_serv_sect5:
+  - text: "Cultural/Artistic Activities through the EARIST Cultural Affairs Division (ECAD), the institute generates interest and participation in cultural/artistic activities by designing workshops, giving lectures, staging plays, performing in school celebrations, joining national competitions, presenting exhibits and concerts, and showing cultural films. It supervises the chorale group, dance troupe and drama group."
+
+  utter_article_ix_stud_serv_sect4:
+  - text: "The institute, through the Office of Student Affairs (OSA), supervises all publications undertaken by EARIST students. Specifically, the OSA undertakes a continuing program to upgrade the skills of student writers; it coordinates with the adviser(s) and the Board of Examiners to help determine the composition of the staff of the major student publications, such as the EARIST Technozette through the holding  of qualifying and editorial examinations."
+
+  utter_article_ix_stud_serv_sect3:
+  - text: "Ecumenical Campus Ministry is the lead unit in many religious activities inside and outside the campus. It also serves as a coordinator for the various activities of the different religious organizations or groups in the campus."
+
+  utter_article_ix_stud_serv_sect2:
+  - text: "Student Government - every EARIST student is a member of the EARIST student government (esg). The office of the dean of student affairs collaborates with the ESG in the recognition of student organizations, as well as in the proper disbursement and accounting of funds, in settling the problems of the various student orgnizations, in conducting the ESG elections, in selecting delegates to different conferences and similar activities, etc."
+
+  utter_article_ix_stud_serv_sect1:
+  - text: "Guidance and Counseling provides a broad spectrum of counseling and psychological services designed to assist students in mobilizing their creative energies and in achieving more effective personal, social, educational, and vocational development. It offers the following services: psychological testing and personality evaluation, academic advising and career counseling, group counseling, life planning, and peer counseling."
+
+  utter_article_viii_sec1.4:
+  - text: "The decision of the College President shall be final and executory unless appealed to higher authorities including the Board of Trustees. The decision of the Board of Trustees shall be deemed final and executory without prejudice to the provisions of the Civil Service Law."
+
+  utter_article_viii_sec1.3:
+  - text: "The academic or administrative unit to which complaint is referred shall aim at settling the case through arbitration and amicable settlement. Where this is not possible, the unit concerned shall refer the case for proper investigation to the EARIST Grievance Machinery, which shall in turn submit its corresponding recommendations to the College President."
+
+  utter_article_viii_sec1_e:
+  - text: "In disciplinary proceedings, both complainant(s) and respondent(s) shall have the right to counsel of their own choice and to present affidavit to support their respective claims or defenses. In all proceedings of the EARIST Grievance Machinery, the same shall be summary in nature."
+
+  utter_article_viii_sec1_d:
+  - text: "Complaints by non-students against academic or administrative personnel shall be referred to the Administrative Office; non students against student(s) or student groups shall be referred to the Student Discipline Board thru the Dean, OSA."
+
+  utter_article_viii_sec1_c:
+  - text: "Complaints by a teacher or institute personnel against a student or student group shall referred to the Student Discipline Board thru the Dean, OSA."
+
+  utter_article_viii_sec1_b:
+  - text: "Complaints by a student or a student group against faculty member or an Institute employee shall be referred by the Dean of Office of the Student Affairs to the Vice President for Academic Affairs."
+
+  utter_article_vii_disc_sec10:
+  - text: "The school has the right to take action against student offenders as long as they remain enrolled therein.  \nAll offenses shall be reported to the parents or guardians of the offender through the Counseling and Testing Office."
+
+  utter_article_vii_disc_sec9:
+  - text: "Graduating students who have committed a major offense shall not be allowed to join the commencement exercises and shall not be issued the Certificate of Good Moral Character."
+
+  utter_article_vii_disc_sec7:
+  - text: "Other penalties such as, but not limited to payment of fine/civil liabilities, revocation of degree, non-issuance of certificate of good moral character, disqualification from further enrolling in the Institute, withholding/non-issuance of the diploma, or annotation of the offense in transcript of record of said student, may be imposed depending upon the gravity of the offense, alone or in addition to the foregoing penalties."
+
+  utter_article_vii_disc_sec6:
+  - text: "An extreme penalty on an erring student consisting of his exclusion for admission to any public or private school in the Philippines; this requires the prior approval of the Board of Trustees (BOT).  \nA student under investigation of a case involving the penalty of expulsion may be preventively suspended from entering the Institute premises if the evidence of guilt is strong and the Office of Student Affairs is morally convinced that the continued stay of the student during the period of investigation constitutes a distraction to the normal operations of the Institute or poses a risk or danger to the life of persons and property of the Institute."
+
+  utter_article_vii_disc_sec5:
+  - text: "A penalty that allows the school to immediately exclude or drop the name of an undesirable student from the school rolls and issue him transfer credentials. This measure shall be taken only against students guilty of major offense/s and when circumstances of extreme urgency necessitate his/her immediate dismissal."
+
+  utter_article_vii_disc_sec4:
+  - text: " This measure allows an erring student to finish the semester but thereafter excludes him from enrolling in the school. This shall be meted out when a student commits a major offense and upon recommendation of the EARIST Grievance Committee."
+
+  utter_article_vii_disc_sec3_cont:
+  - text: "There are two types of Probation. Do you want to continue?"
+    buttons:
+      - title: "Yes"
+        payload: "article_vii_disc_sec3_cont"
+      - title: "No"
+        payload: "payload_for_no_intent_identify_unq"
+
+  utter_article_vii_disc_sec3_info:
+  - text: "Probationary status is two types:  \n1. Academic Probation: is imposed if the student's problem is academic in nature. A student is placed under academic probation under any of the following circumstances:  \nFailure in one(1) major course  \nFailure in two(2) minor course  \nThe Academic Probation is for one(1) semester and is automatically lifted when the student has passed all his courses in the semester that the Academic Probation is being served. Further failure in any course shall debar the student from readmission.  \n\n2. Disciple Probation: is imposed if the student has committed a major offense meriting this sanction within a semester or three (3) minor offenses. The Disciplinary Probation shall be for a minimum of sixty (60) school days and a maximum of one hundred (100) school days. A student may be placed on probation only twice during his/her stay in the school, and further violations shall be subject to dismissal.  \n\nIn both types of probation, the student and his/her parents/guardian are informed in writing. Likewise, they are all informed of the lifting of such Academic or Disciplinary Probation status. The Counseling and Testing Office Issues the communication as regards lifting of the probation status after a counseling session has been held."
+
+  utter_article_vii_disc_sec3:
+  - text: "Probation may be given to a student whose action and/or behavior would otherwise merit separation from the school."
+
+  utter_article_vii_disc_sec2:
+  - text: "This involves barring a student from a particular class or from the school for a prescribed period. Suspension for more than 3 days will require the approval of the Vice President for Academic Affairs. Suspension is considered as absence voluntarily incurred."
+
+  utter_article_vii_disc_sec1:
+  - text: "These sanctions are meted out in writing (in the case of serious offenses) or by verbally admonishing the erring student that the repetition of the offense shall subject him to graver disciplinary measures.  \na. Warning/Reprimand is given for a first incident of a minor offense which warning/reprimand is recorded in the Counseling and Testing Office or OSA."
+
+  utter_article_vi_sect3_minor_off3.2.4:
+  - text: "Use of cellular phone or electronic gadgets during classes, lectures, or examination, and the re-charging of cellular phones using the electrical outles of the institute.  \nExcessive, irresponsible use/wastage of school resources like water and electricity.  \n\nFirst Offense - Warning  \nSecond Offense - 3 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_minor_off3.2.3:
+  - text: "Unauthorized distribution/posting within school premises of leaflets, handbills or other printed materials whose authorship is not clearly stated therein.  \nRoom to room campaigning for whatever purpose without prior approval from the OSA Dean / College Dean.  \n\nFirst Offense - Warning  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_minor_off3.2.2:
+  - text: "Shouting, conducting boisterous conversation, and creating disruptive noise that may disturb ongoing classes.  \nLoitering and running along the corridors while classes are going on.  \nLittering and contributing to any form of disorder within the classroom and school premises.  \n\nFirst Offense - Warning  \nSecond Offense - 3 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_minor_off3.2.1:
+  - text: "Failure or refusal to present/wear the I.D. properly and/or wear the required student uniform within the school premises.  \nOvert behaviour untypical of one's gender such as cross dressing.  \nWearing inappropriate campus attire as shorts and mini skirts that are more than two inches above the knee, plunging necklines, back-less and hanging shirts, pants that are more than two inches below the tripline, filmsy and skin-tight outfits, halter tops, slippers or any other outlandish fashions.  \nWearing earrings in the nose, lips, tongue, navel, multiple earrings.  \n\nSanction: No Entry   \nFirst Offense - Warning  \nSecond Offense - 3 Day Suspension  \nThird Offense  - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.f_lz:
+  - text: "The sanction for stated offense is Dimissal/Expulsion."
+
+  utter_article_vi_sect3_stud_disc3.1.f_l:
+  - text: "Your input is in the lists of rules and regulations a student may not abide, the sanction for stated offense is Dismissal."
+
+  utter_article_vi_sect3_stud_disc3.1.f:
+  - text: "Inappropriate Usage:  \nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.e:
+  - text: "Use of school computer systems and networks for committing crimes, violating laws, spamming, hacking or violating rules.  \n\nSanction: Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.d:
+  - text: "Any deliberate action to disrupt the operation of school computer system which serve other members of the community, including all networks to which school computers are connected.  \n\nFirst Offense - 5 Day Suspension  \nSecond Offense - 10 Day Suspension  \nThird Offense - Non-readmission/Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.27:
+  - text: "Unauthorized use of school computers and/or peripheral systems and networks.  \nUnauthorized access to school computer programs or files.  \nUnauthorized alteration or duplication of school computer programs or files.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.26:
+  - text: "Holding of meetings or assemblies and rallies of external organizations or groups through EARIST organizations/groups without permission from the Office of the President.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.25:
+  - text: "Instigating, inciting, provoking, leading or taking part in illegal and/or violent demonstrations or activities; threatening, coercing, intimidating or compelling student to be absent or boycott classes or preventing students from attending classes and inciting them to violate school regulations or participate in any illegal activity  \n\nLeading or otherwise taking part in any concerned activity which disrupts school functions or adversely affects classroom instruction, such as causing false alarms; banging of doors, walls, tables, desks, or chairs.  \n\nFirst Offense - 5 Day Suspension  \nSecond Offense - 15 Day Suspension  \nThird Offense - Non-readmission/Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.24:
+  - text: "Public Display of Affection within the school premises such as a passionate kissing, petting, necking and the like which scandalize or tend to offend the sensibilities of members of the academic community.  \nIndencent exposure, gross immorality and other scandalous acts such as  perverted behavior, display and distribution of pornographic materials and the like.  \n\nFirst Offense - 3 Day Suspension  \nSecond Offense - 10 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.23:
+  - text: "Violation of library rules and regulations:  \nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.22:
+  - text: "Attending classes without having duly enrolled therein or not completing registration by missing the procedure on assessment of fees and/or other procedures during enrollment.  \nTransferring to a different class without an approved transfer form or dean's approval.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.21:
+  - text: "Running away from a person in authority to avoid apprehension.  \nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.20:
+  - text: "Assaulting, challenging or committing physical abuse, harassment, or similar act against persons in authority, faculty members, personnel and fellow students.  \n\nFirst Offense - 2 Week Suspension  \nSecond Offense - 1 Month Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.19:
+  - text: "Threatening school officials, faculty members and personnel and/or fellow students in any matter that prevent them from performing their duties or exercising their rights. Gross disobedience, disrespect in word or in deed for any member of academic community or school personnel, or disregard of the lawful authority of any faculty member or school official.  \n\nFirst Offense - 5 Day Suspension  \nSecond Offense - 10 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.18:
+  - text: "Unauthorized use of the name Eulogio Amang Rodriguez Institute of Science and Technology. Use of Institute premises and facilities without prior permit.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.17:
+  - text: "Extortion or blackmail, whether or not the purpose or objective is accomplished. Solication of money, donations, contributions in cash or kind without the prior approval of the proper authority.  \nMisappropriation or failure to account for funds belonging to the school or any recognized organization.  \n\nFirst Offense - 10 Day Suspension  \nSecond Offense - Discipline Probation  \nThird Offense - Non-readmission/Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.16:
+  - text: "Gambling, playing cards, maintaining or participating in any game of chance within the school premises.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.15:
+  - text: "Conviction by a court of law for a crime involving moral turpitude.  \nSanction: Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.14:
+  - text: "Use of or trafficking of prohibited drugs.  \nSanction: Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.13:
+  - text: "Recruitment / membership in a fraternity / sorority or any student organization not recognized by the Institute.  \n\nFirst Offense - 10 Day Suspension  \nSecond Offense - Non-readmission/Dimissal"
+
+  utter_article_vi_sect3_stud_disc3.1.12:
+  - text: "Hazing or subjecting a person to physical or mental injury for the purpose of admission and/or maintenance of membership in any organization, whether recognized or unrecognized. Members who are present and aware of the hazing at the time of its commission shall also be held liable, regardless of whether they participate in it or not. Officers of such organizations shall be equally liable regardless of whether they were present at the hazing or not pursuant to the provisions of the 'Anti-Hazing' Law  \n\nSanction: Non-readmission/Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.11:
+  - text: "Tampering of school records and official papers or documents. These include forging, destroying, falsifying school records and knowingly using tampered or falsified documents.  \n\nFirst Offense - Discipline Probation  \nSecond Offense - Non-Readmission/Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.10:
+  - text: "Dishonesty such as cheating during any examination, quiz or test and plagiarism in connection with any academic work. The act of cheating includes but is not limited to the following:  \n\na. unauthorized possession of notes or any material relative to the examination or test whether the student actually uses them or not.  \n\nb. copying or allowing another to copy from one's examination paper. In the latter case, both parties are liable  \n\nc. having somebody else to take the examination or test or report for one's self. If both parties are students both are liable.  \n\nd. glancing or looking at another students examination paper, or allowing another student to glance or look at his/her examination paper.  \n\nFirst Offense - Written Warning and a grade of 50% for the examination, test or report taken  \nSecond Offense - Discipline Probation  \nThird Offense - Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.9:
+  - text: "Robbery, theft, and acts of malicious mischief involving school funds/property.  \n\nSanction: Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.8:
+  - text: "Involvement in brawls, fistfights, within or outside the school premises, and/or throwing harmful objects that can cause injury to others or any serious trouble-causing activities on campus.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.7:
+  - text: "Unauthorized bringing in, possession or drinking of liquor or alcoholic beverages inside the school premises.   \n\nEntering the school premises while intoxicated:  \nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.6:
+  - text: "Possession of explosives, firearms, deadly weapons of any kind within the school premises. Detonating explosives or fireworks within the school premises and its immediate vicinity.  \nSanction: Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.5:
+  - text: "Acts of vandalism such as the defacing of walls, bulletin boards, paintings, doors, desks, tables, chairs, etc; tearing of books, notices or circulars; destruction of window panes, toilet bowls, fans, laboratory equipment, water fountains, air-conditioners, clocks and other school equipment or furnishings.  \n\nFirst Offense - 3 Day Suspension & Replacement/Restoration of Vandalized/Damaged Items.  \nSecond Offense - Discipline Probation & Replacement/Restoration of Vandalized/Damaged Items."
+
+  utter_article_vi_sect3_stud_disc3.1.4:
+  - text: "Lending or borrowing of ID, enrollment form and/or official certificates or documents. Allowing or abetting acts of impersonation and/or misrepresentation for the purpose of entering school premises, enrolling, taking examinations and the like.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - Discipline Probation  \nThird Offense - Dismissal"
+
+  utter_article_vi_sect3_stud_disc3.1.3:
+  - text: "Spitting on walls and floors. Throwing any waste matters such as used sanitary napkins that cause the clogging of toilet bowls, urinals lavatories and drainage outlets.  \n\nFirst Offense - 2 Day Suspension  \nSecond Offense - 5 Day Suspension  \nThird Offense - 10 Day Suspension"
+
+  utter_article_vi_sect3_stud_disc3.1.2:
+  - text: "Smoking within the school premises:  \n\nFirst Offense - 5 Day Suspension  \nSecond Offense - 10 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect3_stud_disc3.1.1:
+  - text: "Using foul or vulgar language:  \n\nFirst Offense - Written Warning  \nSecond Offense - 2 Day Suspension  \nThird Offense - Discipline Probation"
+
+  utter_article_vi_sect2_conduct2.8:
+  - text: "In order to achieve and maintain peace and order in the institute, students are enjoined to:"
+
+  utter_article_vi_sect2_conduct2.8_info1:
+  - text: "behave well at all times, refrain from making unnecessary noise, and avoid loitering along with corridors especially when classes are on-going."
+
+  utter_article_vi_sect2_conduct2.8_info2:
+  - text: "refrain from using devices and gadgets (cellphones, Ipod, etc.) during regular class hours and most especially, during examinations." 
+
+  utter_article_vi_sect2_conduct2.7:
+  - text: "Respect and Honor. Students should observe respect and honor in dealing with co-students, college personnel, faculty, administrators and visitors on campus. Likewise, a student is expected to respect and use school property with diligence, care, and proper storage after use."
+
+  utter_article_vi_sect2_conduct2.6:
+  - text: "Cleanliness in the campus must be observed. Waste materials should be thrown in trash cans/bags provided for the purpose."
+
+  utter_article_vi_sect2_conduct2.5:
+  - text: "Curfew. The campus shall be cleared of all unauthorized persons by 10:00 pm."
+
+  utter_article_vi_sect2_conduct2.4:
+  - text: "Body piercing, goatee, permanent tattoo, colored nail polish, and earrings for male students are strictly prohibited inside the campus."
+
+  utter_article_vi_sect2_conduct2.3:
+  - text: "Hair Cut for Male Students. Male students shall sport a clean and decent haircut without colorful highlights."
+
+  utter_article_vi_sect2_conduct2.2:
+  - text: "Every student shall wear the official identification card (I.D.) at all times inside the campus. Entrance to the campus and its premises shall be denied to any student without the official ID."
+
+  utter_article_vi_sect2_conduct2.1:
+  - text: "Wearing of Prescribed Uniform. Every student shall wear the prescribed uniform. However, students may wear their laboratory/shop uniforms during their laboratory/shop periods, the prescribed P.E. uniform, during their P.E. classes and the ROTC/CWTS uniform during their training days."
+
+  utter_uniform_1:
+  - text: "Proper Wearing of Uniform for Girls:"
+    image: "https://i.ibb.co/yhXf87N/test1.png"
+
+  utter_uniform_2:
+  - text: "Proper Wearing of Uniform for Boys:"
+    image: "https://i.ibb.co/fC47xH1/Untitled-1.png"
+
+  utter_article_vi_sect1_e_code:
+  - text: "Do what is right and help others do the same; Don't do what is wrong and don't tolerate those who do."
+
+  utter_article_vi_sect1_e_code_translated:
+  - text: "Gumawa ng tama at tulungan ang iba na gumawa rin ng tama; Huwag gumawa ng mali at huwag payagan ang iba na gumawa ng mali."
+
+  utter_article_v_sect1_respo_stu:
+  - text: "There are 6 Responsibilities of a student, do you want to continue?"
+    buttons:
+    - title: "Yes"
+      payload: "sect1_responsibilities_students"
+    - title: "No"
+      payload: "payload_for_no_intent_identify_unq"
+
+  utter_article_v_sect1_respo_stu_cont_info1:
+  - text: "Exert his utmost in his studies that will lead to development of his potentials by undergoing an education best suited to his abilities."
+
+  utter_article_v_sect1_respo_stu_cont_info2:
+  - text: "Uphold the academic integrity of the institute by endeavoring to achieve academic excellence and abiding by school rules and regulations."
+
+  utter_article_v_sect1_respo_stu_cont_info3:
+  - text: "Promote and maintain a pleasant environment in the school and exert extra efforts to attain harmonious relationship with fellow students, faculty and other school personnel."
+
+  utter_article_v_sect1_respo_stu_cont_info4:
+  - text: "Participate actively in co-curricular and extra curricular activities that lead to student, school and community development."
+
+  utter_article_v_sect1_respo_stu_cont_info5:
+  - text: "Adopt positive measures and steps to ensure a peaceful student development."
+
+  utter_article_v_sect1_respo_stu_cont_info6:
+  - text: "Abide by the Code of Conduct and Discipline formulated by the Institute."
+
+  utter_article_iv_sect5_sa_apply:
+  - text: "The applicant must be a bonafide student of the Institute who has had at least one semester of residence, has not incurred any failing grade in the previous semester, and has a weighted average of at least 2.5"
+
+  utter_article_iv_sect5_sa:
+  - text: "Student Assistantship - refers to term-employment of not more than 20 hours a week or 5 hours a day for a compensation of ₱ 30.00 per hour, but not to exceed ₱ 2,000.00 per month. (Amount may be changed from time to time as government regulations may permit)"
+
+  utter_article_v_sect1_rights_s:
+  - text: "Bonafide students of EARIST shall enjoy the following rights:"
+
+  utter_article_v_sect1_rights_s_info1:
+  - text: "The right to freely choose their fields of study, subject to curricular requirements and admission policies."
+
+  utter_article_v_sect1_rights_s_info2:
+  - text: "The right to receive quality and relevant education for their full development."
+
+  utter_article_v_sect1_rights_s_info3:
+  - text: "The right to avail of career guidance and counseling services."
+
+  utter_article_v_sect1_rights_s_info4:
+  - text: "The right to issuance of official certificates, diplomas, transcript of records, grades, transfer credentials and similar documents upon request and payment of corresponding fees."
+
+  utter_article_v_sect1_rights_s_info5:
+  - text: "The right to publish a student newspaper and similar publications consistent with the provisions of the Campus Journalism Act of 1991."
+
+  utter_article_v_sect1_rights_s_info_cont:
+  - text: "There's still 4 information about students rights, do you still want to continue?"
+    buttons:
+    - title: "Yes"
+      payload: "students_rights_continue"
+    - title: "No"
+      payload: "payload_for_no_intent_identify_unq"
+
+  utter_article_v_sect1_rights_s_info6:
+  - text: "The right to organize a student government as a training ground for leadership skills."
+
+  utter_article_v_sect1_rights_s_info7:
+  - text: "The right to take part in duly approved projects and activities to foster holistic growth and development of the studentry and other EARISTians."
+
+  utter_article_v_sect1_rights_s_info8:
+  - text: "The right to be free from involuntary contributions, hazing, and from any form of pressure and harassment from their peers in the organization(s) or from any other source."
+
+  utter_article_v_sect1_rights_s_info9:
+  - text: "The right to free expression and suggestion to the appropriate academic and administrative bodies of the Institute."
+
+  utter_article_iv_scholarship_financial4.1:
+  - text: "A special grant (i.e., one sponsored by a private or public institution, foundation, industrial firm or an individual) which takes the form of full tuition fee plus benefits stipulated in the contract with the sponsoring agency or donor(s) maybe awarded to a financially disadvantaged bonafide student of the institute who is not enjoying any other grant and who displayed exemplary performance/academic excellence in the preceeding semester."
+
+  utter_article_iv_scholarship_financial4.1_ask_to_c:
+  - text: "Do you want to see the example lists of agencies that offers scholarships?"
+    buttons:
+    - title: "Yes"
+      payload: "agencies_list_of_scholarships"
+    - title: "No"
+      payload: "payload_for_no_intent_identify_unq"
+
+  utter_article_iv_scholarship_financial4.1_info:
+  - text: "The following agencies offer scholarships/grants:"
+
+  utter_article_iv_scholarship_financial4.1_info1:
+  - text: "CARITAS Scholarship Foundation  \nCHED Congressional District Scholarship Grant  \nCHED Regional Scholarship Program  \nCity Government of Paranaque Scholarship Grant  \nDOST SEI Scholarship Grant  \nEARIST Faculty Sponsored Scholarship  \n\nThe list stated above may vary from time to time."
+
+  utter_article_iv_scholarship_financial4.1_info7:
+  - text: "The list stated above may vary from time to time."
+
+  utter_article_iv_scholarship_financial3.1.2:
+  - text: "The Cultural Service Grant is awarded to a bonafide student who has had at least one semester of residence, has not incurred any failing grade in the previous semester and by reason of his/her artistic talent or technical skill is accepted into the core group which will be trained and developed for ensemble work in the theater, dance or choral group. These Cultural Service Grants enjoy the tuition fee discount but must pay miscellaneous and other fees."
+
+  utter_article_iv_scholarship_financial3.1.1:
+  - text: "The Athletic Service Grant is awarded to a bonafide student with outstanding skills, aptitude and ability in a particular sport who is a potential Institute representative in any sports competitions especially in the State Colleges and Universities Athletic Association (SCUAA)."
+
+  utter_article_iv_scholarship_financial2.1.2:
+  - text: "Dean's List - students who maintain & weighted average of at least 1.5 - 1.26 qualify for scholarship of partial 50% discount on tuition fee but must pay miscellaneous and other fees."
+
+  utter_article_iv_scholarship_financial2.1.1:
+  - text: "President's List - the institute grants full tuition scholarship but must pay miscellaneous and other fees for one semester, renewable every semester to financially underprivileged but academically deserving students. He/She must have a general average of at least 1.25 - 1.0"
+
+  utter_article_iv_scholarship_financial2.1.1_tertiary_law:
+  - text: "Due to Universal Access to Quality Tertiary Education Act not all benefits stated are available."
+
+  utter_sect11_grad_honors11.2:
+  - text: "The guidelines on graduation with honors shall be as follows:"
+
+  utter_sect11_grad_honors11.2_info1:
+  - text: "A student's final grades during his last school term shall be submitted 30 days before the date of graduation."
+
+  utter_sect11_grad_honors11.2_info2:
+  - text: "Only final grades shall be considered in the computation of the general average."
+
+  utter_sect11_grad_honors11.2_info3:
+  - text: "In the computation of the final averages of a candidate for Graduation with honors, grades in all accredited academic courses in the curriculum shall be included."
+
+  utter_sect11_grad_honors11.2_info4:
+  - text: "There are 6 information left for graduation with honors. Do you still want to continue?"
+    buttons:
+    - title: "Yes"
+      payload: "graduation_with_honors identify"
+    - title: "No"
+      payload: "payload_for_no_intent_identify_unq"
+  
+  utter_sect11_grad_honors_must_info_start:
+  - text: "Every candidate for graduation with honors must:"
+
+  utter_sect11_grad_honors_must_infoa:
+  - text: "Have carried the normal load prescribed in his/her curriculum."
+
+  utter_sect11_grad_honors_must_infob:
+  - text: "Have completed in the institute at least 75% of the total number of the academic units or hours required for graduation."
+
+  utter_sect11_grad_honors_must_infoc:
+  - text: "Have been in residence for at least three years immediately prior to graduation."
+
+  utter_sect11_grad_honors_must_infod:
+  - text: "Have no final grade lower than 2.75, Incomplete, and/or Dropped in any academic course whether prescribed or not in his curriculum which he has taken in the institute or in any other recognized educational institution."
+
+  utter_sect11_grad_honors_must_infoe:
+  - text: "Have no final grade of '5.0' in any academic course prescribed in his curriculum which he has taken in the institute or in any other recognized educational institution."
+
+  utter_sect11_grad_honors_must_infof:
+  - text: "Have not repeated a course (or subject) in another recognized educational institution."
+
+  utter_sect11_grad_honors11.1:
+  - text: "Weighted Averages to be graduated with honors:"
+
+  utter_sect11_grad_honors11.1_info1:
+  - text: "Summa Cum Laude - 1.25 to 1.0"
+
+  utter_sect11_grad_honors11.1_info2:
+  - text: "Magna Cum Laude - 1.50 to 1.26"
+
+  utter_sect11_grad_honors11.1_info3:
+  - text: "Cum Laude - 1.75 to 1.51"
+
+  utter_sect10_grad_req_10.5:
+  - text: "No student shall be issued a diploma and a transcript of records unless he has been cleared of all accountabilities."
+
+  utter_sect10_grad_req_10.4:
+  - text: "A candidate for graduation shall have his deficiencies made up and his record cleared not later than two weeks before the end of his last semester."
+
+  utter_sect10_grad_req_10.3:
+  - text: "No student shall be allowed to graduate from the institute unless he has earned therein more than 50 percent of the academic units required in his curriculum."
+
+  utter_sect10_grad_req_10.2:
+  - text: "A student shall be recommended for graduation when he has satisfied all academic and other requirements prescribed by the Institute."
+
+  utter_sect10_grad_req_10.1:
+  - text: "A candidate for graduation shall file his application for graduation with the Registrar's Office at the start of the semester."
+
+  utter_sect9_tenure9.3.4:
+  - text: "Any student who was issued honorable dismissal may not be readmitted."
+
+  utter_sect9_tenure9.3.3:
+  - text: "Any student who leaves the institute for reasons of expulsion, dropping due to disciplinary action or suspension shall not be entitled to an Honorable Dismissal."
+
+  utter_sect9_tenure9.3.2:
+  - text: "Any student applying for an Honorable Dismissal must obtain clearance from all accountabilities with the Institute."
+
+  utter_sect9_tenure9.3.1:
+  - text: "An honorable dismissal is issued by the Registrar to a student who voluntarily withdraws from the Institute for purpose of transferring to another school."
+
+  utter_sect9_tenure9.2_all:
+  - text: "The leave may be for one semester or one year as specified."
+
+  utter_sect9_tenure9.2_all1:
+  - text: "The leave may be extended upon arrival of the Office of the Dean but in no case shall the leave go beyond two years. Otherwise, he/she shall lose his/her status as a student in residence."
+
+  utter_sect9_tenure9.2_all2:
+  - text: "Upon return, a student is covered by the curriculum currently in effect."
+
+  utter_sect9_tenure9.2_all3:
+  - text: "Unofficial leave of absence will be changed to the student's tenure."
+
+  utter_sect9_tenure9.2:
+  - text: "Application for a leave of absence should be filed with and approved by the Office of the Dean copy furnished the Registrar's Office."
+
+  utter_sect9_tenure9.1.2:
+  - text: "For working students. A working student should finish the academic program within five years (for 4 year degree) and six years (for 5 year degree). He/She may be allowed a grace period of two semesters or one year."
+
+  utter_sect9_tenure9.1:
+  - text: "For regular students. A student should finish the academic program within the prescribed number of years. He/She may be allowed a grace period of two semesters or one year."
+
+  utter_sect8_retention_polc8.11:
+  - text: "The Registrar, upon the advice of the Dean concerned, sends a Letter of Dismissal to the concerned student and his/her parents at the end of the semester."
+
+  utter_sect8_retention_polc8.10:
+  - text: "In College or Schools in which the weight of the course is not expressed in terms of units, the computation shall be based on the respective equivalents."
+
+  utter_sect8_retention_polc8.9:
+  - text: "Required courses (or subjects) in which a student has failed shall take precedence/priority over other courses in his succeeding enrollment."
+
+  utter_sect8_retention_polc8.8:
+  - text: "A student who is due for dismissal but who has been enrolled before the dismissal status is ascertained, shall be permitted to remain up to the end of the semester or summer term in which it occurs."
+
+  utter_sect8_retention_polc8.7:
+  - text: "A grade of 'incomplete' is not to be included in the computation. When it is replaced by a final grade, the latter is to be included in the grades during the semester when the removal is made."
+
+  utter_sect8_retention_polc8.6:
+  - text: "Students who fail and/or withdraw (authorized or unauthorized) thrice in the same course (or subject) will be dropped from the roll."
+
+  utter_sect8_retention_polc8.5:
+  - text: "Students can only be on probation twice. Inability to lift the second probation will render any student ineligible to enroll for the succeeding semester."
+
+  utter_sect8_retention_polc8.4:
+  - text: "Students on probation should not fail or drop even one subject nor be involved in any disciplinary case during the semester that immediately follows."
+
+  utter_sect8_retention_polc8.3:
+  - text: "First year students who in their first semester incur failures corresponding to 9 or more units or the equivalent of one-half of their load, shall be allowed to enroll under probation in the second semester but only in subjects authorized by their Deans."
+
+  utter_sect8_retention_polc8.2:
+  - text: "A student with a failing grade shall be given a warning by the College Dean and referred to the Counseling and Testing Office for appropriate guidance. The student's load for the succeeding semester shall be correspondingly reduced, e.g., by one load if he/she failed in one."
+
+  utter_sect8_retention_polc8.1:
+  - text: "Old students, except those in the senior year, with failures corresponding to 9 or more units within a semester or 5 culumative unauthorized withdrawal (dropped) at the end of any semester or summer term will not be readmitted in the succeeding semesters by reason of poor academic scholarship. The same rule shall apply to students who did not take the regular load and incurred failures equivalent to one-half of the load carried in the preceding semester."
+
+  utter_sect7_removal_inc7.3:
+  - text: "In no case shall the period for the removal of grades of Incomplete extend beyond one year from the end of the term the course was taken."
+
+  utter_sect7_removal_inc7.2:
+  - text: "Removal examinations may be taken at other times upon the approval of the College Dean/Campus Director concerned and after payment of the corresponding fee."
+
+  utter_sect7_removal_inc:
+  - text: "Examination for the removal of grades of INC (incomplete) shall not be charged any fee during the following:"
+
+  utter_sect7_removal_inc_info1:
+  - text: "The regular examination period where the course is included in the schedule of examination."
+
+  utter_sect7_removal_inc_info2:
+  - text: "The regular removal examination period within 10 days before the registration period."
+
+  utter_sect6_grading_sys6.5:
+  - text: "A student who has received a passing grade in a course shall not be allowed to take another examination for the purpose of improving his grade."
+
+  utter_sect6_grading_sys6.4:
+  - text: "Dropped is given if the student voluntarily drops a course and correspondingly files a dropping form at any time not less than two weeks before the mid-term examination. After this period the faculty member may only give a passing or failing grade. Dropped is also given when the faculty member drops the student from his roll for having exceeded the allowable number of absences."
+
+  utter_sect6_grading_sys6.3:
+  - text: "Incomplete(inc) is temporarily given to a student who may qualify for passing but has not complied with all requirements of the subject. An Incomplete Grade shall be completed within one year from the end of the semester or summer term when the INC. was incurred or given; otherwise, the grade automatically becomes '5.0'"
+
+  utter_sect6_grading_sys6.1_grade13:
+  - text: "A grade of '4' is Conditional and shall be given only during the mid-term grading period. No final grade of '4' shall be given."
+
+  utter_sect6_grading_sys6.1_grade12:
+  - text: "Grade: Drop | Descriptive Rating: Officially/Unofficially Dropped"
+
+  utter_sect6_grading_sys6.1_grade11:
+  - text: "Grade: Inc | Descriptive Rating: Incomplete"
+
+  utter_sect6_grading_sys6.1_grade10:
+  - text: "Grade: 5.0 | Descriptive Rating: Failure"
+
+  utter_sect6_grading_sys6.1_grade9:
+  - text: "Grade: 3.0 | Percentage Equivalent: 75 | Descriptive Rating: Passed"
+
+  utter_sect6_grading_sys6.1_grade8:
+  - text: "Grade: 2.75 | Percentage Equivalent: 76-78 | Descriptive Rating: Fair"
+
+  utter_sect6_grading_sys6.1_grade7:
+  - text: "Grade: 2.5 | Percentage Equivalent: 79-81 | Descriptive Rating: Satisfactory"
+
+  utter_sect6_grading_sys6.1_grade6:
+  - text: "Grade: 2.25 | Percentage Equivalent: 82-84 | Descriptive Rating: Good"
+
+  utter_sect6_grading_sys6.1_grade5:
+  - text: "Grade: 2.0 | Percentage Equivalent: 85-87 | Descriptive Rating: Very Good"
+
+  utter_sect6_grading_sys6.1_grade4:
+  - text: "Grade: 1.75 | Percentage Equivalent: 88-90 | Descriptive Rating: Superior"
+
+  utter_sect6_grading_sys6.1_grade3:
+  - text: "Grade: 1.5 | Percentage Equivalent: 91-93 | Descriptive Rating: Very Superior"
+
+  utter_sect6_grading_sys6.1_grade2:
+  - text: "Grade: 1.25 | Percentage Equivalent: 94-96 | Descriptive Rating: Excellent"
+
+  utter_sect6_grading_sys6.1_grade1:
+  - text: "Grade: 1.0 | Percentage Equivalent: 97-100 | Descriptive Rating: Marked Excellence"
+
+  utter_sect5_attendance5.10:
+  - text: "A student who has been absent for at least 20 percent of the hours of recitation, lecture, laboratory, or any other scheduled work in one subject for the semester, or any academic period, shall be automatically dropped from the class roll, and the Registrar shall be advised accordingly."
+
+  utter_sect5_attendance5.9:
+  - text: "Three successive unexcused absences shall be reported by the faculty member concerned to the Chief of the Counseling and Testing Office who shall call for the student and notify his parents/guardians."
+
+  utter_sect5_attendance5.8:
+  - text: "Excused absences are for time missed only. All work covered by the class during the student's absence will have to be made up by the student within a reasonable period of time."
+
+  utter_sect5_attendance5.7:
+  - text: "Absence due to illness may be excused if the student submit a medical certificate issued by the Institute's Medical Officer or any other physician; provided that, in the latter case, the medical certificate shall be authenticated by the Institute Medical Office."
+
+  utter_sect5_attendance5.6:
+  - text: "Absence authorized in writing by the Institute because the student concerned officially represented the Institute at some function or affair shall be excused. The Dean/Chairperson shall inform the faculty member(s) concerned."
+
+  utter_sect5_attendance5.5:
+  - text: "Any student who has absented himself from class must, whenever required by the faculty member concerned, obtain an excuse slip from the Guidance and Counseling Office."
+
+  utter_sect5_attendance5.2:
+  - text: "A student shall be considered absent from class if he is not present within the first third fraction of the scheduled class time. In other words, a student is considered absent if he arrives after:"
+
+  utter_sect5_attendance5.2_info1:
+  - text: "The first 60 minutes for a three-hour class."
+
+  utter_sect5_attendance5.2_info2:
+  - text: "The first 30 minutes for a one-hour-and-a-half class"
+
+  utter_sect5_attendance5.2_info3:
+  - text: "The first 20 minutes for a one hour class."
+  
+  utter_sect5_attendance5.2_info4:
+  - text: "If the student arrived within the time stated above, the student is not absent but considered as late."
+
+  utter_sect5_attendance5.2_info5:
+  - text: "3 incidence of absences shall be considered as one absence from class."
+
+  utter_sect5_attendance5.1:
+  - text: "Students are required to attend all classes starting with the first meeting of every class. Non-attendance in any required class or academic activity constitutes an absence. Time lost due to late enrollment shall also be considered as absence."
+
+  utter_sect4_classification_4.3.5:
+  - text: "Fifth year - In the College of Engineering, Architecture and Fine Arts, a student who is in the fifth year of his curriculum is considered a senior if he has completed at least 80 percent of the curricular requirement."
+
+  utter_sect4_classification_4.3.4:
+  - text: "Senior - One who is in the fourth year of his curriculum, or who has completed the prescribed subjects of the first, second and third years of his curriculum or has finished 75 percent or more of the total number of units required in his entire program."
+
+  utter_sect4_classification_4.3.3:
+  - text: "Junior - One who is in the third year of curriculum, or who has completed the prescribed subjects of the first and second years of his curriculum or has finished more than 50 percent but less than 75 percent of the total number of units required in his entire program."
+
+  utter_sect4_classification_4.3.2:
+  - text: "Sophomore - One who is in the second year of his curriculum, or who has satisfactory completed the prescribed subjects of the first year of his curriculum or has finished more than 25 percent but less than 50 percent of the total number of units required in his entire program."
+
+  utter_sect4_classification_4.3.1:
+  - text: "Freshman - One who is in the first year of his curriculum, or who has not finished the prescribed subjects of the first year of his curriculum, or 25 percent of the total number of units required in his entire program."
+
+  utter_sect4_classification_4.2.3:
+  - text: "Special Student - One who is not earning formal academic credits."
+
+  utter_sect4_classification_4.2.2:
+  - text: "Irregular Student - One who is registered for formal credits but carries less than the full load required in a given semester in his curriculum."
+
+  utter_sect4_classification_4.2.1:
+  - text: "Regular Student - One who is registered for formal academic credits and who carries the full load required in a given semester in his curriculum."
+
+  utter_sect3_csd3.5:
+  - text: "A student may drop a course by filling out the necessary application form (Dropping Form) with the College Registrar, provided his case is not covered by a pertinent provision of the Institute Code."
+
+  utter_sect3_csd3.4:
+  - text: "Petition for substitution should:"
+
+  utter_sect3_csd3.4_info1:
+  - text: "Involve courses within the same department if possible; if not, the proposed substitute must be allied to the one being substituted."
+
+  utter_sect3_csd3.4_info2:
+  - text: "Be between courses of the same number of units."
+
+  utter_sect3_csd3.4_info3:
+  - text: "Be recommended by the class adviser and approved by the College Dean concerned."
+
+  utter_sect3_csd3.4_info4:
+  - text: "Be acted upon by the College Dean/Director concerned in case the petition is disapproved, the student may appeal to the Vice President for Academic Affairs, who decision on the matter is final."
+
+  utter_sect3_csd3.3:
+  - text: "Substitution of courses may be authorized in any one of the following cases:"
+
+  utter_sect3_csd3.3_info1:
+  - text: "A curriculum has been superseded by a new one and the substitution tends to bring the old curriculum in line with the new one. However, in case of curricular revision, the student follows the curriculum he was enrolled in while in the first year."
+
+  utter_sect3_csd3.3_info2:
+  - text: "There is conflict of schedule between required courses."
+
+  utter_sect3_csd3.3_info3:
+  - text: "The required course is not offered."
+
+  utter_sect3_csd3.2:
+  - text: "No substitution shall be allowed for major in and mandated courses prescribed in the curriculum in which the student has failed, except when, in the opinion of the Dean of the College offering prescribed course, the proposed substitute course is substantially similar in content to the required course."
+
+  utter_sect3_csd3.1:
+  - text: "Transfer to another class may be allowed only with the approval of the College Dean concerned, who shall advise the Registrar's Office for proper recording."
+
+  utter_sect2_shifters2.7:
+  - text: "The Institute does not accept applicants for second baccalaureate degree."
+
+  utter_sect2_shifters2.6.2:
+  - text: "Student shifting from one college to another must submit the following to the College Dean where he/she wishes to transfer:"
+
+  utter_sect2_shifters2.6.2_info1:
+  - text: "A letter addressed to the College Dean where the student intends to shift to another program and recommended by the Dean of his/her current college."
+
+  utter_sect2_shifters2.6.2_info2:
+  - text: "Clearance (Good Moral Standing, no current obligations to the college)"
+
+  utter_sect2_shifters2.6.2_info3:
+  - text: "Approval of the Vice President for Academic Affairs."
+
+  utter_sect2_shifters2.6.2_info4:
+  - text: "Shifters must satisfactorily meet the grade requirement prescribed by the college."
+
+  utter_sect2_shifters2.6.2_info5:
+  - text: "An endorsement letter from Guidance Counselor, Program Adviser and Registrar."
+
+  utter_sect2_shifters2.6.1:
+  - text: "Student shifting within the same college shall present the following:"
+
+  utter_sect2_shifters2.6.1_info1:
+  - text: "A letter addressed to the College Dean expressing his intention and justification to shift to another program."
+
+  utter_sect2_shifters2.6.1_info2:
+  - text: "An endorsement letter from Guidance Counselor, Program Adviser and Registrar."
+
+  utter_sect2_registration2.5:
+  - text: "No cross enrollee from another institution shall be admitted into the Institute without the written permit from the Registrar's Office. The permit shall state the total number of units for which the student is registered and the subject(s) that he is authorized to take in the college."
+
+  utter_sect2_registration2.3:
+  - text: "Cross enrollment in another school is allowed upon the favorable endorsement of the Dean who shall recommend to the Registrar the issuance of the corresponding permit."
+
+  utter_sect2_registration2.2:
+  - text: "No student shall be registered later than the date specified in the school calendar, except under reasonable and justifiable circumstances to be determined by the Dean concerned who then makes his recommendation to the Vice President for Academic Affairs, but not to exceed 6 class hours."
+
+  utter_sect2_registration2.1:
+  - text: "A student is considered officially enrolled when:"
+
+  utter_sect2_registration2.1_info1:
+  - text: "he has paid his tuition and other fees;"
+
+  utter_sect2_registration2.1_info2:
+  - text: "his official receipt of payment has been validated;"
+
+  utter_sect2_registration2.1_info3:
+  - text: "he has submitted his fully accomplished registration certificate and other requirements to the Registrar's Office;"
+
+  utter_sect2_registration2.1_info4:
+  - text: "And the 'Copy for Student' portion of his registration certificate has been properly stamped registered and initialed by the receiving clerk of the Registrar's Office."
+
+  utter_sect1_academic_load_1.7:
+  - text: "The College Dean may limit the academic load of students who are employed outside the Institute whether on full-time or part-time basis."
+
+  utter_sect1_academic_load_1.6:
+  - text: "During summer term, the normal load shall be 6 units. In justifiable cases however, the College Dean may allow a student to take 9 units."
+
+  utter_sect1_academic_load_1.5:
+  - text: "No student shall enrolled in more than one college to earn more than one academic degree at the same time."
+
+  utter_sect1_academic_load_1.4:
+  - text: "Only graduating students are entitled to carry an overload which is limited to 6 units for the year."
+
+  utter_sect1_academic_load_1.3:
+  - text: "No undergraduate student shall be allowed to take more than the number of units specified in his curriculum except for graduating students and duly certified by the college dean and the registrar."
+
+  utter_sect1_academic_load_1.2:
+  - text: "In no instance shall a student be allowed to carry less than one half of the regular load unless he has incurred academic deficiences or is graduating during the term."
+
+  utter_sect1_academic_load_1.1:
+  - text: "A student shall carry the regular load prescribed by the academic program."
+
+  utter_article1_admission_polc:
+  - text: "EARIST is open to students who meet its academic standards and are willing to abide by the rules and ideas of the institute."
+
+  utter_financial_rep:
+  - text: "The link below contains Transparency Documents and Financial Reports."
+
+  utter_financial_rep_link:
+  - text: "https://earist.edu.ph/?page_id=2090"
+
+  utter_library_rules_regulations15:
+  - text: "EARIST Alumni may use library upon presentation of valid alumni ID."
+
+  utter_library_rules_regulations14:
+  - text: "Graduate and undergraduate students and researchers from other schools may use library resources (for room-use only) upon presentation of the student valid ID and referral letter from their school. The use of such privilege is limited to Fridays with a maximum of three (3) students only."
+
+  utter_library_rules_regulations13:
+  - text: "The ID/Certificate of Registration must always be presented in borrowing, renewing or returning of library materials."
+
+  utter_library_rules_regulations12:
+  - text: "Misbehavior risks losing one’s library privileges and/or suspension from the use of library according to the discretion of the librarian. Repeated cases will be reported to the officer in charge of the discipline."
+
+  utter_library_rules_regulations11:
+  - text: "A student is held liable for any book signed out under his/her name. Therefore, library cards should not be passed from one student to another. Borrowing needs to be exercised personally."
+
+  utter_library_rules_regulations10:
+  - text: "Students should refrain from unwelcome acts of hiding or stealing books and other library materials. Tearing out pages of the library books and forging signatures will be subject to disciplinary actions."
+
+  utter_library_rules_regulations9:
+  - text: "Charging of laptops, cell phones and other gadgets is not allowed inside the library."
+
+  utter_library_rules_regulations8:
+  - text: "Books and other library materials should be handled with care. Leaning or writing on them is to be avoided."
+
+  utter_library_rules_regulations7:
+  - text: "Library facilities should be kept in order. Chairs should be pushed back against the tables before leaving the library."
+
+  utter_library_rules_regulations6:
+  - text: "Silence should always be observed inside the library. Idle conversations, loud laughter and unnecessary noise must be avoided."
+
+  utter_library_rules_regulations5:
+  - text: "Students are not allowed to eat, sleep and litter inside the library in order to not disturb other library patrons."
+
+  utter_library_rules_regulations4:
+  - text: "Theses, dissertations and reference materials are for room use only."
+
+  utter_library_rules_regulations3:
+  - text: "Borrowed books and other library materials should be returned every end of the semester. Library clearance will not be signed due to failure to return borrowed library materials."
+
+  utter_library_rules_regulations2:
+  - text: "Students can borrow two (2) books for overnight use only. Staff and Full- time faculty can borrow a maximum of 5 books every semester, while part- time faculty is allowed to borrow a maximum of 3 books every semester, provided that they present valid identification cards."
+
+  utter_library_rules_regulations1:
+  - text: " A student with ID/Certificate of Registration is allowed to enter the library. No student is allowed to borrow any library materials unless he/she has a ID/COR valid for the current year. Bags should be surrendered on the baggage counter before entering the library except valuable items (e.g. cellphones, wallet and other gadgets)"
+
+  utter_ecat_results:
+  - text: "Names of qualified students for Interview will be posted on the Bulletin Board of respective colleges/Fb page of each department."
+
+  utter_ecat_exam_d:
+  - text: "Present your entrance exam permit and take the exam on your designated exam date, time and room."
+
+  utter_ecat_exam_d1:
+  - text: "Bring the following: ECAT Permit, Paper and Pen"
+
+  utter_ecat_exam_d2:
+  - text: "Please come on Decent Attire. Wearing shorts, sando, sleeveless and slippers are not allowed."
+
+  utter_ecat_release_examination_date:
+  - text: "Schedule of the Admission Test will be identified upon issuance/distribution of the ECAT permit."
+
+  utter_challenge_ecat_abbreviation:
+  - text: "EARIST College Admission Test (ECAT)"
+
+  utter_inc_docu:
+  - text: "Incomplete Requirements will not be processed."
+
+  utter_sarms_credo:
+  - text: "S – Service Oriented A – Accurate R – Reliable M – Modest S – Service Efficient"
+
+  utter_online_payment:
+  - text: "Payment through LANDBANK Link.BizPortal click the link below."
+
+  utter_online_payment_link:
+  - text: "https://www.lbp-eservices.com/egps/portal/Merchants.jsp"
+
+  utter_online_payment_1:
+  - text: "Type 'eulogio' in the Merchant Name EARIST should appear then select or Click the letter 'E' to find EARIST in the Merchant List."
+
+  utter_online_payment_2:
+  - text: "Wait for payment to be processed within three (3) working days. Then send an email containing a proof of payment depending on the transaction you made."
+
+  utter_online_payment_3:
+  - text: "Select the type of transaction you will make below:"
+    buttons:
+    - title: "SAARMS Form | TOR"
+      payload: "email_for_form"
+    - title: "Fees (e.g., Defense)"
+      payload: "email_for_fee"
+
+  utter_online_payment_email_form:
+  - text: "After transaction send a proof of payment to this email: registrar@earist.ph.education"
+
+  utter_online_payment_email_fee:
+  - text: "After transaction send a proof of payment to this email: graduate@earist.ph.education"
+    
+  utter_ecat_info:
+  - text: "Download and fill out the form in the link below."
+
+  utter_ecat_info_link:
+  - text: "https://earist.edu.ph/wp-content/uploads/ECAT-application-form.pdf"
+
+  utter_ecat_info1:
+  - text: "Then submit the following documents:"
+
+  utter_ecat_info2:
+  - text: "Senior High School Card (1st Sem and 2nd sem, with remark Eligible/Admitted to College)"
+
+  utter_ecat_info3:
+  - text: "If you're currently in Grade 12 and expected to graduate, Certificate belonging to Graduating Class should be included."
+
+  utter_ecat_info4:
+  - text: "For Alternative Learning System (ALS) graduates (senior high level): Certified True Copy of List of Passer & Certificate of Rating."
+
+  utter_ecat_info5:
+  - text: "For Transferee (not previously enrolled in any government schools or universities and with no failed or dropped grades): Copy of Grades / Transcript of Record & Honorable Dismissal"
+
+  utter_ecat_info6:
+  - text: "For all applicants (other requirements to be submitted): Certificate of Good Moral Character, Birth Certificate (NSO/PSA), Duly accomplished ECAT Application Form"
+
+  utter_grad_school_courses_info:
+  - text: "The list is too many kindly visit the link below to know the programs offered in graduate school."
+
+  utter_grad_school_courses_info_link:
+  - text: "https://earist.edu.ph/?page_id=451"
+
+  utter_cpac_courses:
+  - text: "College of Public Administration and Criminology Programs Offered are:"
+
+  utter_cpac_courses_info:
+  - text: "Bachelor of Science in Public Administration"
+
+  utter_cpac_courses_info1:
+  - text: "Bachelor of Science in Criminology"
+
+  utter_cpac_courses_link:
+  - text: "https://earist.edu.ph/?page_id=553"
+
+  utter_cit_courses:
+  - text: "College of Industrial Technology Programs Offered are:"
+
+  utter_cit_courses_info1:
+  - text: "Bachelor of Science in Computer Technology"
+
+  utter_cit_courses_info2:
+  - text: "Bachelor of Science in Industrial Technology Major in: Automotive Technology"
+
+  utter_cit_courses_info3:
+  - text: "Bachelor of Science in Industrial Technology Major in: Electrical Technology"
+
+  utter_cit_courses_info4:
+  - text: "Bachelor of Science in Industrial Technology Major in: Electronics Technology"
+
+  utter_cit_courses_info5:
+  - text: "Bachelor of Science in Industrial Technology Major in: Food Technology"
+
+  utter_cit_courses_info6:
+  - text: "Bachelor of Science in Industrial Technology Major in: Garments Trades"
+
+  utter_cit_courses_info7:
+  - text: "Bachelor of Science in Industrial Technology Major in: Fashion and Apparel Technology"
+
+  utter_cit_courses_info8:
+  - text: "Bachelor of Science in Industrial Technology Major in: Industrial Chemistry"
+
+  utter_cit_courses_info9:
+  - text: "Bachelor of Science in Industrial Technology Major in: Drafting Technology"
+
+  utter_cit_courses_info10:
+  - text: "Bachelor of Science in Industrial Technology Major in: Machine Shop Technology"
+
+  utter_cit_courses_info11:
+  - text: "Bachelor of Science in Industrial Technology Major in: Refrigeration and Air Conditioning"
+
+  utter_cit_courses_info12:
+  - text: "Two- Year Technical Course (Ladder Type Course Leading to BSIT) (Same Courses in BSIT listed above)"
+
+  utter_cit_courses_link:
+  - text: "https://earist.edu.ph/?page_id=540"
+
+  utter_chm_courses:
+  - text: "College of Hospitality Management Programs Offered are:"
+
+  utter_chm_courses_info1:
+  - text: "Bachelor of Science in Tourism"
+
+  utter_chm_courses_info2:
+  - text: "Bachelor of Science in Hospitality Management Major in: Hotel Management"
+
+  utter_chm_courses_info3:
+  - text: "Bachelor of Science in Hospitality Management Major in: Culinary Arts"
+
+  utter_chm_courses_info4:
+  - text: "Bachelor of Science in Hospitality Management Major in: Cruise Line Operations"
+
+  utter_chm_courses_link:
+  - text: "https://earist.edu.ph/?page_id=528"
+
+  utter_ced_courses:
+  - text: "College of Education Programs Offered are:"
+
+  utter_ced_courses_info1:
+  - text: "Bachelor of Science in Elementary Education (BEEd) Major in: Special Education"
+
+  utter_ced_courses_info2:
+  - text: "Bachelor of Science in Secondary Education (BSE) Major in: Physical Science"
+
+  utter_ced_courses_info3:
+  - text: "Bachelor of Science in Secondary Education (BSE) Major in: Mathematics"
+
+  utter_ced_courses_info4:
+  - text: "Bachelor of Science in Secondary Education (BSE) Major in: Technology Livelihood Education"
+
+  utter_ced_courses_info5:
+  - text: "Bachelor of Science in Secondary Education (BSE) Major in: Filipino"
+
+  utter_ced_courses_info6:
+  - text: "Professional Education / Subjects (TCP) 18 Units"
+
+  utter_ced_courses_link:
+  - text: "https://earist.edu.ph/?page_id=504"
+
+  utter_cba_courses:
+  - text: "College of Business Administration Programs Offered are:"
+
+  utter_cba_courses_info1:
+  - text: "Bachelor of Science in Business Administration – Major in Management"
+
+  utter_cba_courses_info2:
+  - text: "Bachelor of Science in Business Administration – Major in Marketing"
+
+  utter_cba_courses_info3:
+  - text: "Bachelor of Science in Business Administration – Major in Human Resource Development Management (HRDM)"
+
+  utter_cba_courses_info4:
+  - text: "Bachelor of Science in Office Administration – Major in Office Management"
+
+  utter_cba_courses_link:
+  - text: "https://earist.edu.ph/?page_id=490"
+
+  utter_courses_info_cas:
+  - text: "College of Arts and Sciences Programs Offered are:"
+
+  utter_courses_info_cas1:
+  - text: "Bachelor of Science in Applied Physics with Computer Science Emphasis (BSAP)"
+
+  utter_courses_info_cas2:
+  - text: "Bachelor of Science in Computer Science (BSCS)"
+
+  utter_courses_info_cas3:
+  - text: "Bachelor of Science in Industrial Psychology (BSIP)"
+
+  utter_courses_info_cas4:
+  - text: "Bachelor of Science in Mathematics (BSMATH)"
+
+  utter_courses_info_cas_link:
+  - text: "https://earist.edu.ph/?page_id=471"
+
+  utter_ced_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Education Dean and Professors."
+
+  utter_ced_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=505"
+
+  utter_cba_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Business Administration Dean and Professors."
+
+  utter_cba_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=491"
+
+  utter_cas_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Arts and Sciences Dean and Professors."
+
+  utter_cas_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=472"
+  
+  utter_cafa_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Architecture and Fine Arts Dean and Professors."
+
+  utter_cafa_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=457"
+
+  utter_cen_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Engineering Dean and Professors."
+
+  utter_cen_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=517"
+
+  utter_chm_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Hospitality Management Dean and Professors."
+
+  utter_chm_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=529"
+
+  utter_cit_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Industrial Technology Dean and Professors."
+
+  utter_cit_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=541"
+
+  utter_cpac_faculty:
+  - text: "You can check the link below, you will be redirected to a page stating the lists of College of Public Administration and Criminology Dean and Professors."
+
+  utter_cpac_faculty_link:
+  - text: "https://earist.edu.ph/?page_id=554"
+
+  utter_challenge_apply_job:
+  - text: "Submit an application letter with the following documents:"
+
+  utter_challenge_apply_job_1:
+  - text: "• Performance ratings in the last(2) semesters preceding this publication"
+
+  utter_challenge_apply_job_2:
+  - text: "• Photocopy of Civil Service Certificate of Eligibility"
+
+  utter_challenge_apply_job_3:
+  - text: "• Photocopy of Certificate of Board Exam (R.A. 1080)"
+
+  utter_challenge_apply_job_4:
+  - text: "• Photocopy of Transcript of Records."
+
+  utter_challenge_apply_job_5:
+  - text: "• Fully accomplished Personal Data Sheet with recent passport-sized picture"
+
+  utter_challenge_available_job:
+  - text: "Check the link below for the lists of available jobs"
+
+  utter_req_documents:
+  - text: "The link below will redirect you to earists appointment request for documents you wanted to obtain."
+
+  utter_req_documents_link:
+  - text: "https://appointment.registrar.earist.edu.ph/Client/"
+
+  utter_link_earistweb:
+  - text: "https://earistweb.pinnacle.com.ph/aims/students/"
+
+  utter_link_job:
+  - text: "https://earist.edu.ph/?page_id=430#collapse11"
+
+  utter_challenge_vision:
+  - text: "EARIST is envisioned to be a center of excellence in trades, business, arts, science and technology education."
+
+  utter_challenge_mission:
+  - text: "Turn out vocationally, technically, technologically, and scientifically trained graduates who will be economically productive, self-sufficient, effective, responsible and discipline citizen of the Philippines."
+  
+  utter_challenge_goals:
+  - text: "Provide professional, scientific, technological, technical, and vocational instruction and training in trades, business, arts, sciences, and technology and for special purposes promote research, advanced studies and progressive leadership."
+
+  utter_challenge_objectives:
+  - text: "• Strive for academic excellence in instruction, research, extension and production through accreditation."
+
+  utter_challenge_objectives_1:
+  - text: "• Provide appropriate and continuing faculty and staff development programs."
+
+  utter_challenge_objectives_2:
+  - text: "• Provide and maintain appropriate technologies, instructional facilities, materials and equipment."
+
+  utter_challenge_objectives_3:
+  - text: "• Produce quality graduates who are globally competitive to man the needs of business and industry."
+
+  utter_challenge_objectives_4:
+  - text: "• Attain university status through Unity, Solidarity and Teamwork."
+
+  utter_challenge_philosophy:
+  - text: "As a state college, Eulogio “Amang” Rodriguez Institute of Science and Technology (EARIST) believes that education is not an area of knowledge that can be arrogated unto itself by one profession, nor it is a division separate and distinct from the society and the times in which it flourishes. It is a plexus of knowledge and skills applied to the economic, social and moral development of self-actualized and productive citizenry."
+
+  utter_challenge_amang_id:
+  - text: "Eulogio “Amang” Adona Rodriguez Sr. was a Filipino politician, twice served as President of the Senate of the Philippines."
+
+  utter_challenge_amang_school:
+  - text: "EARIST was established after the liberation of Manila in 1945. Former Name was ERVHS."
+
+  utter_challenge_amang_school_history:
+  - text: "In 1967 the school was renamed from ERVHS to EARMSAT."
+
+  utter_challenge_amang_school_history_1:
+  - text: "In 1972 converted EARMSAT to EARIST."
+
+  utter_challenge_ervhs_abbreviation:
+  - text: "Eulogio Rodriguez Vocational High School (ERVHS) was the former name of Earist - 1945"
+
+  utter_challenge_earmsat_abbreviation:
+  - text: "Eulogio “Amang” Rodriguez Memorial School of Arts and Trades (EARMSAT) former name of Earist - 1967"
+
+  utter_challenge_earist_history:
+  - text: "EARIST started as a vocational high school with only one room at the second floor of the Mapa High School, nine teachers, a clerk, and 147 students under Mr. Pantaleon Regala, its principal."
+
+  utter_challenge_amang_speculation:
+  - text: "No, Eulogio “Amang” Adona Rodriguez Sr. was the 7th and 10th President of the Senate of the Philippines."
+
+  utter_challenge_amang_speculation_n:
+  - text: "Under the Constitution, the Senate President is regarded as third in line of succession, after the President and Vice-President."
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGx_b4cGQgNDWZ49VSbBqROKdvLNnGDgU3NBGBPh5xdKljSj4gG0GCyR3nvEqXhA1nI6A&usqp=CAU"
+<<<<<<< HEAD
+  - text: "Here is something to cheer you up:"
+    image: "https://i.pinimg.com/originals/c4/47/2d/c4472d087571693eeffc84e24cee138d.jpg"
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_cen_courses:
+  - text: "College of Engineering Programs Offered are:"
+
+  utter_cen_courses_info1:
+  - text: "Bachelor of Science in Chemical Engineering"
+
+  utter_cen_courses_info2:
+  - text: "Bachelor of Science in Civil Engineering"
+
+  utter_cen_courses_info3:
+  - text: "Bachelor of Science in Electrical Engineering"
+
+  utter_cen_courses_info4:
+  - text: "Bachelor of Science in Electronics and Communication Engineering"
+
+  utter_cen_courses_info5:
+  - text: "Bachelor of Science in Mechanical Engineering"
+
+  utter_cen_courses_info6:
+  - text: "Bachelor of Science in Computer Engineering"
+
+  utter_cen_courses_info7:
+  - text: "Associate in Computer Engineering ( Ladder Type Course Leading to BSCOE)"
+  
+  utter_cen_courses_link:
+  - text: "https://earist.edu.ph/?page_id=516"
+
+  utter_courses_info_cafa:
+  - text: "College of Architecture and Fine Arts Programs Offered are:"
+
+  utter_courses_info_cafa_1:
+  - text: "Bachelor of Science in Architecture (BSA)"
+
+  utter_courses_info_cafa_2:
+  - text: "Bachelor of Science in Interior Design (BSID)"
+
+  utter_courses_info_cafa_3:
+  - text: "Bachelor of Science in Fine Arts (BSFA) – Major in Painting"
+
+  utter_courses_info_cafa_4:
+  - text: "Bachelor of Science in Fine Arts (BSFA) – Major in Visual Communication"
+
+  utter_courses_info_cafa_link:
+  - text: "https://earist.edu.ph/?page_id=456"
+
+  utter_for_more_details:
+  - text: "For more Details click the link below:"
+
+  utter_happy:
+  - text: "Great, carry on!"
+<<<<<<< HEAD
+  - text: "😀"
+  - text: "🙂"
+  - text: "😊"
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  utter_goodbye:
+  - text: "Bye-bye! 😘"
+
+  utter_iamabot:
+<<<<<<< HEAD
+  - text: "I'm a bot 🤖 created by EARIST."
+=======
+  - text: "I'm a bot created by Earist."
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  utter_foul_words:
+  - text: "🤬 Profanities are not allowed"
+    image: "https://i.ibb.co/TqYDGnq/profanity.jpg"
+
+  utter_emotionless:
+  - text: "😂 must be nice to feel emotions"
+<<<<<<< HEAD
+  - text: "HAHAHAHAkdog 🌭"
+  - text: "🌭"
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  utter_f_enrollment:
+  - text: "First you will need a Long Brown Envelope... see sample below"
+    image: "https://i.ibb.co/BGF7r7j/14.jpg"
+
+  utter_f_enrollment_next_step:
+  - text: "At the back of your envelope write your Surname, Name, Initials and Course"
+
+  utter_f_enrollment_next_step_docs:
+  - text: "Your envelope must contain the following documents:"
+
+  utter_f_enrollment_next_step_docs1:
+  - text: "• Original SHS Card/ALS Certificate/TOR-Transcript of Records for transferee/graduate program"
+  
+  utter_f_enrollment_next_step_docs2:
+  - text: "• Original Honorable Dismissal for transferee/graduate program"
+
+  utter_f_enrollment_next_step_docs3:
+  - text: "• Original Certificate of Good Moral for undergraduate program only"
+  
+  utter_f_enrollment_next_step_docs4:
+  - text: "• Copy of Birth Certificate for undergraduate program only"
+
+  utter_f_enrollment_next_step_docs5:
+  - text: "• 1pc 2x2 Picture"
+
+  utter_f_docs_submission:
+  - text: "You can visit Earist Manila Campus, there's a Drop Box located at EARIST Gate. There you can submit your documents."
+  
+  utter_f_docs_submission_courier:
+  - text: "Or you can use any courier services addressed to (EARIST - Office of the Registrar) to submit your documents."
+  
+  utter_enrollment:
+  - text: "You can enroll using students access module."
+
+  utter_feature_love_respo:
+  - text: "I love you too 😍"
+  - text: "🥰❤️"
+<<<<<<< HEAD
+  - text: "I ❤️ U too"
+=======
+  - text: "🤟 - this gesture means 'I love you' in American Sign Language. 🤟2"
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  utter_tertiary_education_act:
+  - text: "EARIST is part of the government's free tertiary program officially designated as Republic Act No. 10931
+  providing free tution and other school fees in state universities and colleges."
+
+  utter_challenge_courses_quantity_overall:
+  - text: "There are a total of 54 Courses offered including masters and doctoral programs."
+
+  utter_challenge_graduate_school:
+  - text: "There are a total of 15 Graduate School programs offered."
+
+  utter_challenge_college_degree_courses:
+  - text: "There are a total of 39 College Degree Courses offered by EARIST."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

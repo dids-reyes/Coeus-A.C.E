@@ -1,0 +1,1718 @@
+version: "2.0"
+
+stories:
+  - story: feature_love_path
+    steps:
+      - intent: feature_love
+      - action: utter_feature_love_respo
+
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: emotion
+    steps:
+      - intent: emotionless
+      - action: utter_emotionless
+
+  - story: sad path 1
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: sad path 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+  - story: cafa path
+    steps:
+      - intent: cafa
+      - action: utter_courses_info_cafa
+      - action: utter_courses_info_cafa_1
+      - action: utter_courses_info_cafa_2
+      - action: utter_courses_info_cafa_3
+      - action: utter_courses_info_cafa_4
+      - action: utter_for_more_details
+      - action: utter_courses_info_cafa_link
+
+  - story: cafa faculty
+    steps:
+      - intent: cafa_faculty
+      - action: utter_cafa_faculty
+      - action: utter_cafa_faculty_link
+
+  - story: profanity
+    steps:
+      - intent: foul_words
+      - action: utter_foul_words
+
+  - story: f_enrollment_path
+    steps:
+      - intent: f_enrollment
+      - action: utter_f_enrollment
+      - action: utter_f_enrollment_next_step
+      - action: utter_f_enrollment_next_step_docs
+      - action: utter_f_enrollment_next_step_docs1
+      - action: utter_f_enrollment_next_step_docs2
+      - action: utter_f_enrollment_next_step_docs3
+      - action: utter_f_enrollment_next_step_docs4
+      - action: utter_f_enrollment_next_step_docs5
+
+  - story: f_docs_submission_path
+    steps:
+      - intent: f_docs_submission
+      - action: utter_f_docs_submission
+      - action: utter_f_docs_submission_courier
+
+  - story: welcome_path
+    steps:
+      - intent: hello
+      - action: utter_welcome_message
+
+  - story: enrollment_path
+    steps:
+      - intent: enrollment
+      - action: utter_enrollment
+      - action: utter_link_earistweb
+
+  - story: tertiary_education_act_path
+    steps:
+      - intent: tertiary_education_act
+      - action: utter_tertiary_education_act
+
+  - story: challenge_courses_quantity_overall path
+    steps:
+      - intent: challenge_courses_quantity_overall
+      - action: utter_challenge_courses_quantity_overall
+
+  - story: challenge_college_degree_courses path
+    steps:
+      - intent: challenge_college_degree_courses
+      - action: utter_challenge_college_degree_courses
+
+  - story: challenge_graduate_school path
+    steps:
+      - intent: challenge_graduate_school
+      - action: utter_challenge_graduate_school
+
+  - story: challenge_amang_id path
+    steps:
+      - intent: challenge_amang_id
+      - action: utter_challenge_amang_id
+
+  - story: challenge_amang_school path
+    steps:
+      - intent: challenge_amang_school
+      - action: utter_challenge_amang_school
+      - action: utter_challenge_amang_school_history
+      - action: utter_challenge_amang_school_history_1
+
+  - story: challenge_ervhs_abbreviation path
+    steps:
+      - intent: challenge_ervhs_abbreviation
+      - action: utter_challenge_ervhs_abbreviation
+
+  - story: challenge_earmsat_abbreviation path
+    steps:
+      - intent: challenge_earmsat_abbreviation
+      - action: utter_challenge_earmsat_abbreviation
+
+  - story: challenge_earist_history path
+    steps:
+      - intent: challenge_earist_history
+      - action: utter_challenge_earist_history
+
+  - story: challenge_amang_speculation path
+    steps:
+      - intent: challenge_amang_speculation
+      - action: utter_challenge_amang_speculation
+      - action: utter_challenge_amang_speculation_n
+
+  - story: challenge_vision path
+    steps:
+      - intent: challenge_vision
+      - action: utter_challenge_vision
+
+  - story: challenge_mission path
+    steps:
+      - intent: challenge_mission
+      - action: utter_challenge_mission
+
+  - story: challenge_goals path
+    steps:
+      - intent: challenge_goals
+      - action: utter_challenge_goals
+
+  - story: challenge_objectives path
+    steps:
+      - intent: challenge_objectives
+      - action: utter_challenge_objectives
+      - action: utter_challenge_objectives_1
+      - action: utter_challenge_objectives_2
+      - action: utter_challenge_objectives_3
+      - action: utter_challenge_objectives_4
+
+  - story: challenge_philosophy path
+    steps:
+      - intent: challenge_philosophy
+      - action: utter_challenge_philosophy
+
+  - story: challenge_hymn path
+    steps:
+      - intent: challenge_hymn
+      - action: utter_challenge_hymn
+
+  - story: challenge_apply_job path
+    steps:
+      - intent: challenge_apply_job
+      - action: utter_challenge_apply_job
+      - action: utter_challenge_apply_job_1
+      - action: utter_challenge_apply_job_2
+      - action: utter_challenge_apply_job_3
+      - action: utter_challenge_apply_job_4
+      - action: utter_challenge_apply_job_5
+
+  - story: challenge_available_job path
+    steps:
+      - intent: challenge_available_job
+      - action: utter_challenge_available_job
+      - action: utter_link_job
+
+  - story: req_docu path
+    steps:
+      - intent: req_documents
+      - action: utter_req_documents
+      - action: utter_req_documents_link
+
+  - story: cas path
+    steps:
+      - intent: cas
+      - action: utter_courses_info_cas
+      - action: utter_courses_info_cas1
+      - action: utter_courses_info_cas2
+      - action: utter_courses_info_cas3
+      - action: utter_courses_info_cas4
+      - action: utter_for_more_details
+      - action: utter_courses_info_cas_link
+
+  - story: cas faculty
+    steps:
+      - intent: cas_faculty
+      - action: utter_cas_faculty
+      - action: utter_cas_faculty_link
+
+  - story: cba courses path
+    steps:
+      - intent: cba
+      - action: utter_cba_courses
+      - action: utter_cba_courses_info1
+      - action: utter_cba_courses_info2
+      - action: utter_cba_courses_info3
+      - action: utter_cba_courses_info4
+      - action: utter_for_more_details
+      - action: utter_cba_courses_link
+
+  - story: cba faculty path
+    steps:
+      - intent: cba_faculty
+      - action: utter_cba_faculty
+      - action: utter_cba_faculty_link
+
+  - story: ced courses path
+    steps:
+      - intent: ced
+      - action: utter_ced_courses
+      - action: utter_ced_courses_info1
+      - action: utter_ced_courses_info2
+      - action: utter_ced_courses_info3
+      - action: utter_ced_courses_info4
+      - action: utter_ced_courses_info5
+      - action: utter_ced_courses_info6
+      - action: utter_for_more_details
+      - action: utter_ced_courses_link
+
+  - story: ced faculty path
+    steps:
+      - intent: ced_faculty
+      - action: utter_ced_faculty
+      - action: utter_ced_faculty_link
+
+  - story: cen courses path
+    steps:
+      - intent: cen
+      - action: utter_cen_courses
+      - action: utter_cen_courses_info1
+      - action: utter_cen_courses_info2
+      - action: utter_cen_courses_info3
+      - action: utter_cen_courses_info4
+      - action: utter_cen_courses_info5
+      - action: utter_cen_courses_info6
+      - action: utter_cen_courses_info7
+      - action: utter_for_more_details
+      - action: utter_cen_courses_link
+
+  - story: cen faculty path
+    steps:
+      - intent: cen_faculty
+      - action: utter_cen_faculty
+      - action: utter_cen_faculty_link
+
+  - story: chm courses path
+    steps:
+      - intent: chm
+      - action: utter_chm_courses
+      - action: utter_chm_courses_info1
+      - action: utter_chm_courses_info2
+      - action: utter_chm_courses_info3
+      - action: utter_chm_courses_info4
+      - action: utter_for_more_details
+      - action: utter_chm_courses_link
+
+  - story: chm faculty path
+    steps:
+      - intent: chm_faculty
+      - action: utter_chm_faculty
+      - action: utter_chm_faculty_link
+
+  - story: cit courses path
+    steps:
+      - intent: cit
+      - action: utter_cit_courses
+      - action: utter_cit_courses_info1
+      - action: utter_cit_courses_info2
+      - action: utter_cit_courses_info3
+      - action: utter_cit_courses_info4
+      - action: utter_cit_courses_info5
+      - action: utter_cit_courses_info6
+      - action: utter_cit_courses_info7
+      - action: utter_cit_courses_info8
+      - action: utter_cit_courses_info9
+      - action: utter_cit_courses_info10
+      - action: utter_cit_courses_info11
+      - action: utter_cit_courses_info12
+      - action: utter_for_more_details
+      - action: utter_cit_courses_link
+
+  - story: cit faculty path
+    steps:
+      - intent: cit_faculty
+      - action: utter_cit_faculty
+      - action: utter_cit_faculty_link
+
+  - story: cpac courses path
+    steps:
+      - intent: cpac
+      - action: utter_cpac_courses
+      - action: utter_cpac_courses_info
+      - action: utter_cpac_courses_info1
+      - action: utter_for_more_details
+      - action: utter_cpac_courses_link
+
+  - story: cpac faculty path
+    steps:
+      - intent: cpac_faculty
+      - action: utter_cpac_faculty
+      - action: utter_cpac_faculty_link
+
+  - story: grad_school path
+    steps:
+      - intent: grad_school
+      - action: utter_grad_school_courses_info
+      - action: utter_grad_school_courses_info_link
+
+  - story: ecat path
+    steps:
+      - intent: ecat
+      - action: utter_ecat_info
+      - action: utter_ecat_info_link
+      - action: utter_ecat_info1
+      - action: utter_ecat_info2
+      - action: utter_ecat_info3
+      - action: utter_ecat_info4
+      - action: utter_ecat_info5
+      - action: utter_ecat_info6
+
+  - story: online payment path
+    steps:
+      - intent: online_payment
+      - action: utter_online_payment
+      - action: utter_online_payment_link
+      - action: utter_online_payment_1
+      - action: utter_online_payment_2
+      - action: utter_online_payment_3
+
+  - story: sarms_credo path
+    steps:
+      - intent: sarms_credo
+      - action: utter_sarms_credo
+
+  - story: online_email_payment_form path
+    steps:
+      - intent: email_form
+      - action: utter_online_payment_email_form
+
+  - story: online_email_payment_fee path
+    steps:
+      - intent: email_fee
+      - action: utter_online_payment_email_fee
+
+  - story: inc_docu path
+    steps:
+      - intent: inc_docu
+      - action: utter_inc_docu
+
+  - story: ecat_release_examination_date path
+    steps:
+      - intent: ecat_release_examination_date
+      - action: utter_ecat_release_examination_date
+
+  - story: challenge_ecat_abbreviation path
+    steps:
+      - intent: challenge_ecat_abbreviation
+      - action: utter_challenge_ecat_abbreviation
+
+  - story: ecat_exam_d path
+    steps:
+      - intent: ecat_exam_d
+      - action: utter_ecat_exam_d
+      - action: utter_ecat_exam_d1
+      - action: utter_ecat_exam_d2
+
+  - story: ecat_results path
+    steps:
+      - intent: ecat_results
+      - action: utter_ecat_results
+
+  - story: library_rules_regulations1 path
+    steps:
+      - intent: library_rules_regulations1
+      - action: utter_library_rules_regulations1
+
+  - story: library_rules_regulations2 path
+    steps:
+      - intent: library_rules_regulations2
+      - action: utter_library_rules_regulations2
+
+  - story: library_rules_regulations3 path
+    steps:
+      - intent: library_rules_regulations3
+      - action: utter_library_rules_regulations3
+
+  - story: library_rules_regulations4 path
+    steps:
+      - intent: library_rules_regulations4
+      - action: utter_library_rules_regulations4
+
+  - story: library_rules_regulations5 path
+    steps:
+      - intent: library_rules_regulations5
+      - action: utter_library_rules_regulations5
+
+  - story: library_rules_regulations6 path
+    steps:
+      - intent: library_rules_regulations6
+      - action: utter_library_rules_regulations6
+
+  - story: library_rules_regulations7 path
+    steps:
+      - intent: library_rules_regulations7
+      - action: utter_library_rules_regulations7
+
+  - story: library_rules_regulations8 path
+    steps:
+      - intent: library_rules_regulations8
+      - action: utter_library_rules_regulations8
+
+  - story: library_rules_regulations9 path
+    steps:
+      - intent: library_rules_regulations9
+      - action: utter_library_rules_regulations9
+
+  - story: library_rules_regulations10 path
+    steps:
+      - intent: library_rules_regulations10
+      - action: utter_library_rules_regulations10
+
+  - story: library_rules_regulations11 path
+    steps:
+      - intent: library_rules_regulations11
+      - action: utter_library_rules_regulations11
+
+  - story: library_rules_regulations12 path
+    steps:
+      - intent: library_rules_regulations12
+      - action: utter_library_rules_regulations12
+
+  - story: library_rules_regulations13 path
+    steps:
+      - intent: library_rules_regulations13
+      - action: utter_library_rules_regulations13
+
+  - story: library_rules_regulations14 path
+    steps:
+      - intent: library_rules_regulations14
+      - action: utter_library_rules_regulations14
+
+  - story: library_rules_regulations15 path
+    steps:
+      - intent: library_rules_regulations15
+      - action: utter_library_rules_regulations15
+
+  - story: financial_rep path
+    steps:
+      - intent: financial_rep
+      - action: utter_financial_rep
+      - action: utter_financial_rep_link
+
+  - story: article1_admission_polc path
+    steps:
+      - intent: article1_admission_polc
+      - action: utter_article1_admission_polc
+
+  - story: sect1_academic_load_1.1 path
+    steps:
+      - intent: sect1_academic_load_1.1
+      - action: utter_sect1_academic_load_1.1
+
+  - story: sect1_academic_load_1.2 path
+    steps:
+      - intent: sect1_academic_load_1.2
+      - action: utter_sect1_academic_load_1.2
+
+  - story: sect1_academic_load_1.3 path
+    steps:
+      - intent: sect1_academic_load_1.3
+      - action: utter_sect1_academic_load_1.3
+
+  - story: sect1_academic_load_1.4 path
+    steps:
+      - intent: sect1_academic_load_1.4
+      - action: utter_sect1_academic_load_1.4
+
+  - story: sect1_academic_load_1.5 path
+    steps:
+      - intent: sect1_academic_load_1.5
+      - action: utter_sect1_academic_load_1.5
+
+  - story: sect1_academic_load_1.6 path
+    steps:
+      - intent: sect1_academic_load_1.6
+      - action: utter_sect1_academic_load_1.6
+
+  - story: sect1_academic_load_1.7 path
+    steps:
+      - intent: sect1_academic_load_1.7
+      - action: utter_sect1_academic_load_1.7
+
+  - story: sect2_registration2.1 path
+    steps:
+      - intent: sect2_registration2.1
+      - action: utter_sect2_registration2.1
+      - action: utter_sect2_registration2.1_info1
+      - action: utter_sect2_registration2.1_info2
+      - action: utter_sect2_registration2.1_info3
+      - action: utter_sect2_registration2.1_info4
+
+  - story: sect2_registration2.2 path
+    steps:
+      - intent: sect2_registration2.2
+      - action: utter_sect2_registration2.2
+
+  - story: sect2_registration2.3 path
+    steps:
+      - intent: sect2_registration2.3
+      - action: utter_sect2_registration2.3
+
+  - story: sect2_registration2.5 path
+    steps:
+      - intent: sect2_registration2.5
+      - action: utter_sect2_registration2.5
+
+  - story: sect2_shifters2.6.1 path
+    steps:
+      - intent: sect2_shifters2.6.1
+      - action: utter_sect2_shifters2.6.1
+      - action: utter_sect2_shifters2.6.1_info1
+      - action: utter_sect2_shifters2.6.1_info2
+
+  - story: sect2_shifters2.6.2 path
+    steps:
+      - intent: sect2_shifters2.6.2
+      - action: utter_sect2_shifters2.6.2
+      - action: utter_sect2_shifters2.6.2_info1
+      - action: utter_sect2_shifters2.6.2_info2
+      - action: utter_sect2_shifters2.6.2_info3
+      - action: utter_sect2_shifters2.6.2_info4
+      - action: utter_sect2_shifters2.6.2_info5
+
+  - story: sect2_shifters2.7 path
+    steps:
+      - intent: sect2_shifters2.7
+      - action: utter_sect2_shifters2.7
+
+  - story: sect3_csd3.1 path
+    steps:
+      - intent: sect3_csd3.1
+      - action: utter_sect3_csd3.1
+
+  - story: sect3_csd3.2 path
+    steps:
+      - intent: sect3_csd3.2
+      - action: utter_sect3_csd3.2
+
+  - story: sect3_csd3.3 path
+    steps:
+      - intent: sect3_csd3.3
+      - action: utter_sect3_csd3.3
+      - action: utter_sect3_csd3.3_info1
+      - action: utter_sect3_csd3.3_info2
+      - action: utter_sect3_csd3.3_info3
+
+  - story: sect3_csd3.4 path
+    steps:
+      - intent: sect3_csd3.4
+      - action: utter_sect3_csd3.4
+      - action: utter_sect3_csd3.4_info1
+      - action: utter_sect3_csd3.4_info2
+      - action: utter_sect3_csd3.4_info3
+      - action: utter_sect3_csd3.4_info4
+
+  - story: sect3_csd3.5 path
+    steps:
+      - intent: sect3_csd3.5
+      - action: utter_sect3_csd3.5
+
+  - story: sect4_classification_4.2.1 path
+    steps:
+      - intent: sect4_classification_4.2.1
+      - action: utter_sect4_classification_4.2.1
+
+  - story: sect4_classification_4.2.2 path
+    steps:
+      - intent: sect4_classification_4.2.2
+      - action: utter_sect4_classification_4.2.2
+
+  - story: sect4_classification_4.2.3 path
+    steps:
+      - intent: sect4_classification_4.2.3
+      - action: utter_sect4_classification_4.2.3
+
+  - story: sect4_classification_4.3.1 path
+    steps:
+      - intent: sect4_classification_4.3.1
+      - action: utter_sect4_classification_4.3.1
+
+  - story: sect4_classification_4.3.2 path
+    steps:
+      - intent: sect4_classification_4.3.2
+      - action: utter_sect4_classification_4.3.2
+
+  - story: sect4_classification_4.3.3 path
+    steps:
+      - intent: sect4_classification_4.3.3
+      - action: utter_sect4_classification_4.3.3
+
+  - story: sect4_classification_4.3.4 path
+    steps:
+      - intent: sect4_classification_4.3.4
+      - action: utter_sect4_classification_4.3.4
+
+  - story: sect4_classification_4.3.5 path
+    steps:
+      - intent: sect4_classification_4.3.5
+      - action: utter_sect4_classification_4.3.5
+
+  - story: sect5_attendance5.1 path
+    steps:
+      - intent: sect5_attendance5.1
+      - action: utter_sect5_attendance5.1
+
+  - story: sect5_attendance5.2 path
+    steps:
+      - intent: sect5_attendance5.2
+      - action: utter_sect5_attendance5.2
+      - action: utter_sect5_attendance5.2_info1
+      - action: utter_sect5_attendance5.2_info2
+      - action: utter_sect5_attendance5.2_info3
+      - action: utter_sect5_attendance5.2_info4
+      - action: utter_sect5_attendance5.2_info5
+
+  - story: sect5_attendance5.5 path
+    steps:
+      - intent: sect5_attendance5.5
+      - action: utter_sect5_attendance5.5
+
+  - story: sect5_attendance5.6 path
+    steps:
+      - intent: sect5_attendance5.6
+      - action: utter_sect5_attendance5.6
+
+  - story: sect5_attendance5.7 path
+    steps:
+      - intent: sect5_attendance5.7
+      - action: utter_sect5_attendance5.7
+
+  - story: sect5_attendance5.8 path
+    steps:
+      - intent: sect5_attendance5.8
+      - action: utter_sect5_attendance5.8
+
+  - story: sect5_attendance5.9 path
+    steps:
+      - intent: sect5_attendance5.9
+      - action: utter_sect5_attendance5.9
+
+  - story: sect5_attendance5.10 path
+    steps:
+      - intent: sect5_attendance5.10
+      - action: utter_sect5_attendance5.10
+
+  - story: sect6_grading_sys6.1_grade1 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade1
+      - action: utter_sect6_grading_sys6.1_grade1
+      - action: utter_sect6_grading_sys6.1_grade2
+      - action: utter_sect6_grading_sys6.1_grade3
+      - action: utter_sect6_grading_sys6.1_grade4
+
+  - story: sect6_grading_sys6.1_grade2 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade2
+      - action: utter_sect6_grading_sys6.1_grade2
+
+  - story: sect6_grading_sys6.1_grade3 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade3
+      - action: utter_sect6_grading_sys6.1_grade3
+
+  - story: sect6_grading_sys6.1_grade4 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade4
+      - action: utter_sect6_grading_sys6.1_grade4
+
+  - story: sect6_grading_sys6.1_grade5 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade5
+      - action: utter_sect6_grading_sys6.1_grade5
+      - action: utter_sect6_grading_sys6.1_grade6
+      - action: utter_sect6_grading_sys6.1_grade7
+      - action: utter_sect6_grading_sys6.1_grade8
+
+  - story: sect6_grading_sys6.1_grade6 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade6
+      - action: utter_sect6_grading_sys6.1_grade6
+
+  - story: sect6_grading_sys6.1_grade7 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade7
+      - action: utter_sect6_grading_sys6.1_grade7
+
+  - story: sect6_grading_sys6.1_grade8 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade8
+      - action: utter_sect6_grading_sys6.1_grade8
+
+  - story: sect6_grading_sys6.1_grade9 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade9
+      - action: utter_sect6_grading_sys6.1_grade9
+
+  - story: sect6_grading_sys6.1_grade10 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade10
+      - action: utter_sect6_grading_sys6.1_grade10
+
+  - story: sect6_grading_sys6.1_grade11 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade11
+      - action: utter_sect6_grading_sys6.1_grade11
+
+  - story: sect6_grading_sys6.1_grade12 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade12
+      - action: utter_sect6_grading_sys6.1_grade12
+
+  - story: sect6_grading_sys6.1_grade13 path
+    steps:
+      - intent: sect6_grading_sys6.1_grade13
+      - action: utter_sect6_grading_sys6.1_grade13
+
+  - story: sect6_grading_sys6.3 path
+    steps:
+      - intent: sect6_grading_sys6.3
+      - action: utter_sect6_grading_sys6.3
+
+  - story: sect6_grading_sys6.4 path
+    steps:
+      - intent: sect6_grading_sys6.4
+      - action: utter_sect6_grading_sys6.4
+
+  - story: sect6_grading_sys6.5 path
+    steps:
+      - intent: sect6_grading_sys6.5
+      - action: utter_sect6_grading_sys6.5
+
+  - story: sect7_removal_inc path
+    steps:
+      - intent: sect7_removal_inc
+      - action: utter_sect7_removal_inc
+      - action: utter_sect7_removal_inc_info1
+      - action: utter_sect7_removal_inc_info2
+
+  - story: sect7_removal_inc7.2 path
+    steps:
+      - intent: sect7_removal_inc7.2
+      - action: utter_sect7_removal_inc7.2
+
+  - story: sect7_removal_inc7.3 path
+    steps:
+      - intent: sect7_removal_inc7.3
+      - action: utter_sect7_removal_inc7.3
+
+  - story: sect8_retention_polc8.1 path
+    steps:
+      - intent: sect8_retention_polc8.1
+      - action: utter_sect8_retention_polc8.1
+
+  - story: sect8_retention_polc8.2 path
+    steps:
+      - intent: sect8_retention_polc8.2
+      - action: utter_sect8_retention_polc8.2
+
+  - story: sect8_retention_polc8.3 path
+    steps:
+      - intent: sect8_retention_polc8.3
+      - action: utter_sect8_retention_polc8.3
+
+  - story: sect8_retention_polc8.4 path
+    steps:
+      - intent: sect8_retention_polc8.4
+      - action: utter_sect8_retention_polc8.4
+
+  - story: sect8_retention_polc8.5 path
+    steps:
+      - intent: sect8_retention_polc8.5
+      - action: utter_sect8_retention_polc8.5
+
+  - story: sect8_retention_polc8.6 path
+    steps:
+      - intent: sect8_retention_polc8.6
+      - action: utter_sect8_retention_polc8.6
+
+  - story: sect8_retention_polc8.7 path
+    steps:
+      - intent: sect8_retention_polc8.7
+      - action: utter_sect8_retention_polc8.7
+
+  - story: sect8_retention_polc8.8 path
+    steps:
+      - intent: sect8_retention_polc8.8
+      - action: utter_sect8_retention_polc8.8
+
+  - story: sect8_retention_polc8.9 path
+    steps:
+      - intent: sect8_retention_polc8.9
+      - action: utter_sect8_retention_polc8.9
+
+  - story: sect8_retention_polc8.10 path
+    steps:
+      - intent: sect8_retention_polc8.10
+      - action: utter_sect8_retention_polc8.10
+
+  - story: sect8_retention_polc8.11 path
+    steps:
+      - intent: sect8_retention_polc8.11
+      - action: utter_sect8_retention_polc8.11
+
+  - story: sect9_tenure9.1 path
+    steps:
+      - intent: sect9_tenure9.1
+      - action: utter_sect9_tenure9.1
+
+  - story: sect9_tenure9.1.2 path
+    steps:
+      - intent: sect9_tenure9.1.2
+      - action: utter_sect9_tenure9.1.2
+
+  - story: sect9_tenure9.2 path
+    steps:
+      - intent: sect9_tenure9.2
+      - action: utter_sect9_tenure9.2
+
+  - story: sect9_tenure9.2_all path
+    steps:
+      - intent: sect9_tenure9.2_all
+      - action: utter_sect9_tenure9.2_all
+      - action: utter_sect9_tenure9.2_all1
+      - action: utter_sect9_tenure9.2_all2
+      - action: utter_sect9_tenure9.2_all3
+
+  - story: sect9_tenure9.3.1 path
+    steps:
+      - intent: sect9_tenure9.3.1
+      - action: utter_sect9_tenure9.3.1
+
+  - story: sect9_tenure9.3.2 path
+    steps:
+      - intent: sect9_tenure9.3.2
+      - action: utter_sect9_tenure9.3.2
+
+  - story: sect9_tenure9.3.3 path
+    steps:
+      - intent: sect9_tenure9.3.3
+      - action: utter_sect9_tenure9.3.3
+
+  - story: sect9_tenure9.3.4 path
+    steps:
+      - intent: sect9_tenure9.3.4
+      - action: utter_sect9_tenure9.3.4
+
+  - story: sect10_grad_req_10.1 path
+    steps:
+      - intent: sect10_grad_req_10.1
+      - action: utter_sect10_grad_req_10.1
+
+  - story: sect10_grad_req_10.2 path
+    steps:
+      - intent: sect10_grad_req_10.2
+      - action: utter_sect10_grad_req_10.2
+
+  - story: sect10_grad_req_10.3 path
+    steps:
+      - intent: sect10_grad_req_10.3
+      - action: utter_sect10_grad_req_10.3
+
+  - story: sect10_grad_req_10.4 path
+    steps:
+      - intent: sect10_grad_req_10.4
+      - action: utter_sect10_grad_req_10.4
+
+  - story: sect10_grad_req_10.5 path
+    steps:
+      - intent: sect10_grad_req_10.5
+      - action: utter_sect10_grad_req_10.5
+
+  - story: sect11_grad_honors11.1 path
+    steps:
+      - intent: sect11_grad_honors11.1
+      - action: utter_sect11_grad_honors11.1
+      - action: utter_sect11_grad_honors11.1_info1
+      - action: utter_sect11_grad_honors11.1_info2
+      - action: utter_sect11_grad_honors11.1_info3
+
+  - story: sect11_grad_honors11.2 path
+    steps:
+      - intent: sect11_grad_honors11.2
+      - action: utter_sect11_grad_honors11.2
+      - action: utter_sect11_grad_honors11.2_info1
+      - action: utter_sect11_grad_honors11.2_info2
+      - action: utter_sect11_grad_honors11.2_info3
+      - action: utter_sect11_grad_honors11.2_info4
+
+  - story: sect11_grad_honors_must path
+    steps:
+      - intent: sect11_grad_honors_must
+      - action: utter_sect11_grad_honors_must_info_start
+      - action: utter_sect11_grad_honors_must_infoa
+      - action: utter_sect11_grad_honors_must_infob
+      - action: utter_sect11_grad_honors_must_infoc
+      - action: utter_sect11_grad_honors_must_infod
+      - action: utter_sect11_grad_honors_must_infoe
+      - action: utter_sect11_grad_honors_must_infof
+
+  - story: article_iv_scholarship_financial2.1.1 path
+    steps:
+      - intent: article_iv_scholarship_financial2.1.1
+      - action: utter_article_iv_scholarship_financial2.1.1
+      - action: utter_article_iv_scholarship_financial2.1.1_tertiary_law
+
+  - story: article_iv_scholarship_financial2.1.2 path
+    steps:
+      - intent: article_iv_scholarship_financial2.1.2
+      - action: utter_article_iv_scholarship_financial2.1.2
+      - action: utter_article_iv_scholarship_financial2.1.1_tertiary_law
+
+  - story: article_iv_scholarship_financial3.1.1 path
+    steps:
+      - intent: article_iv_scholarship_financial3.1.1
+      - action: utter_article_iv_scholarship_financial3.1.1
+
+  - story: article_iv_scholarship_financial3.1.2 path
+    steps:
+      - intent: article_iv_scholarship_financial3.1.2
+      - action: utter_article_iv_scholarship_financial3.1.2
+      - action: utter_article_iv_scholarship_financial2.1.1_tertiary_law
+
+  - story: article_iv_scholarship_financial4.1 path
+    steps:
+      - intent: article_iv_scholarship_financial4.1
+      - action: utter_article_iv_scholarship_financial4.1
+      - action: utter_article_iv_scholarship_financial4.1_ask_to_c
+
+  - story: article_iv_scholarship_financial_lists_sc path
+    steps:
+      - intent: article_iv_scholarship_financial_lists_sc
+      - action: utter_article_iv_scholarship_financial4.1_info
+      - action: utter_article_iv_scholarship_financial4.1_info1
+
+  - story: article_v_sect1_rights_s path
+    steps:
+      - intent: article_v_sect1_rights_s
+      - action: utter_article_v_sect1_rights_s
+      - action: utter_article_v_sect1_rights_s_info1
+      - action: utter_article_v_sect1_rights_s_info2
+      - action: utter_article_v_sect1_rights_s_info3
+      - action: utter_article_v_sect1_rights_s_info4
+      - action: utter_article_v_sect1_rights_s_info5
+      - action: utter_article_v_sect1_rights_s_info_cont
+
+  - story: article_v_sect1_rights_s_cont path
+    steps:
+      - intent: article_v_sect1_rights_s_cont
+      - action: utter_article_v_sect1_rights_s_info6
+      - action: utter_article_v_sect1_rights_s_info7
+      - action: utter_article_v_sect1_rights_s_info8
+      - action: utter_article_v_sect1_rights_s_info9
+
+  - story: article_iv_sect5_sa path
+    steps:
+      - intent: article_iv_sect5_sa
+      - action: utter_article_iv_sect5_sa
+
+  - story: article_iv_sect5_sa_apply path
+    steps:
+      - intent: article_iv_sect5_sa_apply
+      - action: utter_article_iv_sect5_sa_apply
+
+  - story: article_v_sect1_respo_stu path
+    steps:
+      - intent: article_v_sect1_respo_stu
+      - action: utter_article_v_sect1_respo_stu
+
+  - story: article_v_sect1_respo_stu_cont path
+    steps:
+      - intent: article_v_sect1_respo_stu_cont
+      - action: utter_article_v_sect1_respo_stu_cont_info1
+      - action: utter_article_v_sect1_respo_stu_cont_info2
+      - action: utter_article_v_sect1_respo_stu_cont_info3
+      - action: utter_article_v_sect1_respo_stu_cont_info4
+      - action: utter_article_v_sect1_respo_stu_cont_info5
+      - action: utter_article_v_sect1_respo_stu_cont_info6
+
+  - story: article_vi_sect1_e_code path
+    steps:
+      - intent: article_vi_sect1_e_code
+      - action: utter_article_vi_sect1_e_code
+      - action: utter_article_vi_sect1_e_code_translated
+
+  - story: article_vi_sect2_conduct2.1 path
+    steps:
+      - intent: article_vi_sect2_conduct2.1
+      - action: utter_article_vi_sect2_conduct2.1
+      - action: utter_uniform_1
+      - action: utter_uniform_2
+
+  - story: article_vi_sect2_conduct2.2 path
+    steps:
+      - intent: article_vi_sect2_conduct2.2
+      - action: utter_article_vi_sect2_conduct2.2
+
+  - story: article_vi_sect2_conduct2.3 path
+    steps:
+      - intent: article_vi_sect2_conduct2.3
+      - action: utter_article_vi_sect2_conduct2.3
+
+  - story: article_vi_sect2_conduct2.4 path
+    steps:
+      - intent: article_vi_sect2_conduct2.4
+      - action: utter_article_vi_sect2_conduct2.4
+
+  - story: article_vi_sect2_conduct2.5 path
+    steps:
+      - intent: article_vi_sect2_conduct2.5
+      - action: utter_article_vi_sect2_conduct2.5
+
+  - story: article_vi_sect2_conduct2.6 path
+    steps:
+      - intent: article_vi_sect2_conduct2.6
+      - action: utter_article_vi_sect2_conduct2.6
+
+  - story: article_vi_sect2_conduct2.7 path
+    steps:
+      - intent: article_vi_sect2_conduct2.7
+      - action: utter_article_vi_sect2_conduct2.7
+
+  - story: article_vi_sect2_conduct2.8 path
+    steps:
+      - intent: article_vi_sect2_conduct2.8
+      - action: utter_article_vi_sect2_conduct2.8
+      - action: utter_article_vi_sect2_conduct2.8_info1
+      - action: utter_article_vi_sect2_conduct2.8_info2
+
+  - story: article_vi_sect3_stud_disc3.1.1 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.1
+      - action: utter_article_vi_sect3_stud_disc3.1.1
+
+  - story: article_vi_sect3_stud_disc3.1.2 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.2
+      - action: utter_article_vi_sect3_stud_disc3.1.2
+
+  - story: article_vi_sect3_stud_disc3.1.3 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.3
+      - action: utter_article_vi_sect3_stud_disc3.1.3
+
+  - story: article_vi_sect3_stud_disc3.1.4 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.4
+      - action: utter_article_vi_sect3_stud_disc3.1.4
+
+  - story: article_vi_sect3_stud_disc3.1.5 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.5
+      - action: utter_article_vi_sect3_stud_disc3.1.5
+
+  - story: article_vi_sect3_stud_disc3.1.6 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.6
+      - action: utter_article_vi_sect3_stud_disc3.1.6
+
+  - story: article_vi_sect3_stud_disc3.1.7 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.7
+      - action: utter_article_vi_sect3_stud_disc3.1.7
+
+  - story: article_vi_sect3_stud_disc3.1.8 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.8
+      - action: utter_article_vi_sect3_stud_disc3.1.8
+
+  - story: article_vi_sect3_stud_disc3.1.9 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.9
+      - action: utter_article_vi_sect3_stud_disc3.1.9
+
+  - story: article_vi_sect3_stud_disc3.1.10 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.10
+      - action: utter_article_vi_sect3_stud_disc3.1.10
+
+  - story: article_vi_sect3_stud_disc3.1.11 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.11
+      - action: utter_article_vi_sect3_stud_disc3.1.11
+
+  - story: article_vi_sect3_stud_disc3.1.12 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.12
+      - action: utter_article_vi_sect3_stud_disc3.1.12
+
+  - story: article_vi_sect3_stud_disc3.1.13 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.13
+      - action: utter_article_vi_sect3_stud_disc3.1.13
+
+  - story: article_vi_sect3_stud_disc3.1.14 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.14
+      - action: utter_article_vi_sect3_stud_disc3.1.14
+
+  - story: article_vi_sect3_stud_disc3.1.15 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.15
+      - action: utter_article_vi_sect3_stud_disc3.1.15
+    
+  - story: article_vi_sect3_stud_disc3.1.16 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.16
+      - action: utter_article_vi_sect3_stud_disc3.1.16
+
+  - story: article_vi_sect3_stud_disc3.1.17 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.17
+      - action: utter_article_vi_sect3_stud_disc3.1.17
+
+  - story: article_vi_sect3_stud_disc3.1.18 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.18
+      - action: utter_article_vi_sect3_stud_disc3.1.18
+
+  - story: article_vi_sect3_stud_disc3.1.19 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.19
+      - action: utter_article_vi_sect3_stud_disc3.1.19
+
+  - story: article_vi_sect3_stud_disc3.1.20 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.20
+      - action: utter_article_vi_sect3_stud_disc3.1.20
+
+  - story: article_vi_sect3_stud_disc3.1.21 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.21
+      - action: utter_article_vi_sect3_stud_disc3.1.21
+
+  - story: article_vi_sect3_stud_disc3.1.22 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.22
+      - action: utter_article_vi_sect3_stud_disc3.1.22
+
+  - story: article_vi_sect3_stud_disc3.1.23 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.23
+      - action: utter_article_vi_sect3_stud_disc3.1.23
+
+  - story: article_vi_sect3_stud_disc3.1.24 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.24
+      - action: utter_article_vi_sect3_stud_disc3.1.24
+
+  - story: article_vi_sect3_stud_disc3.1.25 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.25
+      - action: utter_article_vi_sect3_stud_disc3.1.25
+
+  - story: article_vi_sect3_stud_disc3.1.26 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.26
+      - action: utter_article_vi_sect3_stud_disc3.1.26
+
+  - story: article_vi_sect3_stud_disc3.1.27 path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.27
+      - action: utter_article_vi_sect3_stud_disc3.1.27
+
+  - story: article_vi_sect3_stud_disc3.1.d path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.d
+      - action: utter_article_vi_sect3_stud_disc3.1.d
+
+  - story: article_vi_sect3_stud_disc3.1.e path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.e
+      - action: utter_article_vi_sect3_stud_disc3.1.e
+
+  - story: article_vi_sect3_stud_disc3.1.f path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.f
+      - action: utter_article_vi_sect3_stud_disc3.1.f
+
+  - story: article_vi_sect3_stud_disc3.1.f_l path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.f_l
+      - action: utter_article_vi_sect3_stud_disc3.1.f_l
+
+  - story: article_vi_sect3_stud_disc3.1.f_lz path
+    steps:
+      - intent: article_vi_sect3_stud_disc3.1.f_lz
+      - action: utter_article_vi_sect3_stud_disc3.1.f_lz
+
+  - story: article_vi_sect3_minor_off3.2.1 path
+    steps:
+      - intent: article_vi_sect3_minor_off3.2.1
+      - action: utter_article_vi_sect3_minor_off3.2.1
+
+  - story: article_vi_sect3_minor_off3.2.2 path
+    steps:
+      - intent: article_vi_sect3_minor_off3.2.2
+      - action: utter_article_vi_sect3_minor_off3.2.2
+
+  - story: article_vi_sect3_minor_off3.2.3 path
+    steps:
+      - intent: article_vi_sect3_minor_off3.2.3
+      - action: utter_article_vi_sect3_minor_off3.2.3
+
+  - story: article_vi_sect3_minor_off3.2.4 path
+    steps:
+      - intent: article_vi_sect3_minor_off3.2.4
+      - action: utter_article_vi_sect3_minor_off3.2.4
+
+  - story: article_vii_disc_sec1 path
+    steps:
+      - intent: article_vii_disc_sec1
+      - action: utter_article_vii_disc_sec1
+
+  - story: article_vii_disc_sec2 path
+    steps:
+      - intent: article_vii_disc_sec2
+      - action: utter_article_vii_disc_sec2
+
+  - story: article_vii_disc_sec3 path
+    steps:
+      - intent: article_vii_disc_sec3
+      - action: utter_article_vii_disc_sec3
+      - action: utter_article_vii_disc_sec3_cont
+
+  - story: article_vii_disc_sec3_cont path
+    steps:
+      - intent: article_vii_disc_sec3_cont
+      - action: utter_article_vii_disc_sec3_info
+
+  - story: article_vii_disc_sec4 path
+    steps:
+      - intent: article_vii_disc_sec4
+      - action: utter_article_vii_disc_sec4
+
+  - story: article_vii_disc_sec5 path
+    steps:
+      - intent: article_vii_disc_sec5
+      - action: utter_article_vii_disc_sec5
+
+  - story: article_vii_disc_sec6 path
+    steps:
+      - intent: article_vii_disc_sec6
+      - action: utter_article_vii_disc_sec6
+  
+  - story: article_vii_disc_sec7 path
+    steps:
+      - intent: article_vii_disc_sec7
+      - action: utter_article_vii_disc_sec7
+
+  - story: article_vii_disc_sec9 path
+    steps:
+      - intent: article_vii_disc_sec9
+      - action: utter_article_vii_disc_sec9
+
+  - story: article_vii_disc_sec10 path
+    steps:
+      - intent: article_vii_disc_sec10
+      - action: utter_article_vii_disc_sec10
+
+  - story: article_viii_sec1_b path
+    steps:
+      - intent: article_viii_sec1_b
+      - action: utter_article_viii_sec1_b
+
+  - story: article_viii_sec1_c path
+    steps:
+      - intent: article_viii_sec1_c
+      - action: utter_article_viii_sec1_c
+
+  - story: article_viii_sec1_d path
+    steps:
+      - intent: article_viii_sec1_d
+      - action: utter_article_viii_sec1_d
+
+  - story: article_viii_sec1_e path
+    steps:
+      - intent: article_viii_sec1_e
+      - action: utter_article_viii_sec1_e
+
+  - story: article_viii_sec1.3 path
+    steps:
+      - intent: article_viii_sec1.3
+      - action: utter_article_viii_sec1.3
+
+  - story: article_viii_sec1.4 path
+    steps:
+      - intent: article_viii_sec1.4
+      - action: utter_article_viii_sec1.4
+
+  - story: article_ix_stud_serv_sect1 path
+    steps:
+      - intent: article_ix_stud_serv_sect1
+      - action: utter_article_ix_stud_serv_sect1
+
+  - story: article_ix_stud_serv_sect2 path
+    steps:
+      - intent: article_ix_stud_serv_sect2
+      - action: utter_article_ix_stud_serv_sect2
+
+  - story: article_ix_stud_serv_sect3 path
+    steps:
+      - intent: article_ix_stud_serv_sect3
+      - action: utter_article_ix_stud_serv_sect3
+
+  - story: article_ix_stud_serv_sect4 path
+    steps:
+      - intent: article_ix_stud_serv_sect4
+      - action: utter_article_ix_stud_serv_sect4
+
+  - story: article_ix_stud_serv_sect5 path
+    steps:
+      - intent: article_ix_stud_serv_sect5
+      - action: utter_article_ix_stud_serv_sect5
+
+  - story: article_ix_stud_serv_sect6 path
+    steps:
+      - intent: article_ix_stud_serv_sect6
+      - action: utter_article_ix_stud_serv_sect6
+
+  - story: article_ix_stud_serv_sect7 path
+    steps:
+      - intent: article_ix_stud_serv_sect7
+      - action: utter_article_ix_stud_serv_sect7
+
+  - story: article_ix_stud_serv_sect8 path
+    steps:
+      - intent: article_ix_stud_serv_sect8
+      - action: utter_article_ix_stud_serv_sect8
+
+  - story: article_ix_stud_serv_sect9 path
+    steps:
+      - intent: article_ix_stud_serv_sect9
+      - action: utter_article_ix_stud_serv_sect9
+
+  - story: article_ix_stud_serv_sect10 path
+    steps:
+      - intent: article_ix_stud_serv_sect10
+      - action: utter_article_ix_stud_serv_sect10
+
+  - story: article_ix_stud_serv_sect11 path
+    steps:
+      - intent: article_ix_stud_serv_sect11
+      - action: utter_article_ix_stud_serv_sect11
+
+  - story: article_x_stud_stud_org_sec1 path
+    steps:
+      - intent: article_x_stud_stud_org_sec1
+      - action: utter_article_x_stud_stud_org_sec1
+
+  - story: article_x_stud_stud_org_sec2 path
+    steps:
+      - intent: article_x_stud_stud_org_sec2
+      - action: utter_article_x_stud_stud_org_sec2
+
+  - story: article_x_stud_stud_org_sec3 path
+    steps:
+      - intent: article_x_stud_stud_org_sec3
+      - action: utter_article_x_stud_stud_org_sec3
+
+  - story: article_x_stud_stud_org_sec4 path
+    steps:
+      - intent: article_x_stud_stud_org_sec4
+      - action: utter_article_x_stud_stud_org_sec4
+
+  - story: article_x_stud_stud_org_sec5 path
+    steps:
+      - intent: article_x_stud_stud_org_sec5
+      - action: utter_article_x_stud_stud_org_sec5
+
+  - story: article_x_stud_stud_org_sec6 path
+    steps:
+      - intent: article_x_stud_stud_org_sec6
+      - action: utter_article_x_stud_stud_org_sec6
+
+  - story: article_x_stud_stud_org_sec7 path
+    steps:
+      - intent: article_x_stud_stud_org_sec7
+      - action: utter_article_x_stud_stud_org_sec7
+
+  - story: article_x_stud_stud_org_sec8 path
+    steps:
+      - intent: article_x_stud_stud_org_sec8
+      - action: utter_article_x_stud_stud_org_sec8
+
+  - story: article_x_stud_stud_org_sec9 path
+    steps:
+      - intent: article_x_stud_stud_org_sec9
+      - action: utter_article_x_stud_stud_org_sec9
+
+  - story: article_x_stud_stud_org_sec10 path
+    steps:
+      - intent: article_x_stud_stud_org_sec10
+      - action: utter_article_x_stud_stud_org_sec10
+
+  - story: article_xi_stud_act_sec1.1 path
+    steps:
+      - intent: article_xi_stud_act_sec1.1
+      - action: utter_article_xi_stud_act_sec1.1
+
+  - story: article_xi_stud_act_sec2 path
+    steps:
+      - intent: article_xi_stud_act_sec2
+      - action: utter_article_xi_stud_act_sec2
+
+  - story: article_xi_stud_act_sec3 path
+    steps:
+      - intent: article_xi_stud_act_sec3
+      - action: utter_article_xi_stud_act_sec3
+
+  - story: article_xi_stud_act_sec3_cont path
+    steps:
+      - intent: article_xi_stud_act_sec3_cont
+      - action: utter_article_xi_stud_act_sec3_cont
+
+  - story: article_xii_campus_publication_sec1 path
+    steps:
+      - intent: article_xii_campus_publication_sec1
+      - action: utter_article_xii_campus_publication_sec1
+
+  - story: utter_article_xii_campus_publication_sec1_cont path
+    steps:
+      - intent: article_xii_campus_publication_sec1_cont
+      - action: utter_article_xii_campus_publication_sec1_cont
+
+  - story: article_xii_campus_publication_sec2 path
+    steps:
+      - intent: article_xii_campus_publication_sec2
+      - action: utter_article_xii_campus_publication_sec2
+
+  - story: article_xii_campus_publication_res_sec path
+    steps:
+      - intent: article_xii_campus_publication_res_sec
+      - action: utter_article_xii_campus_publication_res_sec
+
+  - story: article_xii_campus_publication_res_others path
+    steps:
+      - intent: article_xii_campus_publication_res_others
+      - action: utter_article_xii_campus_publication_res_others
+
+  - story: article_xii_campus_publication_rel_act path
+    steps:
+      - intent: article_xii_campus_publication_rel_act
+      - action: utter_article_xii_campus_publication_rel_act
+
+  - story: article_xii_campus_publication_cul_act path
+    steps:
+      - intent: article_xii_campus_publication_cul_act
+      - action: utter_article_xii_campus_publication_cul_act
+
+  - story: article_xii_campus_publication_cul_act_cont path
+    steps:
+      - intent: article_xii_campus_publication_cul_act_cont
+      - action: utter_article_xii_campus_publication_cul_act_cont
+
+  - story: mental_health path
+    steps:
+      - intent: mental_health
+      - action: utter_mental_health
+
+  - story: cute path
+    steps:
+      - intent: cute
+      - action: utter_cute
+
+  - story: challenge_school path
+    steps:
+      - intent: challenge_school
+      - action: utter_challenge_school
+      - action: utter_challenge_school_link
+
+  - story: challenge_course path
+    steps:
+      - intent: challenge_course
+      - action: utter_challenge_course
+
+  - story: respo_deny path
+    steps:
+      - intent: respo_deny
+      - action: utter_respo_deny
+
+  - story: loc_otp path
+    steps:
+      - intent: loc_otp
+      - action: utter_loc_otp
+
+  - story: vp_acad_affairs path
+    steps:
+      - intent: vp_acad_affairs
+      - action: utter_vp_acad_affairs
+
+  - story: vp_ad_finance path
+    steps:
+      - intent: vp_ad_finance
+      - action: utter_vp_ad_finance
+
+  - story: vp_res_ex path
+    steps:
+      - intent: vp_res_ex
+      - action: utter_vp_res_ex
+
+  - story: dean_ced path
+    steps:
+      - intent: dean_ced
+      - action: utter_dean_ced
+
+  - story: dean_cas path
+    steps:
+      - intent: dean_cas
+      - action: utter_dean_cas
+
+  - story: dean_cba path
+    steps:
+      - intent: dean_cba
+      - action: utter_dean_cba
+
+  - story: dean_cen path
+    steps:
+      - intent: dean_cen
+      - action: utter_dean_cen
+
+  - story: dean_cafa path
+    steps:
+      - intent: dean_cafa
+      - action: utter_dean_cafa
+
+  - story: dean_cpa path
+    steps:
+      - intent: dean_cpa
+      - action: utter_dean_cpa
+
+  - story: dean_cit path
+    steps:
+      - intent: dean_cit
+      - action: utter_dean_cit
+
+  - story: dean_chm path
+    steps:
+      - intent: dean_chm
+      - action: utter_dean_chm
+
+  - story: dir_ins_serv path
+    steps:
+      - intent: dir_ins_serv
+      - action: utter_dir_ins_serv
+
+  - story: earist_cavite_campus path
+    steps:
+      - intent: earist_cavite_campus
+      - action: utter_earist_cavite_campus
+
+  - story: dir_res_serv path
+    steps:
+      - intent: dir_res_serv
+      - action: utter_dir_res_serv
+
+  - story: dir_ext_serv path
+    steps:
+      - intent: dir_ext_serv
+      - action: utter_dir_ext_serv
+
+  - story: dir_qual_ass path
+    steps:
+      - intent: dir_qual_ass
+      - action: utter_dir_qual_ass
+
+  - story: dir_stud_add path
+    steps:
+      - intent: dir_stud_add
+      - action: utter_dir_stud_add
+
+  - story: dir_admin_serv path
+    steps:
+      - intent: dir_admin_serv
+      - action: utter_dir_admin_serv
+
+  - story: dir_stud_aff path
+    steps:
+      - intent: dir_stud_aff
+      - action: utter_dir_stud_aff
+
+  - story: dir_nstp path
+    steps:
+      - intent: dir_nstp
+      - action: utter_dir_nstp
+
+  - story: dir_fms path
+    steps:
+      - intent: dir_fms
+      - action: utter_dir_fms
+
+  - story: dir_mng_info_sys path
+    steps:
+      - intent: dir_mng_info_sys
+      - action: utter_dir_mng_info_sys
+
+  - story: dir_mng_info_public path
+    steps:
+      - intent: dir_mng_info_public
+      - action: utter_dir_mng_info_public
+
+  - story: dir_inter_audit path
+    steps:
+      - intent: dir_inter_audit
+      - action: utter_dir_inter_audit
+
+  - story: dir_plan_sys path
+    steps:
+      - intent: dir_plan_sys
+      - action: utter_dir_plan_sys
+
+  - story: dir_lib_serv path
+    steps:
+      - intent: dir_lib_serv
+      - action: utter_dir_lib_serv
+
+  - story: college_bs path
+    steps:
+      - intent: college_bs
+      - action: utter_college_bs
+
+  - story: chief_is_hs path
+    steps:
+      - intent: chief_is_hs
+      - action: utter_chief_is_hs
+
+  - story: chief_hr_ms path
+    steps:
+      - intent: chief_hr_ms
+      - action: utter_chief_hr_ms
+
+  - story: chief_disb path
+    steps:
+      - intent: chief_disb
+      - action: utter_chief_disb
+
+  - story: chief_proc_serv path
+    steps:
+      - intent: chief_proc_serv
+      - action: utter_chief_proc_serv
+
+  - story: chief_bs_ds path
+    steps:
+      - intent: chief_bs_ds
+      - action: utter_chief_bs_ds
+
+  - story: chief_pms path
+    steps:
+      - intent: chief_pms
+      - action: utter_chief_pms
+
+  - story: chief_tms path
+    steps:
+      - intent: chief_tms
+      - action: utter_chief_tms
+
+  - story: chief_ss path
+    steps:
+      - intent: chief_ss
+      - action: utter_chief_ss
+
+  - story: chief_rs path
+    steps:
+      - intent: chief_rs
+      - action: utter_chief_rs
+
+  - story: chief_mds path
+    steps:
+      - intent: chief_mds
+      - action: utter_chief_mds
+
+  - story: challenge_sports path
+    steps:
+      - intent: challenge_sports
+      - action: utter_challenge_sports
+
+  - story: campus_addr path
+    steps:
+      - intent: campus_addr
+      - action: utter_campus_addr
+      - action: utter_campus_addr_link

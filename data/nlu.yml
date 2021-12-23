@@ -1,0 +1,3563 @@
+version: "2.0"
+
+nlu:
+  - intent: challenge_sports
+    examples: |
+      - meron ba chess
+      - meron ba sepak takraw
+      - meron ba arnis
+      - meron ba volleyball
+      - meron ba dance sport
+      - meron ba basketball
+      - meron ba athletics
+      - meron ba swimming
+      - meron ba football
+      - may chess ba
+      - mayroon bang chess
+      - may sepak takraw ba
+      - mayroon bang sepak takraw
+      - may arnis ba
+      - mayroon bang arnis
+      - may volleyball ba
+      - mayroon bang volleyball
+      - may dance sport ba
+      - mayroon bang dance sport
+      - may basketball ba
+      - mayroon bang basketball
+      - may athletics ba
+      - mayroon bang athletics
+      - may track and field ba
+      - may swimming ba
+      - mayroon bang swimming
+      - may football ba
+      - mayroon bang soccer
+      - may sepak takraw ba
+      - may arnis ba
+      - may volleyball ba
+      - may dance sport ba
+      - may basketball ba
+      - may athletics ba
+      - may swimming ba
+      - may football ba
+      - Is there chess?
+      - Do you have sepak takraw
+      - Is there an arnis
+      - Do you have volleyball?
+      - Is there a dance sport
+      - Do you have basketball?
+      - Do you have athletics?
+      - Is there swimming?
+      - Is there football?
+      - Is there chess?
+      - Is there sepak takraw?
+      - Is there a sword?
+      - Is there volleyball?
+      - Is there a dance sport?
+      - Is there a basketball
+      - Is there athletics?
+      - Is there swimming?
+      - Is there football?
+      - anong mga sports na available
+      - anong mga sports dito
+      - ano ano ang mga sports na nilalaro sa school na ito
+      - ano ang mga sports na pwede laroin dito
+      - lists ng sports na nilalaro
+      - available sports here in earist
+      - what sports are played here
+      - may varsity ba
+      - what sports are available
+      - what sports here
+      - what are the sports played in this school
+      - what sports can be played here
+      - lists of sports played
+      - available sports here in earist
+      - what sports are played here
+      - Is there a varsity?
+      - what sports can i join here
+      - arnis
+      - volleyball
+      - dance sport
+      - basketball
+      - sepak takraw
+      - taekwondo
+      - athletics
+      - swimming
+      - football
+      - soccer
+
+  - intent: campus_addr
+    examples: |
+      - earist address
+      - saan matatagpuan ang earist
+      - where is the earist located
+      - eulogio amang rodriguez institute of science and technology address
+      - where can i find earist
+      - where is the school located
+      - show me the location of this school
+      - saan ang school na to
+      - saan makikita ang school na to
+      - saan lugar nakatayo ang school
+      - where is this school
+      - where can this school be found
+      - where is the school located
+      - where can i find eulogio amang rodriguez institute of science and technology
+      - address ng school na eto
+      - anong address ng school
+      - complete address ng school na ito
+      - location ng school
+      - location of the school
+
+  - intent: chief_mds
+    examples: |
+      - address ng chief medical and dental service
+      - address of chief medical and dental service
+      - saan matatagpuan ang chief medical and dental service
+      - where can i find chief medical and dental service
+      - san matatagpuan ang chief medical and dental service
+      - where are chief medical and dental service
+      - location ng chief medical and dental service
+
+  - intent: chief_rs
+    examples: |
+      - address ng chief record service
+      - address of chief record service
+      - saan matatagpuan ang chief record service
+      - where can i find chief record service
+      - san matatagpuan ang chief record service
+      - where are chief record service
+      - location ng chief record service
+
+  - intent: chief_ss
+    examples: |
+      - address ng chief security service
+      - address of chief security service
+      - saan matatagpuan ang chief security service
+      - where can i find chief security service
+      - san matatagpuan ang chief security service
+      - where are chief security service
+      - location ng chief security service
+
+  - intent: chief_tms
+    examples: |
+      - address ng chief transportation and motorpool service
+      - address of chief transportation and motorpool service
+      - saan matatagpuan ang chief transportation and motorpool service
+      - where can i find chief transportation and motorpool service
+      - san matatagpuan ang chief transportation and motorpool service
+      - where are chief transportation and motorpool service
+      - location ng chief transportation and motorpool service
+
+  - intent: chief_pms
+    examples: |
+      - address ng chief property management service
+      - address of chief property management service
+      - saan matatagpuan ang chief property management service
+      - where can i find chief property management service
+      - san matatagpuan ang chief property management service
+      - where are chief property management service
+      - location ng chief property management service
+
+  - intent: chief_bs_ds
+    examples: |
+      - address ng chief business development service
+      - address of chief business development service
+      - saan matatagpuan ang chief business development service
+      - where can i find chief business development service
+      - san matatagpuan ang chief business development service
+      - where are chief business development service
+      - location ng chief business development service
+
+  - intent: chief_proc_serv
+    examples: |
+      - address ng chief procurement service
+      - address of chief procurement service
+      - saan matatagpuan ang chief procurement service
+      - where can i find chief procurement service
+      - san matatagpuan ang chief procurement service
+      - where are chief procurement service
+      - location ng chief procurement service
+
+  - intent: chief_disb
+    examples: |
+      - address ng chief cash and disbursement service
+      - address of chief cash and disbursement service
+      - saan matatagpuan ang chief cash and disbursement service
+      - where can i find chief cash and disbursement service
+      - san matatagpuan ang chief cash and disbursement service
+      - where are chief cash and disbursement service
+      - location ng chief cash and disbursement service
+
+  - intent: chief_hr_ms
+    examples: |
+      - address ng chief human resource management services
+      - address of chief human resource management services
+      - saan matatagpuan ang chief human resource management services
+      - where can i find chief human resource management services
+      - san matatagpuan ang chief human resource management services
+      - where are chief human resource management services
+      - location ng chief human resource management services
+
+  - intent: chief_is_hs
+    examples: |
+      - address ng chief information system hardware services
+      - address of chief information system hardware services
+      - saan matatagpuan ang chief information system hardware services
+      - where can i find chief information system hardware services
+      - san matatagpuan ang chief information system hardware services
+      - where are chief information system hardware services
+      - location ng chief information system hardware services
+
+  - intent: college_bs
+    examples: |
+      - address ng college and board secretary
+      - address of college and board secretary
+      - saan matatagpuan ang college and board secretary
+      - where can i find college and board secretary
+      - san matatagpuan ang college and board secretary
+      - where are college and board secretary
+      - location ng college and board secretary
+
+  - intent: dir_lib_serv
+    examples: |
+      - address ng library services
+      - address of library services
+      - saan matatagpuan ang library services
+      - where can i find library services
+      - san matatagpuan ang library services
+      - where are library services
+      - location ng library services
+
+  - intent: dir_plan_sys
+    examples: |
+      - address ng planning services
+      - address of planning services
+      - saan matatagpuan ang planning services
+      - where can i find planning services
+      - san matatagpuan ang planning services
+      - where are planning services
+      - location ng planning services
+
+  - intent: dir_inter_audit
+    examples: |
+      - address ng internal audit services
+      - address of internal audit services
+      - saan matatagpuan ang internal audit services
+      - where can i find internal audit services
+      - san matatagpuan ang internal audit services
+      - where are internal audit services
+      - location ng internal audit services
+
+  - intent: dir_mng_info_public
+    examples: |
+      - address ng information and public affairs services
+      - address of information and public affairs services
+      - saan matatagpuan ang information and public affairs services
+      - where can i find information and public affairs services
+      - san matatagpuan ang information and public affairs services
+      - where are information and public affairs services
+      - location ng information and public affairs services
+
+  - intent: dir_mng_info_sys
+    examples: |
+      - address ng management information system services
+      - address of management information system services
+      - saan matatagpuan ang management information system services
+      - where can i find management information system services
+      - san matatagpuan ang management information system services
+      - where are management information system services
+      - location ng management information system services
+
+  - intent: dir_fms
+    examples: |
+      - address ng financial management services
+      - address of financial management services
+      - saan matatagpuan ang financial management services
+      - where can i find financial management services are located
+      - san matatagpuan ang financial management services
+      - where are financial management services located
+      - location ng financial management services
+
+  - intent: dir_nstp
+    examples: |
+      - address ng national service training program
+      - saan matatagpuan ang national service training program
+      - where the national service training program is located
+      - san matatagpuan ang national service training program
+      - where is the national service training program located
+      - location ng national service training program
+
+  - intent: dir_stud_aff
+    examples: |
+      - address ng student affairs services
+      - address of student affairs services
+      - saan matatagpuan ang student affairs services
+      - where student affairs services are located
+      - san matatagpuan ang student affairs services
+      - where are student affairs services located
+      - location ng student affairs services
+
+  - intent: dir_admin_serv
+    examples: |
+      - address ng administrative services
+      - saan matatagpuan ang administrative services
+      - where administrative services are located
+      - san matatagpuan ang administrative services
+      - where are the administrative services located
+      - location ng administrative services
+
+  - intent: dir_stud_add
+    examples: |
+      - address ng student admission registration and records management services
+      - saan matatagpuan ang student admission registration and records management services
+      - where student admission registration and records management services are located
+      - san matatagpuan ang student admission registration and records management services
+      - where to find student admission registration and records management services
+      - location ng student admission registration and records management services
+
+  - intent: dir_qual_ass
+    examples: |
+      - address ng quality assurance
+      - saan matatagpuan ang quality assurance
+      - where quality assurance is located
+      - san matatagpuan ang quality assurance
+      - where is the quality assurance located
+      - location ng quality assurance
+
+  - intent: dir_ext_serv
+    examples: |
+      - address ng extension services
+      - saan matatagpuan ang extension services
+      - where extension services are located
+      - san matatagpuan ang extension services
+      - where to find extension services
+      - location ng extension services
+
+  - intent: dir_res_serv
+    examples: |
+      - address ng research services
+      - saan matatagpuan ang research services
+      - where research services are located
+      - san matatagpuan ang research services
+      - where are the research services located
+      - location ng research services
+
+  - intent: earist_cavite_campus
+    examples: |
+      - address ng earist cavite campus
+      - saan matatagpuan ang earist cavite campus
+      - where is the earist cavite campus located
+      - san matatagpuan ang earist cavite campus
+      - where is the earist cavite campus located
+      - location ng earist cavite campus
+
+  - intent: dir_ins_serv
+    examples: |
+      - address ng instruction services
+      - saan matatagpuan ang instruction services
+      - where instruction services are located
+      - san matatagpuan ang instruction services
+      - where are the instruction services located
+      - location ng  instruction services
+
+  - intent: dean_chm
+    examples: |
+      - address ng dean college of hospitality management
+      - address of the dean college of hospitality management
+      - saan matatagpuan ang dean college of hospitality management
+      - where is the dean college of hospitality management located
+      - san matatagpuan ang dean college of hospitality management
+      - location ng dean college of hospitality management
+
+  - intent: dean_cit
+    examples: |
+      - address ng dean college of industrial technology
+      - saan matatagpuan ang dean college of industrial technology
+      - where is the dean college of industrial technology located
+      - san matatagpuan ang dean college of industrial technology
+      - where is the dean college of industrial technology located
+      - location ng dean college of industrial technology
+
+  - intent: dean_cpa
+    examples: |
+      - address ng dean college of public administration and criminology
+      - saan matatagpuan ang dean college of public administration and criminology
+      - where is the dean college of public administration and criminology located
+      - san matatagpuan ang dean college of public administration and criminology
+      - location ng dean college of public administration and criminology
+
+  - intent: dean_cafa
+    examples: |
+      - address ng dean college of architecture and fine arts
+      - saan matatagpuan ang dean college of architecture and fine arts
+      - where is the dean college of architecture and fine arts located
+      - san matatagpuan ang dean college of architecture and fine arts
+      - location ng dean college of architecture and fine arts
+
+  - intent: dean_cen
+    examples: |
+      - address ng dean college of engineering
+      - saan matatagpuan ang dean college of engineering
+      - where is the dean college of engineering located
+      - san matatagpuan ang dean college of engineering
+      - location ng dean college of engineering
+
+  - intent: dean_cba
+    examples: |
+      - address ng dean college of business administration
+      - saan matatagpuan ang dean college of business administration
+      - where is the dean college of business administration located
+      - san matatagpuan ang dean college of business administration
+      - location ng dean college of business administration
+
+  - intent: dean_cas
+    examples: |
+      - address ng dean college of arts and sciences
+      - saan matatagpuan ang dean college of arts and sciences
+      - where is the dean college of arts and sciences located
+      - san matatagpuan ang dean college of arts and sciences
+      - location ng dean college of arts and sciences
+
+  - intent: dean_ced
+    examples: |
+      - address ng dean college of education
+      - saan matatagpuan ang dean college of education
+      - where is the dean college of education located
+      - san matatagpuan ang dean college of education
+      - location ng dean college of education
+
+  - intent: vp_res_ex
+    examples: |
+      - address ng vice president for research, extension and international affairs
+      - saan matatagpuan ang vice president for research, extension and international affairs
+      - where the vice president for research, extension and international affairs is located
+      - san matatagpuan ang vice president for research, extension and international affairs
+      - location ng vice president for research, extension and international affairs
+
+  - intent: vp_ad_finance
+    examples: |
+      - address ng vice president for administration and finance
+      - saan matatagpuan ang vice president for administration and finance
+      - where is the vice president for administration and finance located
+      - san matatagpuan ang vice president for administration and finance
+      - location ng vice president for administration and finance
+
+  - intent: vp_acad_affairs
+    examples: |
+      - address ng vice president for academic affairs
+      - saan matatagpuan ang vice president for academic affairs
+      - where the vice president for academic affairs is located
+      - san matatagpuan ang vice president for academic affairs
+      - location ng vice president for academic affairs
+
+  - intent: loc_otp
+    examples: |
+      - address ng office of the president
+      - saan matatagpuan ang office of the president
+      - san matatagpuan ang office of the president
+      - where is the office of the president located
+      - location ng office of the president
+
+  - intent: respo_deny
+    examples: |
+      - payload_for_no_intent_identify_unq
+      - payload for no intent identify unq
+
+  - intent: challenge_course
+    examples: |
+      - ano ang main course
+      - what is the main course
+      - ano ang pinaka sikat na course sa earist
+      - what is the most famous course in earist
+      - top course in earist
+
+  - intent: challenge_school
+    examples: |
+      - maganda ba mag aral sa earist
+      - maganda ba mag-aral sa earist
+      - Is it good to study in the earist
+      - is earist a good school
+      - is it good to study in earist
+      - is it good to study here in earist
+
+  - intent: cute
+    examples: |
+      - cute ba mga taga earist
+      - cute ba students sa earist
+      - cute ba mga prof sa earist
+      - cute ba ang mga estudyante sa earist
+      - Are the earist students cute
+      - cute ba ang mga professors sa earist
+      - Are the earist professors cute
+
+  - intent: article_xii_campus_publication_cul_act_cont
+    examples: |
+      - cultural_programs_activities
+      - cultural programs activities
+
+  - intent: article_xii_campus_publication_cul_act
+    examples: |
+      - guidelines on cultural programs and activities
+      - what are the guidelines on cultural programs
+      - what are the guidelines on cultural activites
+      - ano ang mga polisiya sa pag ganap ng cultural program
+      - what are the policies for implementing the cultural program
+      - polisiya sa pag ganap ng mga cultural activities
+      - policy on the implementation of cultural activities
+
+  - intent: article_xii_campus_publication_rel_act
+    examples: |
+      - what are the guidelines on religious activities
+      - guidelines religious activities
+      - ano ang mga guidelines sa religious activities
+      - what are the guidelines on religious activities
+      - religious activities guidelines
+
+  - intent: article_xii_campus_publication_res_others
+    examples: |
+      - other policies of student publications
+      - ano ano pa ang ibang polisiya sa student publications
+      - what are the other policies on student publications
+
+  - intent: article_xii_campus_publication_res_sec
+    examples: |
+      - ano ang mga kailangan na gawin sa student publication
+      - what needs to be done in the student publication
+      - mga nilalaman sa student publication
+      - student publication contents
+      - mga kakailanganin sa student publication
+      - student publication requirements
+      - ano ano pa ang mga dapat gawin sa student publication
+      - what else should be done in the student publication
+      - saan dapat makipag coordinate ang student publication
+      - where does the student publication should coordinate
+
+  - intent: article_xii_campus_publication_sec2
+    examples: |
+      - student publications shall strive to
+      - publications from students shall strive to
+      - kailangan pagsikapan ng student publications na
+
+  - intent: article_xii_campus_publication_sec1_cont
+    examples: |
+      - guidelines_on_campus_publication_section_one
+      - guidelines on campus publication section one
+
+  - intent: article_xii_campus_publication_sec1
+    examples: |
+      - institutes basic policies on student publication
+      - policies on student publication
+      - polisiya sa student publish
+
+  - intent: article_xi_stud_act_sec3_cont
+    examples: |
+      - article_xi_stud_act_sec3_cont
+      - article xi stud act sec3 cont
+
+  - intent: article_xi_stud_act_sec3
+    examples: |
+      - rules on fund raising activities
+      - what are the rules on fund raising activity
+      - ano ang mga rules sa fund raising
+      - fund raising
+
+  - intent: article_xi_stud_act_sec2
+    examples: |
+      - off campus activities student org
+      - labas sa school na mga aktibidad ng student organization
+      - documents needed for off campus activities student organization
+      - kailangan na mga papeles sa mga labas na aktibidad na gagawin ng student organizations
+      - what should student organization submit for off campus activities
+
+  - intent: article_xi_stud_act_sec1.1
+    examples: |
+      - requests for extra and co curricular
+      - request for extra curricular
+      - when shall we pass our extra curricular activities
+      - kelan dapat e pasa ang extra curricular activities
+      - students activities
+      - student activity performance report
+      - activity evaluation form
+
+  - intent: article_x_stud_stud_org_sec10
+    examples: |
+      - violations of student organization
+      - student organizations violations
+      - pano kapag may na violate na rule ang organization
+      - what if the organization violates a rule
+      - anong mangyayari kapag may nilabag na rule ang student organization
+
+  - intent: article_x_stud_stud_org_sec9
+    examples: |
+      - pag dikit ng mga posters
+      - pasting posters
+      - san pwede mag dikit ng mga posters
+      - where can I put posters
+      - saan pwede mag lagay ng 
+      - where can I put posters
+      - saan pwede mag lagay ng notice
+      - where can I place a notice
+      - pwede ba maglagay ng poster kahit saan
+      - Can I put a poster anywhere
+      - pwede ba mag dikit ng poster kahit saan
+      - Can I put a poster anywhere?
+      - pwede ba mag lagay ng notice kahit saan
+      - Can I place a notice anywhere
+      - pwede ba mag post ng poster or notice kahit saan
+      - Can I post a poster or notice anywhere
+
+  - intent: article_x_stud_stud_org_sec8
+    examples: |
+      - student organization supervised
+      - kailangan ba e notify ang OSA sa gagawing activity ng student organization
+      - Is it necessary to notify the OSA of the activity of the student organization?
+      - do we need to notify the OSA for the activity that will be held by our student organization
+      - change of officers in student organization
+      - pag bago ng officers sa student 
+      - new officers in the student organization
+
+  - intent: article_x_stud_stud_org_sec7
+    examples: |
+      - paano mag renew ng student organization
+      - how to renew a student organization
+      - pano ang process ng renewal ng org
+      - how to renew an organization
+      - pano ang pag renew ng organization
+      - how to renew the organization
+      - renewal of organization
+      - what are the requirements for renewal of student organization
+
+  - intent: article_x_stud_stud_org_sec6
+    examples: |
+      - anong need na documents for application in recognition for a student organization
+      - what documents are needed for application in recognition for a student organization
+      - need na dokumento para sa application ng student organization recognition
+      - need document for student organization recognition application
+      - needed documents for student organization recognition
+      - anong kailangan na dokuments sa recognition of student organization
+      - what documents are required for the recognition of student organization
+      - anong kailangan na dokuments sa student organization
+      - what documents are needed in the student organization
+      - kailangan na dokumento sa pag buo ng student organization
+      - required documents for the formation of the student organization
+
+  - intent: article_x_stud_stud_org_sec5
+    examples: |
+      - who will coordinate the operations and activities in a student org
+      - saan makikipag-ugnay sa mga gagawin na activities ng student organization
+      - coordinate operations and activities in a student organization
+      - coordinate the operations and activities in a stud org
+
+  - intent: article_x_stud_stud_org_sec4
+    examples: |
+      - kailangan ba ng adviser sa student org
+      - do you need an adviser in the student org
+      - kailangan ba ng adviser sa student organization
+      - does the student organization need an adviser
+      - do you need an adviser in the student org
+      - need ba ng adviser sa student org
+      - need pa ba ng adviser sa student org
+      - do you still need an adviser in the student org
+
+  - intent: article_x_stud_stud_org_sec3
+    examples: |
+      - ano ang need sa pag buo ng student organization
+      - what is the need to form a student organization
+      - need for an organization
+      - requirements for student organization
+      - anong kailangan sa pag buo ng student organization
+
+  - intent: article_x_stud_stud_org_sec2
+    examples: |
+      - organizations governed by what
+      - organizations are governed by who
+      - org governed by
+      - anong rules and regulations ang dapat sundin ng mga organizations
+      - rules and regulations ng mga organizations
+
+  - intent: article_x_stud_stud_org_sec1
+    examples: |
+      - can a student organize student organization
+      - can i create a student organization
+      - pwede bang gumawa ng sariling org
+      - can i create my own org
+      - pwede ba gumawa ng sariling organization
+      - Can I create my own organization
+
+  - intent: article_ix_stud_serv_sect11
+    examples: |
+      - may cafeteria ba sa earist
+      - may canteen ba
+      - may cafeteria ba
+      - cafeteria
+      - meron bang cafeteria sa earist
+      - cafeteria sa earist
+      - is there a cafeteria in the earist
+      - Is there a canteen?
+      - Is there a cafeteria?
+
+  - intent: article_ix_stud_serv_sect10
+    examples: |
+      - earist amang museum
+      - museum
+      - may amang museum ba
+      - may museo ba ang earist
+      - may museum ba ang earist
+      - earist museo
+      - earist museum
+
+  - intent: article_ix_stud_serv_sect9
+    examples: |
+      - medical service
+      - dental service
+      - health service
+      - medical, dental and health services
+      - medical dental health services
+
+  - intent: article_ix_stud_serv_sect8
+    examples: |
+      - learning and sharing center
+      - explain what is learning and sharing center
+      - may learning and sharing center ba
+      - meron bang learning and sharing center
+
+  - intent: article_ix_stud_serv_sect7
+    examples: |
+      - library services
+      - library services
+      - explain library service
+      - may library ba
+      - meron bang library sa earist
+      - anong mga services na meron sa library
+
+  - intent: article_ix_stud_serv_sect6
+    examples: |
+      - what is scholarship services
+      - financial assistance
+      - financial assistance to students
+      - anong ibig sabihin ng scholarship services
+      - anong financial assistance
+
+  - intent: article_ix_stud_serv_sect5
+    examples: |
+      - cultural/artistic activities
+      - cultural activities
+      - artistic activities
+
+  - intent: article_ix_stud_serv_sect4
+    examples: |
+      - student publications
+      - what is student publications
+      - ano ang student publications
+      - where can i publish
+
+  - intent: article_ix_stud_serv_sect3
+    examples: |
+      - religious service
+      - religious activities inside and outside campus
+      - religious activities
+
+  - intent: article_ix_stud_serv_sect2
+    examples: |
+      - student government
+      - what is student government services
+      - anong ibig sabihin ng student government services
+      - ibig sabihin ng student government
+      - esg meaning
+      - what is esg
+      - define esg
+
+  - intent: article_ix_stud_serv_sect1
+    examples: |
+      - guidance counseling
+      - guidance counsel
+      - what is guidance counseling
+      - ano ang guidance counseling service
+      - what is guidance counseling service
+      - counseling and testing office
+      - pyschological services
+
+  - intent: article_viii_sec1.4
+    examples: |
+      - decision of college president
+      - pwede pa ba mag appeal sa complaints
+      - college president decision
+
+  - intent: article_viii_sec1.3
+    examples: |
+      - anong proseso ng complaints
+      - pano ma settle ang complaints
+      - settling the complaints
+
+  - intent: article_viii_sec1_e
+    examples: |
+      - paano ang proseso kapag na e reklamo ako
+      - How is the process when I complain
+      - what will be the process if i got complain
+      - anong proseso kapag inireklamo ako
+      - what process shall i do when I'm complained
+      - someone filed a complain against me
+      - report against me
+
+  - intent: article_viii_sec1_d
+    examples: |
+      - report professors
+      - saan pwede e report ang professor
+      - san pwede e reklamo ang professor
+      - san pwede mag reklamo sa employee na nagtuturo dito
+      - san pwede e reklamo ang student na nagaaral dito
+      - where can i file a complain against a professor in this school
+
+  - intent: article_viii_sec1_c
+    examples: |
+      - san pwede e reklamo ang student
+      - where can i complain as a professor
+      - where can i complain the student
+      - san pwede e reklamo ang estudyante
+      - saan pwede e report ang student
+      - report student
+      - pwede ba e report ang student
+      - saan mag rereport ang mga professors sa mga estudyante
+      - where can the professor report
+
+  - intent: article_viii_sec1_b
+    examples: |
+      - san pwede mag complain ang mga students
+      - where can students complain
+      - students complain
+      - where to complain as a student
+      - saan mag cocomplain
+      - where to complain as a student
+      - saan pwede mag reklamo
+      - where can I complain
+      - paano paalis ung toxic na prof sa earist?
+      - how to eliminate toxic prof in earist?
+      - where can the student complain
+
+  - intent: article_vii_disc_sec10
+    examples: |
+      - student offenders
+      - offenders student
+      - student with offense
+      - student nagkasala
+      - nagkasalang estudyante
+      - mag-aaral na nagkasala
+
+  - intent: article_vii_disc_sec9
+    examples: |
+      - graduating students na may penalties
+      - offense graduating students
+      - graduating with penalties
+      - graduating na student na may mga penalty
+      - graduating student with penalties
+
+  - intent: article_vii_disc_sec7
+    examples: |
+      - other penalties
+      - ano pa ang ibang penalties
+      - penalties
+      - what other penalties
+      - what are the other penalties
+
+  - intent: article_vii_disc_sec6
+    examples: |
+      - expulsion
+      - anong ibig sabihin ng expulsion
+      - what does expulsion mean
+      - meaning of expulsion
+      - what is expulsion
+      - what do you mean by expulsion
+      - kelan ma eexpelled ang estudyante
+      - when will the student be expelled
+
+  - intent: article_vii_disc_sec5
+    examples: |
+      - dismissal meaning
+      - explain dismissal
+      - anong ibig sabihin ng dismissal
+      - what does dismissal mean
+      - what do you mean by dismissal
+      - what is dismissal
+      - kelan na didismiss ang estudyante
+      - when was the student dismissed
+
+  - intent: article_vii_disc_sec4
+    examples: |
+      - non readmission
+      - non-readmission
+      - ibig sabihin ng non readmission
+      - means non readmission
+      - explain non readmmission
+
+  - intent: article_vii_disc_sec3_cont
+    examples: |
+      - article_vii_disc_sec3_cont
+      - article vii disc sec3 cont
+
+  - intent: article_vii_disc_sec3
+    examples: |
+      - probation meaning
+      - ibig sabihin ng probation
+      - means probation
+      - probation
+      - what does probation mean
+      - anong probation
+      - what probation
+
+  - intent: article_vii_disc_sec2
+    examples: |
+      - suspension meaning
+      - anong ibig sabihin ng suspension
+      - what does suspension mean
+      - what is suspension
+      - kelan ma sususpend ang isang student
+      - when can a student be suspended
+      - kelan pwede ma suspend ang isang estudyante
+      - when can a student be suspended
+
+  - intent: article_vii_disc_sec1
+    examples: |
+      - anong ibig sabihin ng warning
+      - what does the warning mean
+      - anong ibig sabihin ng reprimand
+      - what does reprimand mean
+      - warning
+      - reprimand
+      - ibig sabihin ng warning
+      - means warning
+      - ibig sabihin ng reprimand
+      - means reprimand
+      - censure
+      - ibig sabihin ng censure
+      - means censure
+      - anong ibig sabihin ng censure
+      - what does censure mean
+
+  - intent: article_vi_sect3_minor_off3.2.4
+    examples: |
+      - pag gamit ng cellphone habang nagkaklase
+      - using a cell phone during class
+      - paggamit ng cellphone habang may klase
+      - paggamit ng cellphone
+      - pag gamit ng cp habang nagkaklase or nag eexam
+      - pag gamit cellphone habang nagtuturo ang prof
+      - pag charge ng cellphone sa room
+      - charging cellphones in room
+      - excessive use of electricity
+      - use of water
+      - excessive use of water
+      - excessive use of resources
+      - abusong pag gamit sa resources
+      - abuse of resources
+
+  - intent: article_vi_sect3_minor_off3.2.3
+    examples: |
+      - unauthorized distribution of leaflets
+      - pamimigay ng leaflets
+      - pwede ba magpakalat ng poster sa school
+      - Can I spread a poster at school?
+      - pagpakalat ng mga leaflets
+      - poster sa school
+      - pagpapakalat ng mga printed materials
+      - dissemination of printed materials
+      - room to room campaign
+      - pwede ba mag room to room campaign without authorization
+      - Can I do a room to room campaign without authorization
+      - room to room campaign
+      - pwede ba mangampanya
+
+  - intent: article_vi_sect3_minor_off3.2.2
+    examples: |
+      - pag iingay
+      - boisterous conversation
+      - maingay na usapan
+      - noisy talk
+      - creating noise na makakasagabal sa mga nagkaklase
+      - creating noise that will disturb lectures
+      - maingay
+      - ano ang parusa sa mga nagiingay na nakakasagabal sa mga nagkaklase
+      - what is the punishment for those who make noise that interferes with lectures
+      - pag takbo sa corridor
+      - running along the corridor
+      - loitering
+      - pag tambay sa labas ng mga classroom
+      - pag tambay
+
+  - intent: article_vi_sect3_minor_off3.2.1
+    examples: |
+      - hindi pag suot ng tama ng id
+      - not wearing the correct id
+      - not properly wear of identification card
+      - hindi pag suot ng id
+      - not wearing id
+      - di pag suot ng identification card
+      - not proper use of id
+      - hindi pag suot ng uniform
+      - hindi pag suot ng official uniform
+      - cross dressing
+      - pwede ba mag suot ng pang babaeng uniform ang mga bakla
+      - Can gays wear women's uniforms
+      - can gays wear girls uniform
+      - pag suot ng uniform sa lgbtq
+      - lgbtq uniform
+      - pag suot ng hikaw
+      - pag suot ng madaming hikaw
+      - hikaw sa ilong
+      - piercing sa ilong
+      - piercing lips
+      - multiple earings
+      - madaming piercing
+      - madaming hikaw
+      - hikaw sa lips
+      - two inches above the knee
+      - mini skirts
+      - shorts
+      - pag suot ng shorts
+      - back-less backless
+      - backless
+      - tight outfits
+      - pag suot ng tsinelas
+      - tsinelas
+      - navel earings
+      - navel piercing
+      - pwede ba mag female unif ang mga gay? Pwede sila mag palong hair?
+      - Can gays wear female uniforms? Can they brush their hair?
+      - pwede ba mag female unif ang mga gay
+      - Can gays wear female uniforms
+      - pwede ba mag pa long hair ang mga gay
+      - Can gays still have long hair
+      - pwede ba mag female uni ang mga bakla bading gay
+      - can gay people have female uni
+
+  - intent: article_vi_sect3_stud_disc3.1.f_lz
+    examples: |
+      - pag pindot sa fire alarm
+      - pressing the fire alarm
+      - anong parusa sa pag pindot ng fire alarm
+      - what is the penalty for pressing the fire alarm
+      - pag patay ng kuryente
+      - causing the power outage
+      - pag off sa mga switches
+      - turning off switches
+      - pag off sa mga generators
+      - turning off generators
+      - arson
+      - pag sira sa air conditioners
+      - damage to air conditioners
+      - pag on sa mga fire alarm systems
+      - turning on fire alarm systems without emergency
+      - anong parusa sa pag on sa alarm system without emergency situation
+      - acts of treachery and sabotage including arson
+      - tampering electric connections
+
+  - intent: article_vi_sect3_stud_disc3.1.f_l
+    examples: |
+      - viewing or copying obscene material
+      - panonood ng mga porn sa computer
+      - watching porn on the computer
+      - violation of copyright laws
+      - copying software in ways that violate the terms of license
+      - creation of viruses
+      - pagpapakalat ng virus sa computer
+      - spread of computer viruses
+      - pag gawa ng virus sa computer
+      - ano ang parusa sa pag gawa at pag pakalat ng virus sa computer
+      - what is the penalty for creating and spreading a computer virus
+      - connecting device without permission to wifi
+      - may parusa ba ang pag connect sa wifi for educational purpose
+      - Is there a penalty for connecting to wifi
+      - pag connect sa wifi ng walang paalam
+      - connecting to WiFi without permission
+      - copying software from school
+      - pag sira sa mga computer
+      - crashing computers
+      - pag nakaw ng mga computer parts
+      - stealing computer parts
+
+  - intent: article_vi_sect3_stud_disc3.1.f
+    examples: |
+      - paglalaro sa computer sa school
+      - playing computer games at school
+      - pag install ng laro sa computer lab
+      - game installation in the computer lab
+      - pwede ba mag laro ng games sa computer laboratory
+      - Can I play games in the computer laboratory
+      - pwede ba mag laro ng games sa computer ng school
+      - Can I play games on the school computer
+      - chain letters
+      - development of chain letters
+      - solicitations advertisements
+      - transmitting of advertisements
+      - transmitting political campaign materials relating to elections to be held outside school
+      - sharing computer account
+      - using another person account
+
+  - intent: article_vi_sect3_stud_disc3.1.e
+    examples: |
+      - hacking
+      - pag hack sa mga computer
+      - ano ang parusa sa pag hack sa mga computer
+      - what is the penalty for hacking computers
+      - illegal activities or hacking
+      - spamming
+      - parusa sa mga hacker
+      - script kiddie
+
+  - intent: article_vi_sect3_stud_disc3.1.d
+    examples: |
+      - disrupting connections
+      - pag sira sa connection na ginagamit ng school
+      - damage to the connection used by the school
+      - pag sira sa internet connection ng school
+      - damage to connection in school
+
+  - intent: article_vi_sect3_stud_disc3.1.27
+    examples: |
+      - pag gamit sa computer ng walang paalam
+      - using the computer without permission
+      - unauthorized used of computer
+      - pag access sa mga files na walang paalam
+      - access to files without permission
+      - unathorized access to school files and programs
+      - pag copy sa mga files ng school
+      - copying school files
+      - pag palit sa mga files ng school
+      - changing school files
+
+  - intent: article_vi_sect3_stud_disc3.1.26
+    examples: |
+      - pag oorganize ng rally
+      - organizing a rally
+      - pamumuno ng rally
+      - Rally leadership
+      - leading a rally
+      - rallies
+      - anong parusa sa pag sali sa mga rally
+      - what is the penalty for joining rallies
+
+  - intent: article_vi_sect3_stud_disc3.1.25
+    examples: |
+      - fake news
+      - pagpapakalat ng fake news
+      - spreading fake news
+      - anong pwede parusa sa bida bidang kaklase
+      - what can be punished for the hero's classmate
+      - pang dedemonyo sa kaklase
+      - bad influence
+      - pang b bi sa kaklase
+      - bad influence na mga estudyante
+      - provoking
+      - violent actions
+      - causing false alarms
+      - pag papa kalat ng fake news
+      - banging of doors
+      - causing noise
+
+  - intent: article_vi_sect3_stud_disc3.1.24
+    examples: |
+      - anong parusa sa nahuling naglalaplapan
+      - what is the punishment for kissing in public
+      - punishment for kissing in public
+      - punishment for public sex
+      - public display of affection
+      - anong pwedeng parusa sa mga malalantod
+      - anong pwede mangyari sa mga naglalandian sa room
+      - lampungan
+      - chukchakan
+      - laplapan
+      - pagpasa ng mga porn
+      - Passing porn
+      - panonood ng mga porno
+      - watching porn
+      - panonood ng bold
+      - ka manyakan
+      - manyak
+
+  - intent: article_vi_sect3_stud_disc3.1.23
+    examples: |
+      - anong parusa sa library
+      - what is the penalty in the library
+      - offense na galing sa library
+      - offense from the library
+      - violation of library rules and regulations
+
+  - intent: article_vi_sect3_stud_disc3.1.22
+    examples: |
+      - pag attend sa klase na hindi officially enrolled
+      - attending classes that are not officially enrolled
+      - attending classes unofficially enrolled
+      - attend sa klase na hindi enrolled
+      - attend classes that are not enrolled
+
+  - intent: article_vi_sect3_stud_disc3.1.21
+    examples: |
+      - pag takbo ng sinita
+      - anong parusa sa pag takbo sa kasalanan
+      - what is the penalty for running into sin
+      - running away from a person in authority
+
+  - intent: article_vi_sect3_stud_disc3.1.20
+    examples: |
+      - assaulting someone
+      - physical abuse
+      - harassment
+      - pananakit ng kapwa
+      - pang haharass
+      - pananakit
+
+  - intent: article_vi_sect3_stud_disc3.1.19
+    examples: |
+      - pagbabanta sa mga professors
+      - threatening professors
+      - pangbabastos sa mga professors
+      - insult to professors
+      - pagbabanta professors
+      - pang babastos sa mga teachers professors
+      - threats professors
+      - death threats teachers professors
+
+  - intent: article_vi_sect3_stud_disc3.1.18
+    examples: |
+      - pag gamit sa pangalan ng earist
+      - using the earist's name
+      - using the school name
+      - pwede ba gamitin ang pangalan ng school
+      - can the name of the school be used
+      - unathorized use of schools name
+      - paggamit sa pangalan ng earist
+      - use the name of the earist
+
+  - intent: article_vi_sect3_stud_disc3.1.17
+    examples: |
+      - pang bablackmail
+      - blackmail
+      - extortion
+      - pangingikil
+      - pag hingi ng pera ng sapilitan
+      - asking for compulsory money
+      - pangongotong
+      - bribery
+      - pang huhuthot
+      - kotong
+      - solicitation of money without approval
+      - donations without approval
+
+  - intent: article_vi_sect3_stud_disc3.1.16
+    examples: |
+      - pwede ba maglaro ng baraha sa room
+      - Can I play cards in the room?
+      - paglalaro ng baraha
+      - playing cards
+      - pusoy dos
+      - tong its
+      - paglalaro ng pusoy dos sa loob ng campus
+      - playing poker dos on campus
+      - paglalaro ng tong its sa loob ng campus
+      - playing tong its inside the campus
+
+  - intent: article_vi_sect3_stud_disc3.1.15
+    examples: |
+      - pagka kulong
+      - imprisonment
+      - kulong
+      - imprisoned
+      - conviction by a court of law
+
+  - intent: article_vi_sect3_stud_disc3.1.14
+    examples: |
+      - pagbebenta ng drugs
+      - sale of drugs
+      - pag gamit ng drugs
+      - drug use
+      - pag benta ng bawal na gamot
+      - drug sales
+      - pag benta ng bawal na gamut
+      - pag gamit ng bawal na gamut
+      - pag gamit ng bawal na gamot
+      - illegal drug sales
+      - illegal use of drugs
+      - paggamit ng pinagbabawal na gamot
+
+  - intent: article_vi_sect3_stud_disc3.1.13
+    examples: |
+      - recruitment sa fraternity
+      - pwede ba mag recruit sa fraternity
+      - Can I recruit to the fraternity?
+      - recruit sa fraternity
+
+  - intent: article_vi_sect3_stud_disc3.1.12
+    examples: |
+      - hazing
+      - pag sali sa mga fraternity
+      - joining fraternities
+      - pag sali sa hazing
+      - joining the hazing
+      - paddle
+      - fraternity physical abuse
+
+  - intent: article_vi_sect3_stud_disc3.1.11
+    examples: |
+      - pag gamit ng pirma ng iba
+      - using someones signature
+      - pag gaya ng pirma ng professor
+      - paggaya ng pirma ng professor
+      - mimicking the professor's signature
+      - ano ang parusa sa pag gamit ng pirma ng prof without their permission
+      - what is the penalty for using the prof's signature without their permission
+      - parusa sa pag nakaw ng pirma
+      - penalty for signature theft
+      - parusa sa pag iiba ng school records
+      - penalties for altering school records
+      - pag peke ng school records
+      - forgery of school records
+      - pag peke ng mga papeles
+      - forgery of papers
+      - pag gamit ng pekeng papeles
+      - using fake papers
+      - forgery of signature
+
+  - intent: article_vi_sect3_stud_disc3.1.10
+    examples: |
+      - pangongopya tuwing exam
+      - plagiarism during exams
+      - ano ang parusa sa pag kopya
+      - what is the penalty for copying
+      - kodigo sa exam
+      - nahuling nag kokodigo sa exam
+      - anong parusa sa pag kokodigo sa exam
+      - what is the penalty for cheating in the exam
+
+  - intent: article_vi_sect3_stud_disc3.1.9
+    examples: |
+      - ninakawan
+      - robbed
+      - magnanakaw na kaklase
+      - anong parusa sa mga magnanakaw
+      - what is the punishment for thieves
+      - theft
+      - robbery
+      - acts of malicious involving funds/property
+      - pagkuha ng mga gamit sa earist
+      - getting earist gear
+      - pag uwi ng mga gamit na galing sa earist
+      - taking home items from the earist
+
+  - intent: article_vi_sect3_stud_disc3.1.8
+    examples: |
+      - away
+      - involve sa riot
+      - nakipag suntokan
+      - involve in fights
+      - involved in brawls
+      - nakipag away
+      - brawls
+      - fistfights
+      - nahuling nag suntokan sa loob ng paaralan
+      - caught punching someone inside the school
+      - nag suntokan sa room
+      - anong parusa sa student na nakipag suntokan
+      - nakipag sapakan
+      - nahuling nagsapakan
+      - anong parusa sa mga estudyante na nagsapakan
+      - nag rambulan
+      - rambolan
+
+  - intent: article_vi_sect3_stud_disc3.1.7
+    examples: |
+      - pagdala ng alak
+      - carrying alcohol drinks
+      - alak
+      - inomin
+      - inumin
+      - alcohol drinks
+      - pwede ba mag dala ng alak sa loob ng campus
+      - Can I bring alcohol inside the campus
+      - pwede ba mag dala ng beer
+      - Can I bring a beer?
+      - pwede ba mag dala ng alcohol drinks
+      - Can I bring alcohol drinks?
+      - pwede ba uminom ng alak sa loob ng school
+      - Can I drink alcohol inside the school
+      - pwede ba pumasok sa school na may tama
+      - Can I go to school drunk?
+      - pwede ba pumasok sa school na lasing
+      - can i go to school under influence of alcohol
+
+  - intent: article_vi_sect3_stud_disc3.1.6
+    examples: |
+      - pwede ba magdala ng patalim
+      - Can I bring a knife?
+      - pagdadala ng patalim
+      - carrying a knife
+      - possesion of explosives
+      - pag dala ng bomba
+      - carrying a bomb
+      - pag dala ng paputok
+      - carrying fireworks
+      - pag dala ng armas
+      - carrying a weapon
+      - pagdadala ng mga armas
+
+  - intent: article_vi_sect3_stud_disc3.1.5
+    examples: |
+      - vandalism
+      - ano ang parusa sa mga nag vandalism
+      - what is the punishment for vandalism
+      - vandalism parusa
+      - offense vandalism
+      - parusa sa nag vandalism
+      - punishment for vandalism
+
+  - intent: article_vi_sect3_stud_disc3.1.4
+    examples: |
+      - lending or borrowing id
+      - lending or borrowing identification card
+      - pagpapahiram ng id
+      - pagpapahiram ng identification card
+      - lending id
+      - lending identification card
+      - pag pa hiram ng id
+      - pag pa hiram ng identification card
+      - borrowing an identification card
+      - pag pahiram ng mga documents
+      - nagpahiram ng form
+      - nagpahiram ng mga certificates
+      - lent certificates
+      - lend certificates
+      - impersonation
+      - pang gagaya
+      - pangagaya
+      - panggagaya
+
+  - intent: article_vi_sect3_stud_disc3.1.3
+    examples: |
+      - dumudura sa wall
+      - spitting on the wall
+      - dura sa wall
+      - anong offense sa mga dumudura
+      - what an offense to those who spit
+      - dumura
+      - spit
+      - spitting on walls
+      - pagkakalat
+      - anong offense sa mga nagkakalat
+      - what an offense to the scatterers
+      - anong parusa sa mga nagkakalat
+      - what punishment to those who scatter
+      - parusa sa mga dumudura
+      - punishment for spitting
+      - parusa sa mga nagkakalat
+      - pag dura kung saan saan
+      - pag dura
+
+  - intent: article_vi_sect3_stud_disc3.1.2
+    examples: |
+      - smoking within school premises
+      - pwede ba manigarilyo sa loob ng school
+      - can i smoke inside the school
+      - pwede ba manigarilyo sa earist
+      - can i smoke inside earist
+      - sigarilyo
+      - manigarilyo
+      - parusa sa mga naninigarilyo
+
+  - intent: article_vi_sect3_stud_disc3.1.1
+    examples: |
+      - using foul or vulgar language
+      - pagmumura
+      - anong offense kapag nag mura ka
+      - pag mumura
+      - minura
+      - parusa sa pag mura
+      - what are the offense when you use foul or vulgar language
+
+  - intent: article_vi_sect2_conduct2.8
+    examples: |
+      - maintenance of peace and order
+      - pwede ba gumamit ng cellphone habang nagkaklase
+      - can i use a cellphone during class
+      - pwede ba mag cp habang nag kaklase
+      - can i use my device during classes
+      - can i use my gadgets during classes
+      - pwede ba mag ingay
+
+  - intent: article_vi_sect2_conduct2.7
+    examples: |
+      - respect and honor
+      - bawal ba ang bastos dito
+      - is it forbidden to be rude here
+      - respeto
+      - respect
+      - honor
+      - magalang
+
+  - intent: article_vi_sect2_conduct2.6
+    examples: |
+      - cleanliness
+      - pwede ba magkalat dito
+      - kalat
+      - basura
+      - cleanliness inside the campus
+
+  - intent: article_vi_sect2_conduct2.5
+    examples: |
+      - anong oras ang curfew
+      - what time is the curfew
+      - may curfew ba sa school
+      - is there a curfew at school
+      - curfew sa campus
+      - curfew sa school
+      - curfew
+
+  - intent: article_vi_sect2_conduct2.4
+    examples: |
+      - pwede ba may tattoo
+      - can i have a tattoo
+      - tattoo
+      - body piercing
+      - hikaw sa mga lalaki
+      - earrings for men
+      - pwede ba mag hikaw ang mga lalaki
+      - can men wear earrings
+      - pwede ba may kulay ang kuko sa mga lalaki
+      - can men have colored nails
+      - pwede ba ang may tattoo
+      - bawal ba ang tattoo
+      - is tattoos forbidden
+
+  - intent: article_vi_sect2_conduct2.3
+    examples: |
+      - may haircut protocol ba dito
+      - is there a haircut protocol here
+      - may proper haircut ba na dapat sundin
+      - is there a proper haircut to follow
+      - may gupit ba na kailangan
+      - is there a haircut needed
+      - decent haircut
+      - kailangan ba proper haircut
+      - do you need a proper haircut
+      - proper haircut
+      - haircut
+      - pwede ba sa earist ang may kulay ang buhok
+      - can i have a colored hair
+      - colored hair
+      - dyed hair
+      - kulay buhok
+      - pwede ba may kulay ang buhok
+
+  - intent: article_vi_sect2_conduct2.2
+    examples: |
+      - pwede ba makapasok ng walang id
+      - can i enter without an id
+      - walang id
+      - kailangan ba palagi nakasuot ang id kapag nasa loob
+      - do you always need to wear the id when inside
+      - identification card
+
+  - intent: article_vi_sect2_conduct2.1
+    examples: |
+      - ano ang dapat suotin sa loob ng paaralan
+      - what to wear inside the school
+      - may uniform ba ang earist
+      - does the earist have a uniform
+      - uniform
+      - wearing of prescribed uniform
+      - mayroon bang uniform ang earist
+      - ano ang uniform ng earist
+      - what is the uniform of the earist
+
+  - intent: article_vi_sect1_e_code
+    examples: |
+      - earist code of conduct and discipline
+      - code of conduct and discipline
+      - what is the earists code of conduct and discipline
+      - ano ang earist code of conduct and discipline
+      - ano ang code of conduct and discipline ng earist
+
+  - intent: article_v_sect1_respo_stu_cont
+    examples: |
+      - sect1_responsibilities_students
+      - sect1 responsibilities students
+
+  - intent: article_v_sect1_respo_stu
+    examples: |
+      - what are the responsibilities of a student
+      - responsibilities of a student
+      - students responsibilities
+      - responsibilidad ng mga estudyante
+      - responsibilidad ng mga students
+
+  - intent: article_iv_sect5_sa_apply
+    examples: |
+      - paano maging sa
+      - paano maging student assistant
+      - how to be a student assistant
+      - application for student assistant
+      - pano mag apply as sa
+      - pano mag apply as student assistant
+      - how to apply as a student assistant
+
+  - intent: article_iv_sect5_sa
+    examples: |
+      - student assistant
+      - student assistantship
+      - sa
+      - ano ang student assistant
+      - ano ang sa
+
+  - intent: article_v_sect1_rights_s_cont
+    examples: |
+      - students_rights_continue
+      - students rights continue
+
+  - intent: article_v_sect1_rights_s
+    examples: |
+      - students rights
+      - student right
+      - ano ang mga rights ng student
+      - what are the rights of the student
+      - rights as a student
+      - what are the rights of students
+      - how does the institution protect the rights of the students
+      - ano ang mga karapatan ng mga estudyante
+      - karapatan ng mga estudyante
+
+  - intent: article_iv_scholarship_financial_lists_sc
+    examples: |
+      - agencies_list_of_scholarships
+      - agencies list of scholarships
+
+  - intent: article_iv_scholarship_financial4.1
+    examples: |
+      - special grants
+      - ano ano ang mga scholarship na offered
+      - what are the scholarships offered
+      - scholarships offered
+      - ano ang mga scholarship na offer
+      - what scholarships offer
+      - scholarships offered here in earist
+      - Ano pang ibang offer na scholarships sa EARIST?
+      - ano ang scholar
+      - May scholarship ba ang EARIST?
+
+  - intent: article_iv_scholarship_financial3.1.2
+    examples: |
+      - cultural service grant
+      - ano ang cultural service grant
+      - what is cultural service grant
+
+  - intent: article_iv_scholarship_financial3.1.1
+    examples: |
+      - may allowance ba ang mga athlete ng earist
+      - do earist athletes have an allowance
+      - varsity allowance
+      - may allowance ba ang mga atleta
+      - do athletes have an allowance
+      - athelete allowance
+      - benefits ng pagiging athlete
+      - benefits of being an athlete
+
+  - intent: article_iv_scholarship_financial2.1.2
+    examples: |
+      - deans list
+      - dean's list
+      - deans lister
+      - dean's lister
+      - ano ang deans lister
+      - what is deans lister
+      - anong dean's lister
+      - what's dean's lister
+
+  - intent: article_iv_scholarship_financial2.1.1
+    examples: |
+      - president's list
+      - presidents list
+      - president's lister
+      - presidents lister
+      - pl
+      - anong ibig sabihin ng president's lister
+      - what does the president's lister mean
+      - may president's lister ba
+      - is there a president's lister?
+
+  - intent: sect11_grad_honors_must
+    examples: |
+      - graduation_with_honors identify
+      - graduation with honors identify
+
+  - intent: sect11_grad_honors11.2
+    examples: |
+      - guidelines on graduation with honors
+      - pano mag apply for graduation with honors
+      - how to apply for graduation with honors
+      - rules for graduation with honors
+      - anong need kung mag aapply for graduation with honors
+      - what do you need to apply for graduation with honors
+      - kailangan e submit sa graduation with honors
+      - must submit to graduation with honors
+
+  - intent: sect11_grad_honors11.1
+    examples: |
+      - ano ang required grades for graduating with honors
+      - what are the required grades for graduating with honors
+      - average needed for graduating with honors
+      - ano ang average para maging summa cum laude
+      - what is the average to be summa cum laude
+      - ano ang average para maging magna cum laude
+      - what is the average to be magna cum laude
+      - ano ang average para maging cum laude
+      - what is the average to be cum laude
+      - average para maging cum laude
+      - average to be cum laude
+      - Ano ang qualified GWA ng Earist para sa Cum Laude?
+      - What is Earist’s qualified GWA for Cum Laude?
+      - general weighted average for cum laude
+      - gwa
+      - general weighted average
+
+  - intent: sect10_grad_req_10.5
+    examples: |
+      - anong mga kailangan para magkaroon ng diploma
+      - what are the requirements to have a diploma
+      - needed to be cleared for diploma and tor
+      - what things are needed to be cleared for diploma and transcript of records
+      - anong mga kailangan para magkaroon ng tor sa graduating students
+      - anong mga kailangan para magkaroon ng transcript of records sa mga graduating students
+
+  - intent: sect10_grad_req_10.4
+    examples: |
+      - ano ang mga kailangan ayusin sa mga graduating students
+      - what needs to be fixed with graduating students
+      - kailangan ayusin sa mga graduating students
+      - need to be arranged with graduating students
+      - deficiencies record cleared for graduating students
+      - ano ang mga dapat ayusin kapag gagraduate
+      - anong mga kailangan ayusin para sigurado na gagraduate
+
+  - intent: sect10_grad_req_10.3
+    examples: |
+      - ilang units ang kailangan para maging candidate for graduation
+      - how many units are needed to be a candidate for graduation
+      - ilan units ang kailangan for graduation
+      - units needed to graduate
+      - how many units are needed for graduation
+
+  - intent: sect10_grad_req_10.2
+    examples: |
+      - kelan malalaman na candidate for graduation ako
+      - when will I know that I am a candidate for graduation
+      - how will i know if i will graduate
+      - kelan e rerecommend na pwede na grumaduate ang isang estudyante
+      - kelan e rerecommend that a student can grumaduate
+
+  - intent: sect10_grad_req_10.1
+    examples: |
+      - candidate for graduation
+      - when should i file an application for graduation
+      - kelan dapat mag file ng application for graduation
+      - when to file an application for graduation
+
+  - intent: sect9_tenure9.3.4
+    examples: |
+      - pwede pa ba bumalik kapag meron ng honorable dismissal
+      - can I still come back when there is an honorable dismissal
+      - can i still return if i have honorable dismissal
+      - return honorable dismissal
+      - balik kahit may honorable dismissal na
+      - back even with honorable dismissal
+
+  - intent: sect9_tenure9.3.3
+    examples: |
+      - makaka kuha pa rin ba ng honorable dismissal kapag na expelled
+      - can you still get an honorable dismissal when expelled
+      - expulsion honorable dismissal
+      - expelled honorable dismissal
+      - suspended honorable dismissal
+      - makaka kuha pa rin ba ng honorable dismissal kapag napa alis sa earist dahilan ng
+      - will still get when leaving the earist cause of expulsion
+      - suspension honorable dismissal
+
+  - intent: sect9_tenure9.3.2
+    examples: |
+      - applying for honorable dismissal
+      - anong mga kailangan pag mag apply for honorable dismissal
+      - what are the requirements to apply for honorable dismissal
+      - pano maka kuha ng honorable dismissal
+      - how to get an honorable dismissal
+
+  - intent: sect9_tenure9.3.1
+    examples: |
+      - honorable dismissal
+      - ano ang honorable dismissal
+      - voluntarily withdrawal from the institute
+      - issue honorable dismissal
+
+  - intent: sect9_tenure9.2
+    examples: |
+      - application for leave
+      - pano mag apply for leave as a student
+      - how to apply for leave as a student
+      - paano mag leave
+      - how to leave
+      - application for leave of absence
+      - leave of absence
+
+  - intent: sect9_tenure9.2_all
+    examples: |
+      - gano katagal lang pwede mag leave
+      - how long can you leave
+      - pwede ba iextend ang pag leave
+      - can the leave be extended
+      - maximum length of leave for a student
+      - how long can i leave of absence
+
+  - intent: sect9_tenure9.1.2
+    examples: |
+      - working student length of time to finish an academic program
+      - pano pag working student gano katagal dapat matapos ang isang kurso
+      - how about a working student how long should a course take
+
+  - intent: sect9_tenure9.1
+    examples: |
+      - kelan dapat matapos ng estudyante ang kurso
+      - when the student should finish the course
+      - when should a regular student finish an academic program
+      - tenure
+      - length of time should a student finish academic program
+
+  - intent: sect8_retention_polc8.11
+    examples: |
+      - letter of dismissal
+      - when will the registrar send a letter of dismissal
+      - academic performance letter of dismissal
+
+  - intent: sect8_retention_polc8.10
+    examples: |
+      - college or schools in which the weight of courses are not in units
+      - college without units
+      - schools without units
+      - pano kapag magkaiba ng grade from previous school
+      - what if the grade is different from the previous school
+
+  - intent: sect8_retention_polc8.9
+    examples: |
+      - anong mangyayari sa bagsak na subject ko next sem kapag enrollment
+      - what will happen to my failed subject next sem when enrollment
+      - anong mangyayari sa fail subject kapag enrollment
+      - what happens to the fail subject upon enrollment
+      - anong mangyayari sa failed subject pag enrollment
+      - what happens to the failed subject upon enrollment
+
+  - intent: sect8_retention_polc8.8
+    examples: |
+      - student due for dismissal
+      - dismissal student
+      - student na madidismiss
+      - student na papa-alisin 
+      - student na pa alis sa school
+      - estudyante na pa alis sa school
+
+  - intent: sect8_retention_polc8.7
+    examples: |
+      - kasama ba ang inc sa computation ng grade
+      - kasama ba ang incomplete sa computation ng grade
+      - is inc included in the grade computation
+      - is incomplete included in the grade computation
+      - ma cocompute ba ang inc sa grade
+      - kasama ba ang incomplete sa computation ng grade
+      - is incomplete included in the grade computation
+      - ma cocompute ba ang incomplete sa grade
+      - included ba ang computation ng incomplete grade
+
+  - intent: sect8_retention_polc8.6
+    examples: |
+      - tatlong beses na bumagsak sa course
+      - three times failed the course
+      - tatlong beses na failed sa course
+      - fail thrice in the same course
+      - tatlong beses na bumagsak sa subject
+      - hanggang ilang beses lang pwede ulitin ang isang subject
+      - up to a few times a subject can be repeated
+      - fail thrice in the same subject
+
+  - intent: sect8_retention_polc8.5
+    examples: |
+      - hanggang ilan lang ang probation
+      - probation limit
+      - ilan probation lang ang pwede
+      - how many probation are allowed
+      - second probation
+      - define second probation
+      - explain second probation
+
+  - intent: sect8_retention_polc8.4
+    examples: |
+      - probation
+      - students on probation
+      - may sala
+      - may nagawang kasalanan
+      - krimen
+      - kasalanan
+      - students na may mga kasalanan
+      - mga estudyante na may kasalanan
+      - mga estudyante na on probation
+      - students already on probation
+
+  - intent: sect8_retention_polc8.3
+    examples: |
+      - pwede pa rin ba mag enroll for second sem kapag may mga bagsak ako ngayong sem first year
+      - can i still enroll for second sem when I have failures this sem first year
+      - first year student makakapag enroll pa rin ba next sem if may mga bagsak first sem
+      - first year student can still enroll next sem if there are fail first sem
+      - may mga bagsak ngayong first sem pwede ba makapag enroll second sem freshmen
+      - there are those who failed this first sem can I enroll second sem freshmen
+      - freshmen student na may bagsak ngayong sem makakapag enroll pa rin ba ako next sem
+      - freshmen student who failed this sem can i still enroll next sem
+
+  - intent: sect8_retention_polc8.2
+    examples: |
+      - guidance to failing grade
+      - may warning ba sa pabagsak na estudyante
+      - is there a warning for failing students
+      - anong mangyayari kapag may mga bagsak na grade
+      - what happens when there are failing grades
+      - inform pag pabagsak na grades
+      - does the school informs you when your grades are failing
+      - failing grades what will happen
+      - iinform ka ba pag pabagsak na grades mo
+      - will you be informed when your grades fall
+
+  - intent: sect8_retention_polc8.1
+    examples: |
+      - 5 drops and nine units failed
+      - nine units failed
+      - units failed
+      - pwede pa ba makapag enroll second sem kapag may limang bagsak
+      - can i still enroll second sem when there are five failures
+      - pwede ba mag enroll kapag may limang bagsak next sem
+      - can i enroll when there are five failures next sem
+      - enroll limang bagsak
+      - enroll may mga drop na subjects
+      - enroll with drop subjects
+      - madaming bagsak enroll
+
+  - intent: sect7_removal_inc7.3
+    examples: |
+      - hanggang kelan lang ang completion ng inc grades
+      - until when is the completion of inc grades
+      - hanggang kailan lang ang completion ng incomplete grades
+      - until recently the completion of incomplete grades
+      - hanggang kelan lang ang validity ng completion ng incomplete grades
+      - until when is the validity of completion of incomplete grades
+      - hanggang kelan lang pwede ma complete ang incomplete grades
+      - until when can incomplete grades be completed
+
+  - intent: sect7_removal_inc7.2
+    examples: |
+      - pwede ba e take ang removal examinations sa ibang time
+      - can i take the removal examinations at another time
+      - pwede ba mag take sa ibang time para sa completion ng incomplete grades
+      - can I take another time for the completion of incomplete grades
+      - is it okay to take the removal completion of grades in other time
+      - kahit kelan ba pwede ayusin ang incomplete grades
+      - at least when can incomplete grades be adjusted
+
+  - intent: sect7_removal_inc
+    examples: |
+      - may bayad ba pag mag eexam sa removal of grades
+      - Is there a fee for taking the removal of grades exam?
+      - may bayad ba ang pag exam sa incomplete grades
+      - is there a fee for taking the exam for incomplete grades
+      - may bayad ba ang pag ayos ng incomplete grades
+      - is there a fee for fixing incomplete grades
+      - is there a fee in removing incomplete grades
+      - may bayad ba pag take ng incomplete exam
+      - Is there a fee for taking an incomplete exam?
+
+  - intent: sect6_grading_sys6.5
+    examples: |
+      - pwede ba mag take ulit ng exam para mag improve ang grade
+      - can i take the exam again to improve the grade
+      - pwede ba mag retake exam para tumaas ang grade
+      - can I retake the exam to increase the grade
+      - can i take another exam to improve my grade
+      - retake exam to improve grade
+
+  - intent: sect6_grading_sys6.4
+    examples: |
+      - bakit nagbibigay ng drop
+      - why give a drop
+      - ano ang ibig sabihin ng drop
+      - bat nagbibigay ng drop
+      - what does drop mean
+      - bat na da drop ang subject
+      - kelan drop ang student
+      - kelan drop ang estudyante
+
+  - intent: sect6_grading_sys6.3
+    examples: |
+      - bakit nag bibigay ng incomplete na grade
+      - why give an incomplete grade
+      - ano ang inc na grade
+      - anong ibig sabihin ng inc
+      - what does inc mean
+      - ibig sabihin ng inc grade
+
+  - intent: sect6_grading_sys6.1_grade13
+    examples: |
+      - 4 grade
+      - ano ang kwatro na grade
+      - ano ang kwatro na grado
+      - explain 4 grade
+      - define 4 grade
+      - ilan ang kwatro na grade
+
+  - intent: sect6_grading_sys6.1_grade12
+    examples: |
+      - drop grade
+      - droppped grade
+      - explain drop grade
+      - descriptive rating ng drop grade
+
+  - intent: sect6_grading_sys6.1_grade11
+    examples: |
+      - inc
+      - incomplete
+      - incomplete na grado
+      - define incomplete na grado
+      - explain inc
+      - define inc
+
+  - intent: sect6_grading_sys6.1_grade10
+    examples: |
+      - 5.0
+      - 5 na grade
+      - define 5 grade
+      - explain 5 grade
+      - singko na grade
+      - singko
+      - ilan ang singko na grade
+
+  - intent: sect6_grading_sys6.1_grade9
+    examples: |
+      - 3.0
+      - 3 grade
+      - define 3.0 grade
+      - define 3 grade
+      - explain 3 grade
+      - explain 3.0 grade
+      - ilan ang 3.0 na grade
+      - ilan ang tres
+      - ilan ang tres na grade
+
+  - intent: sect6_grading_sys6.1_grade8
+    examples: |
+      - two . seventy five
+      - two point seventy five
+
+  - intent: sect6_grading_sys6.1_grade7
+    examples: |
+      - two . five
+      - two point five
+
+  - intent: sect6_grading_sys6.1_grade6
+    examples: |
+      - two . twenty five
+      - two point twenty five
+
+  - intent: sect6_grading_sys6.1_grade5
+    examples: |
+      - 2.0 grade
+      - 2 grade
+      - define 2.0 grade
+      - define 2 grade
+      - explain 2.0 grade
+      - ilan ang 2.0 na grado
+      - ilan ang dos
+      - ilan ang dos na grade
+
+  - intent: sect6_grading_sys6.1_grade4
+    examples: |
+      - one . seventy five
+      - one point seventy five
+
+  - intent: sect6_grading_sys6.1_grade3
+    examples: |
+      - one . five
+      - one point five
+
+  - intent: sect6_grading_sys6.1_grade2
+    examples: |
+      - one . twenty five
+      - one point twenty five
+
+  - intent: sect6_grading_sys6.1_grade1
+    examples: |
+      - ilan ang equivalent ng 1.0 na grade
+      - equivalent ng 1.0 na grade
+      - define 1.0 grade
+      - 1.0 grade meaning
+      - 1 grade
+      - ilan ang uno na grade
+
+  - intent: sect5_attendance5.10
+    examples: |
+      - ilang absent para ma drop
+      - how many absent to be dropped
+      - ilang absences ang kailangan para ma consider as drop
+      - how many absences are needed to be considered as drop
+      - ilang absent dropped
+      - how many absences is considered as drop
+
+  - intent: sect5_attendance5.9
+    examples: |
+      - ilang absent lang ang pwede
+      - how many absent can i do
+      - how many absences is possible
+      - ilang absent para ma report ang estudyante
+      - how many absent will the student be reported
+      - ilang absences ang kailangan para ma report ang student
+      - some absences are needed for the student to report
+
+  - intent: sect5_attendance5.8
+    examples: |
+      - excused absences
+      - kailangan ko pa ba gawin ang mga di ko nagawa ng absent ako
+      - do I still have to do the things I didn't do when I was absent
+      - kailangan pa rin ba taposin ang mga gawain na hindi ko nagawa nung absent ako
+      - do I still have to finish the tasks I didn't do when I was absent
+      - do i need to finish all the works that i missed when i'm absent
+
+  - intent: sect5_attendance5.7
+    examples: |
+      - anong kailangan ipakita kapag nagkasakit
+      - what to show when sick
+      - absent ba agad kapag nagkasakit
+      - am i considered absent if i have medical condition
+      - am i automatically absent immediately when ill
+      - am i automatically absent immediately when i'm sick
+      - absent due to medical
+      - absent due to operation
+      - anong dapat ipakita kapag absent dahil nagkasakit
+      - what to show when absent due to illness
+      - absent nagkasakit
+      - absent sick
+      - absent nilagnat
+      - absent dahil may sakit
+      - absent due to illness
+
+  - intent: sect5_attendance5.6
+    examples: |
+      - considered as absent ba ako pag ilalaban ako sa ibang school
+      - am I considered absent when I have events at another school
+      - am I considered absent when I am attending contest representing the school
+      - absent bako pag may event na kailangan daluhan
+      - absent if there is an event that needs to be attended
+      - absent pa rin ba kapag may contest outside school
+      - still absent when there is a contest outside school
+
+  - intent: sect5_attendance5.5
+    examples: |
+      - student who absented himself
+      - what do i need if i needed to excuse myself in a class
+      - anong kailangan para ma excuse sa class
+      - what is needed to excuse from the class
+      - anong need para ma excuse sa class with valid reason
+      - what is the need to excuse the class with a valid reason
+      - am i considered absent if a faculty member called me
+      - absent pa rin ba ako sa klase faculty member
+      - absent pa rin ba professors
+
+  - intent: sect5_attendance5.2
+    examples: |
+      - kelan ma coconsider na absent na sa isang klase ang student
+      - When can a student be considered absent from a class
+      - kelan masasabing absent na ang student sa klase
+      - when the student can be said to be absent from class
+      - ilang oras lang dapat ang palugit sa late
+      - only a few hours should be extended to late
+      - ilang minuto ba dapat para malaman na absent na
+      - how many minutes should it take to find out who is absent
+      - pag dumating ba minutes late absent na kaagad
+      - if you arrive minutes late, you will be absent immediately
+      - dumating minutes late
+      - arrived minutes late
+
+  - intent: sect5_attendance5.1
+    examples: |
+      - pag na late ba sa enrollment considered as absent na
+      - when it is late in enrollment considered as absent
+      - kapag na late ba sa enrollment considered as absent na
+      - required ba na pumasok sa first meeting
+      - is required to attend the first meeting
+      - first meeting of class
+      - are classes required in first meeting
+      - may attendance ba kapag first meeting pa lang
+      - is there attendance when it's just the first meeting
+
+  - intent: sect4_classification_4.3.5
+    examples: |
+      - fifth year
+      - pano malalaman na fifth year
+      - fifth year
+      - explain fifth year
+      - what does fifth year mean
+      - anong ibig sabihin ng fifth year
+      - may fifth year ba
+
+  - intent: sect4_classification_4.3.4
+    examples: |
+      - senior
+      - define senior
+      - ano ibig sabihin ng senior
+      - explain senior
+      - what does senior year mean
+
+  - intent: sect4_classification_4.3.3
+    examples: |
+      - define junior
+      - ano ibig sabihin ng junior
+      - junior
+      - explain junior
+      - what does junior mean
+      - what does junior year mean
+
+  - intent: sect4_classification_4.3.2
+    examples: |
+      - define sophomore
+      - ano ibig sabihin ng sophomore
+      - anong ibig sabihin ng sophomore
+      - what does sophomore means
+      - sophomore student
+      - sophomore
+      - explain sophomore
+      - what does sophomore mean
+      - what does sophomore year mean
+
+  - intent: sect4_classification_4.3.1
+    examples: |
+      - define freshmen
+      - explain freshmen
+      - freshmen
+      - freshman
+      - anong ibig sabihin ng freshmen
+      - what does freshmen mean
+      - what is freshman
+      - anong ibig sabihin ng freshman
+      - explain first year
+      - what is first year
+      - define first year
+      - what does sophomore year mean
+
+  - intent: sect4_classification_4.2.3
+    examples: |
+      - define special student
+      - pano masasabi na special student
+      - ano ang special student
+      - special
+      - what is special student
+      - special student
+
+  - intent: sect4_classification_4.2.2
+    examples: |
+      - define irregular student
+      - pano masabi na irregular student
+      - how to identify if irregular
+      - how to know if im irregular
+      - irregular student
+
+  - intent: sect4_classification_4.2.1
+    examples: |
+      - define regular student
+      - pano mo masasabi na regular student ka
+      - how can you say that you are a regular student
+      - how to know if i'm a regular student
+      - regular student
+
+  - intent: sect3_csd3.5
+    examples: |
+      - how to drop a subject course
+      - how to drop
+      - drop a subject course
+      - steps to drop a subject
+      - drop subject
+      - drop a course
+      - dropping form
+      - paano mag drop
+      - pano makapag drop
+      - gusto ko mag drop paano
+      - pano mag drop
+
+  - intent: sect3_csd3.4
+    examples: |
+      - petition for substitution
+      - pano mag petition for substitution
+      - substitution petition
+
+  - intent: sect3_csd3.3
+    examples: |
+      - substitution of courses 
+      - substitution of course
+      - substitute ng course
+      - when should the substitution of course be authorized
+      - kelan pwede mangyari ang substitution ng course
+      - when can course substitution happen
+
+  - intent: sect3_csd3.2
+    examples: |
+      - substitution for major and mandated courses
+      - pwede ba palitan ang major subjects na naibagsak
+      - can major subjects that have been dropped be replaced
+      - substitution for major subjects failed
+
+  - intent: sect3_csd3.1
+    examples: |
+      - pwede ba mag transfer sa ibang class
+      - can i transfer to another class
+      - is it possible to transfer to another class
+      - transfer to another class
+
+  - intent: sect2_shifters2.7
+    examples: |
+      - applicants for second baccalaureate degree
+      - does this institute accepts applicants for second baccalaureate degree
+      - tumatanggap ba ng second baccalaureate degree
+      - is the school receiving a second baccalaureate degree
+      - second baccalaureate degree
+
+  - intent: sect2_shifters2.6.2
+    examples: |
+      - pano mag shift sa ibang course ibang college
+      - how to shift to another course another college
+      - anong kailangan para makapag shift sa ibang course
+      - what it takes to be able to shift to another course
+      - needed requirements to shift course
+      - pano mag shift course
+      - how to shift course
+      - anong kailangan para makapag shift course
+      - how to shift course from different college
+      - shift course
+      - shifting course
+      - ano ang mga steps na dapat gawin kapag gustong lumipat ng kurso
+      - what are the steps to take when wanting to switch courses
+
+  - intent: sect2_shifters2.6.1
+    examples: |
+      - pano mag shift sa ibang course within same department college
+      - how to shift to another course within the same department college
+      - anong mga kailangan e present para makapag shift sa ibang course same department college
+      - what are the requirements present to be able to shift to another course same department college
+      - shifting course same department college
+      - shifting within the same college
+      - paano mag shift ng course sa parehong departamental college pa rin
+      - how to shift course to the same departmental college anyway
+      - pano mag shift same college department
+
+  - intent: sect2_registration2.5
+    examples: |
+      - pwede ba mag cross enroll without permit
+      - can i cross enroll without a permit
+      - cross enrollment without permit from registrar's office
+      - cross enrollment without permit
+      - cross enrollment without written permit
+
+  - intent: sect2_registration2.3
+    examples: |
+      - pwede ba mag cross enroll sa ibang school
+      - can i cross enroll in another school
+      - cross enrollment
+      - transferee from another school cross enrollment
+      - pwede kaya lumipat dito from other school cross enrollment
+      - can i cross enroll from another school
+      - are cross enrollment allowed in this school
+
+  - intent: sect2_registration2.2
+    examples: |
+      - pano kapag late na sa enrollment
+      - what about when late in enrollment
+      - registered late
+      - what will happen if i registered late
+      - anong mangyayari kapag hindi na late sa registration
+      - what happens when it's not too late to register
+      - what happens when its too late for enrollment
+      - what happens when its too late for registrations
+
+  - intent: sect2_registration2.1
+    examples: |
+      - pano ko malalaman kung enroll nako
+      - how do i know if i'm already enrolled
+      - pano malaman na officially enrolled nako
+      - how to know that I am officially enrolled
+      - pano malaman na enrolled nako sa earist as student
+      - how to know that I enrolled in earist as a student
+      - pano malaman na enrolled nako
+      - how to know who enrolled me
+      - how to know if officially enrolled nako as a student ng earist
+
+  - intent: sect1_academic_load_1.7
+    examples: |
+      - pwede bang mag enroll ng mas mababa pa
+      - can i enroll less
+      - working student units
+      - working student loads
+      - working student subject loads
+      - academic load of students employed outside
+      - can i enroll subjects na mas mababa pa sa recommended
+      - can i enroll subjects that are less than recommended
+      - ilan ang units ng mga working student
+
+  - intent: sect1_academic_load_1.6
+    examples: |
+      - ilang load ang pwede kunin kapag summer term
+      - some load can be taken during summer term
+      - how many load can be taken during summer term
+      - ilan units ang pwede kunin kapag summer term
+      - some subjects can be taken during the summer
+      - ilan subjects ang pwede kunin kapag summer
+      - how many subjects can be taken during the summer
+      - ilan lang ang units na pwede makuha kapag summer
+      - only a few units are available during the summer
+      - how many units can i enroll during summer term
+      - summer units
+      - summer load
+
+  - intent: sect1_academic_load_1.5
+    examples: |
+      - pwede bang mag enroll sa ibang department pag enroll na sa isang college department
+      - can I enroll in another department after enrolling in a college department
+      - pwede ba pagsabayin ang dalawang course
+      - can the two courses be synchronized
+      - can i enroll in more than one college to earn more than one academic degree at the same time
+      - pwede ba kumuha ng dalawang course at the same time
+      - can i take two courses at the same time
+      - pwede ba mag enroll sa dalawang kurso
+      - can i enroll in two courses
+      - can i enroll in two courses at the same time
+      - enroll sa dalawang course
+      - enroll in two courses
+      - can i earn two academic degree at the same time
+      - two degree at the same time
+      - magkaron ng dalawang degree sabay
+      - have two degrees at once
+      - sabayin ang dalawang kurso
+      - simultaneously two courses
+
+  - intent: sect1_academic_load_1.4
+    examples: |
+      - pwede ba kumuha ang regular student ng mas maraming subject
+      - can the regular student take more subjects
+      - pwede ba mag overload ng subjects
+      - can subjects be overloaded
+      - pwede ba mag overload units
+      - can i overload units
+      - pwede ba mag overload enrolled subjects
+      - can I overload enrolled subjects
+
+  - intent: sect1_academic_load_1.3
+    examples: |
+      - pwede bang kumuha ng mas maraming units ang undergrad
+      - can the undergrad take more units
+      - pwede bang kumuha ng mas madaming load
+      - can i take more load
+      - pwede bang mag enroll ng mas madaming subjects
+      - can I enroll more subjects
+
+  - intent: sect1_academic_load_1.2
+    examples: |
+      - article 2 section 1 academic load
+      - less than one half of the regular load
+      - pwede bang konting units lang e enroll
+      - can only a few units be enrolled
+      - pwede ba na kaunti lang ang subject na e enroll
+      - can only a few subjects be enrolled
+      - pwede ba na paunti unti e enroll ang subject
+      - can the subject be enrolled little by little
+
+  - intent: sect1_academic_load_1.1
+    examples: |
+      - ilang loads ang pwede sa regular student
+      - how many loads can the regular student
+      - ilang units ang pwede sa regular student
+      - how many units are available to the regular student
+      - regular load academic
+      - ilan ang regular load academic sa mga student
+      - regular load academic sa mga regular students
+
+  - intent: article1_admission_polc
+    examples: |
+      - pwede ba pumasok dito
+      - can i enter here
+      - ano ang standards para makapasok sa school na to
+      - what are the standards to enter this school
+      - can i enroll here
+      - sino pwede pumasok sa school na to
+      - who can go to this school
+      - pwede ba pumasok ang kahit sino sa school na to
+      - can anyone enter this school
+      - ano ang standards ng school sa pag pili ng students
+
+  - intent: financial_rep
+    examples: |
+      - san ko makikita ang financial statements and reports ng earist
+      - where can i find the financial statements and reports of the earist
+      - where can i find earist financial reports
+      - financial reports
+      - earist financial report
+      - saan ko pwede tignan ang financial statements ng school na to
+      - saan ko makikita ang financial statements ng school
+      - saan ko makikita ang financial reports ng school
+      - saan ko pwede tignan ang financial reports ng school na to
+
+  - intent: library_rules_regulations15
+    examples: |
+      - pwede ba gumamit ng library ang mga former student ng earist
+      - can former earist students use the library
+      - can an alumni still use the library
+      - pwede ba gamitin ang library ng mga alumni
+      - can the alumni library be used
+      - pwede pa rin ba gumamit ang mga old students ng library
+      - can old students still use the library
+      - pwede ba gamitin ng old students ang library
+      - can old students use the library
+      - pwede ba pumasok sa library ang mga old students
+      - can old students enter the library
+      - pwede ba pumasok sa lib ang mga former students
+      - can former students enter the library
+      - pwede ba pumasok sa library ang alumni
+      - can alumni enter the library
+
+  - intent: library_rules_regulations14
+    examples: |
+      - pwede ba gumamit ng library ang undergrad
+      - pwede ba gumamit ng library ang undergraduate
+      - can undergraduates use the library
+      - pwede ba gumamit ng library ang graduate student
+      - can the graduate student use the library
+      - pwede ba gumamit ng library ang researcher
+      - can the researcher use the library
+      - pwede ba gumamit ng library kahit hindi taga earist
+      - can i use the library even if i am not from earist
+      - can i use the library even if i am not a student from this school
+      - can an undergraduate use library
+      - can we access earists library if we're not students of the campus
+      - can we use the library kahit hindi kami students
+
+  - intent: library_rules_regulations13
+    examples: |
+      - anong kailangan e present kapag papasok sa library
+      - what do you need to present when entering the library
+      - anong kailangan pag hihiram libro
+      - what do you need to borrow a book
+      - requirements if i will borrow book from library
+      - anong need e present kapag hihiram libro
+      - what need e present when borrowing books
+
+  - intent: library_rules_regulations12
+    examples: |
+      - consequences in misbehaviour inside the library
+      - misbehaviour in library
+      - anong posible mangyari kapag na report sa librarian
+      - misbehaviour inside library
+      - anong pwedeng parusa kapag na report ng librarian
+      - anong mga parusa sa library
+
+  - intent: library_rules_regulations11
+    examples: |
+      - pwede ba magpahiram ng library card
+      - can i borrow a library card
+      - sagutin ko parin ba pag nasira ang libro na naka sign sa pangalan ko
+      - will it be my fault if the book signed in my name is damaged
+      - nasira na libro naka pangalan sakin
+      - broken book named after me
+      - sagutin ko parin ba pag nawala ang libro na naka sign sa pangalan ko
+      - will it be my fault if i lose the book signed in my name
+      - nawala na libro naka pangalan sakin
+      - is it still my fault if someone caused the book damage
+      - is it still my fault if someone caused the loss of the book
+
+  - intent: library_rules_regulations10
+    examples: |
+      - pwede ba kunin ang libro sa library
+      - pwede ba kunin ang libro sa library ng walang paalam
+      - can the book be taken to the library without permission
+      - pwede ba kunin ang libro sa library ng walang pahintuloy
+      - can i pick up the book at the library
+      - pwede ba mag uwi ng libro galing sa library
+      - can i bring home a book from the library
+      - consequences of stealing books from library
+      - pinunit na page sa libro library
+      - torn page in book library
+      - forging signatures from library
+
+  - intent: library_rules_regulations9
+    examples: |
+      - pwede ba mag charge ng cellphone sa library
+      - can i charge a cellphone at the library
+      - charge sa library
+      - charge to the library
+      - charge in the library
+      - pwede ba mag charge ng cp sa lib
+      - can i charge cp in the library
+      - pwede ba mag charge ng smartphone sa library
+      - can i charge a smartphone at the library
+      - can i use the library to charge my phone
+      - can i use electricity from the library to charge my devices
+      - pwede ba gamitin ang kuryente sa library pang charge ng cellphone
+      - can the electricity be used in the library to charge the cellphone
+
+  - intent: library_rules_regulations8
+    examples: |
+      - destroyed books from library
+      - damaged books borrowed from library
+      - pano kapag nasira ko ang libro na hiniram ko sa library
+      - what if I broke the book I borrowed from the library
+      - nasira ko ang libro na hiniram sa library
+      - i damaged the book borrowed from the library
+      - nasira ang libro sa library
+      - the book was damaged in the library
+      - pwede ko ba sulatan ang libro sa library
+      - can i write the book in the library
+      - can i write in the books from library
+
+  - intent: library_rules_regulations7
+    examples: |
+      - bakit kailangan pa ayusin ang mga upuan sa library
+      - why the library chairs still need to be arranged
+      - pwede ba umalis na kaagad sa library
+      - can i leave the library right away
+      - can i leave immediately in the library
+      - can i leave quickly when im inside the library
+      - pwede ba umalis agad pagkatapos gumamit ng library
+      - can I leave immediately after using the library
+      - pwede ba umalis kaagad pag tapos sa library
+      - can I leave right after the library
+
+  - intent: library_rules_regulations6
+    examples: |
+      - pwede ba mag ingay sa library
+      - can there be noise in the library
+      - can it be noisy in the library
+      - can i be noisy in the library
+      - noise library
+      - laugh library
+      - loud noise in library
+      - conversations in library
+      - bawal ang maingay sa library
+      - it is forbidden to make noise in the library
+
+  - intent: library_rules_regulations5
+    examples: |
+      - pwede ba kumain sa library
+      - can i eat at the library
+      - can i eat inside library
+      - pwede ba matulog sa library
+      - can i sleep inside library
+      - can i sleep in the library
+      - pwede ba magkalat sa library
+      - pagkakalat sa library
+
+  - intent: library_rules_regulations4
+    examples: |
+      - can i use the books from library to present outside school
+      - can i use the books for thesis reference
+      - pwede ba gamitin ang mga libro sa library para sa thesis
+      - can books from library be used for the thesis
+
+  - intent: library_rules_regulations3
+    examples: |
+      - kelan dapat isauli ang mga libro na hiniram sa library
+      - when books borrowed from the library must be returned
+      - when should i return the books i borrowed from the library
+      - pano kapag di ko nasauli ang libro na nahiram
+      - what if I don't return the borrowed book
+      - what will happen if i didn't return the book i borrowed from library
+      - anong mangyayari kapag hindi ko sinauli ang hiniram na libro
+      - consequences if i did not return the book borrowed from library
+      - anong pwede mangyari kapag hindi ko sinauli ang libro na hiniram galing library
+      - what can happen if I don't return the book borrowed from the library
+      - ano ang parusa kapag hindi na e balik ang libro galing library
+      - what is the penalty if the book is not returned from the library
+
+  - intent: library_rules_regulations2
+    examples: |
+      - how many books can i borrow in the library
+      - ilang books ang pwede ko mahiram sa library
+      - how many books can I borrow from the library
+      - books library
+      - maximum books staff and full time can borrow
+      - ilang libro lang ang pwede ko mahiram sa library
+      - ilan libro ang pwede ko mahiram sa library
+
+  - intent: library_rules_regulations1
+    examples: |
+      - pwede ba pumasok sa library kahit walang id
+      - can i enter the library even without an id
+      - pwede ba pumasok sa library kahit walang identification card
+      - can I enter the library without an identification card
+      - can i enter library without an id
+      - can i enter library without an identification card
+      - enter library with cor
+      - enter library with certificate of registration
+      - pumasok sa library certificate of registration lang meron
+      - enter the library certificate of registration only available
+      - pumasok sa library cor lang meron
+      - enter the library cor lang meron
+      - pano manghiram ng libro library materials
+      - how to borrow book library materials
+      - borrow library materials
+      - bago pumasok sa library ano ang kailangan gawin
+      - before entering the library what needs to be done
+      - ano ang kailangan e surrender bago pumasok sa library
+      - what is required e surrender before entering the library
+
+  - intent: ecat_results
+    examples: |
+      - san makikita ang results ng ecat exam
+      - where can you see the results of the ecat exam
+      - pano malalaman kung pasado sa ecat exam
+      - how to know if you passed the ecat exam
+      - san makikita ang results ng entrance exam
+      - where can you see the results of the entrance exam
+      - pano malalaman kung pasado sa entrance exam
+      - how to know if you have passed the entrance exam
+
+  - intent: ecat_exam_d
+    examples: |
+      - anong kailangan dalhin pag mag eexam sa ecat
+      - what to bring when taking the ecat exam
+      - requirements kapag mag eexam ecat
+      - requirements when taking eexam ecat
+      - ecat examination needed requirements
+      - ano ang mga kailangan sa entrance exam
+      - what are the entrance exam requirements
+      - ano ang mga kailangan kapag mag tatake ng entrance
+      - what are the requirements when attacking the entrance
+      - ecat form
+
+  - intent: challenge_ecat_abbreviation
+    examples: |
+      - anong ibig sabihin ng ecat
+      - what does ecat mean
+      - meaning ng ecat
+      - ecat abbreviation
+      - ecat
+      - explain ecat meaning
+
+  - intent: ecat_release_examination_date
+    examples: |
+      - kelan mag rerelase ng ecat permit
+      - when to rerelease an ecat permit
+      - kelan ang schedule ng ecat examination
+      - when is the ecat examination schedule
+      - kelan ang schedule ng exam sa admission test
+      - when is the exam schedule for the admission test
+      - kelan ang schedule ng entrance exam
+      - when is the entrance exam schedule
+      - schedule ng entrance exam
+
+  - intent: inc_docu
+    examples: |
+      - incomplete documents
+      - pano kapag kulang ang documents
+      - pano kapag wala ang doku
+      - pano kapag kulang ang dokuments
+      - pano kapag kulang dokumento
+      - pano kapag kulang ang requirements na dala
+      - what if the documents are missing
+      - what if the requirements are lacking
+      - what if the requirements are lack
+
+  - intent: email_form
+    examples: |
+      - email_for_form
+      - email for form
+
+  - intent: email_fee
+    examples: |
+      - email_for_fee
+      - email for fee
+
+  - intent: sarms_credo
+    examples: |
+      - sarms credo
+      - credo ng sarms
+      - student admission, promotions, and records management service credo
+      - office of the registrar credo
+      - ano ang credo ng student admission, promotions, and records management service
+      - what is the credo of student admission, promotions, and records management service
+
+  - intent: online_payment
+    examples: |
+      - online payment
+      - pano magbayad online
+      - doctoral fee online payment
+      - master's defense online payment
+      - transcript of records online payment
+      - online payment for tor
+      - SARRMS form
+      - comprehensive fee
+      - tuition fee doctoral
+      - tuition fee masteral
+      - tuition fee doctor's
+      - tuition fee master's
+      - augmentation fee
+      - pano magbayad sa landbank
+      - landbank online payment
+      - ano ang process para magbayad online sa landbank
+      - pano magbayad ng tuition fee sa defense
+      - pano magbayad ng tuition fee sa masters
+
+  - intent: ecat
+    examples: |
+      - ecat
+      - EARIST College Admission Test
+      - ecat application
+      - may admission test ba
+      - is there an admission test
+      - meron bang admission test sa earist
+      - meron ba admission test dito
+      - is there an admission test here
+      - is there an admission test for the earist
+      - paano mag apply for admission ang mga first year
+      - process ng pag apply sa earist ng mga first
+      - entrance exam
+      - paano ang entrance exam sa earist
+      - paano ang entrance exam dito
+
+  - intent: grad_school
+    examples: |
+      - graduate school offered courses
+      - graduate school programs offered
+      - graduate school course
+      - anong mga course ang meron sa grad school
+      - anong mga course ang meron sa graduate school
+      - what courses are there in grad school
+      - what courses are there in graduate school
+      - anong mga courses ang meron sa graduate school
+      - what courses are there in graduate school
+
+  - intent: req_documents
+    examples: |
+      - paano kumuha ng TOR?
+      - how to get TOR?
+      - how to get transcript of records
+      - how can i get diploma
+      - diploma
+      - transcript of records
+      - appointment ng documents
+      - request for documents
+      - cog
+      - copy of grades
+      - paano makakuha ng original copy of cog at cor
+      - paano makakuha ng original copy of grades at certificate of recognition
+      - how to get original copy of cog and cor
+      - paano kumuha ng certified true copy of registration and grades
+      - how to get a certified true copy of registration and grades
+      - request documents
+      - pano kumuha ng documents
+      - how to get documents
+      - paano kumuha ng documents
+      - How can you aquire your copy of grades and certificate of registration
+
+  - intent: mental_health
+    examples: |
+      - Does the institution truly raise awareness when it comes to the mental health of the students?
+      - raise awareness when it comes to mental health of the students
+      - may pakialam ba ang mga tao sa earist sa mental health ng student
+      - may pake ba ang earist sa mental health
+      - mental health ng estudyante
+      - mental health ng students
+      - what to do if i suffer in depression
+      - may pwede bang gawin ang school kung may mental health problem ako
+      - do earist people care about the student’s mental health
+      - does the earist care for students mental health problem
+
+  - intent: challenge_vision
+    examples: |
+      - vision
+      - earist's vision
+      - what is the vision of earist
+      - ano ang vision ng earist
+      - ano ang vision ng school na to
+      - earist vision
+      - vision of earist
+      - what are the vision of this school
+
+  - intent: challenge_apply_job
+    examples: |
+      - paano mag apply for a job anong need na documents
+      - documents needed for a job application
+      - anong mga documents need for job application
+      - ano ang kailangan pag mag apply sa trabaho dito sa school
+
+  - intent: challenge_available_job
+    examples: |
+      - anong mga available na jobs
+      - is there a list of vacant positions
+      - job lists
+      - lists of jobs available
+      - ano ang mga trabaho na pwede applyan dito
+      - mga trabaho na pwede
+      - trabaho na pwede applyan
+      - ano ang mga trabaho dito
+      - trabaho na pwede
+
+  - intent: challenge_mission
+    examples: |
+      - mission
+      - earist's mission
+      - what are the mission of earist
+      - ano ang mission ng school na to
+      - what is the mission of this school
+
+  - intent: challenge_goals
+    examples: |
+      - goals
+      - earist's goals
+      - what are the goals of earist
+      - ano ang goals ng earist
+      - goals ng eaarist
+      - what are the goals of this school
+
+  - intent: challenge_objectives
+    examples: |
+      - earists objectives
+      - earist's objectives
+      - what are earists objectives
+      - what is the objectives of earist
+      - ano ang objectives ng earist
+      - objectives
+      - what are the objectives of this school
+
+  - intent: challenge_philosophy
+    examples: |
+      - philosophy
+      - earist's philosophy
+      - ano ang pilosopiya ng earist
+      - pilosopiya ng earist
+      - what is the philosophy of the earist
+      - earist philosophy
+
+  - intent: challenge_hymn
+    examples: |
+      - hymn
+      - earist's hymn
+      - earist hymn
+      - earist song
+      - official song of earist
+      - flag song
+      - school anthem
+      - ano ang school anthem
+      - school anthem of earist
+
+  - intent: challenge_amang_id
+    examples: |
+      - sino si eulogio amang rodriguez
+      - sino si amang
+<<<<<<< HEAD
+      - sino si eulogio amang
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+      - who is eulogio amang rodriguez
+      - who is amang
+      - sino ba si amang
+      - sino nga ba si amang
+      - sinong amang
+      - tao ba si amang
+
+  - intent: challenge_amang_school
+    examples: |
+      - kelan tinayo ang paaralang eto
+      - history ng school na eto
+      - when was this school established
+      - history of this school
+      - when this school was built
+      - when was this school built
+
+  - intent: challenge_ervhs_abbreviation
+    examples: |
+      - anong ervhs
+      - ano ang ervhs
+      - meaning ng ervhs
+      - what is ervhs
+      - ervhs
+
+  - intent: challenge_earmsat_abbreviation
+    examples: |
+      - anong earmsat
+      - ano ang earmsat
+      - meaning ng earmsat
+      - what is earmsat
+      - earmsat meaning
+
+  - intent: challenge_earist_history
+    examples: |
+      - earist's history
+      - anong history ng earist
+      - gusto ko malaman ang history ng earist
+      - what history of the earist
+      - what's the history of this school
+      - i want to know the history of the earist
+
+  - intent: challenge_amang_speculation
+    examples: |
+      - naging presidente ba talaga si amang in one day
+      - did eulogio amang really become president in one day
+      - totoo ba na naging presidente talaga si amang
+      - is it true that eulogio amang really became president
+      - totoo ba naging president si amang
+
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - elow
+      - hoy
+      - hiiii
+      - hey there
+      - uy
+      - pssst
+
+  - intent: goodbye
+    examples: |
+      - good bye
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+      - paalam
+      - gege bye
+      - babye
+      - byeee
+
+  - intent: affirm
+    examples: |
+      - yes
+      - yup
+      - oo
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - yeah
+      - thanks
+      - salamat
+      - mamats
+      - thnks
+      - thank you
+      - ty
+      - thankie
+
+  - intent: deny
+    examples: |
+      - no
+      - nope
+      - hindi
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+      - nah
+      - yoko
+      - ayoko
+      - di
+      - huwag
+      - wag na
+      - di na
+
+  - intent: mood_great
+    examples: |
+      - im happy
+      - ang saya ko
+      - sobrang saya ko
+      - okay lang
+      - mabuti
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+      - fine
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - ang lungkot ko
+      - hindi ako masaya
+      - nakakalungkot
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so sad
+      - pagod
+      - buti ka pa
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - tao ka ba?
+      - alien ka ba
+      - tao ba etong kausap ko
+      - Is this a person I'm talking to?
+      - totoong tao ka ba?
+      - are you a real person
+      - tao ba ang kausap ko
+
+  - intent: emotionless
+    examples: |
+      - HAHAHAHA
+      - WAHAHAHA
+      - HAHA
+      - HAHAHAHAHAH
+      - HSHSHSHSHSAHAH
+      - HSHAHAHASHSAH
+      - HA HA HA
+      - HAHHAHAHAHAAHAHHAHAHAHAHAHHAHAHAHHAHAHAHAHAHAHHAHAHHAHAH
+      - HAHASJSAHJSHJSAHAAHJAHJAJHAHAHAHAHAJHAJHAJHAJHAJHAHJAJH
+      - HAKHAKHKAKAHHAKAHHAAHWAH
+
+  - intent: cafa_faculty
+    examples: |
+      - sino ang mga prof sa cafa
+      - sino ang mga prof sa college of architecture and fine arts
+      - who are the prof in cafa
+      - who are the prof in college of architecture and fine arts
+      - dean college of architecture and fine arts
+      - dean ng college of architecture and fine arts
+      - sino ang dean ng college of architecture and fine arts
+      - professors cafa
+      - professors ng college of architecture and fine arts
+      - who is the dean in cafa
+      - who's the dean in college of architecture and fine arts
+
+  - intent: cafa
+    examples: |
+      - courses offered in of science in architecture
+      - ano ano ang mga courses offered sa of science in architecture
+      - bsa
+      - bachelor of science in architecture
+      - architecture
+      - cafa
+      - college of architecture and fine arts
+      - what are the courses offered sa cafa
+      - what are the programs offered in cafa
+      - courses offered sa cafa
+      - courses offered sa college of architecture and fine arts
+      - courses cafa
+      - courses college of architecture and fine arts
+      - courses sa college of architecture and fine arts
+
+  - intent: cas
+    examples: |
+      - college of arts and science courses offered
+      - program offerings in cas
+      - program offerings in college of arts and sciences
+      - anong mga course na meron sa cas
+      - course cas
+      - courses sa college of arts and sciences
+      - anong mga courses ang meron sa college of arts and sciences
+      - programs offered sa college of arts and sciences
+      - ano ang mga courses sa cas
+
+  - intent: cas_faculty
+    examples: |
+      - sino ang mga professors sa cas
+      - sino ang mga professors sa college of arts and sciences
+      - who are the professors in cas
+      - who are the professors in college of arts and sciences
+      - sino ang mga prof sa cas
+      - sino ang dean sa college of arts and sciences
+      - sino ang mga prof sa college of arts and sciences
+      - who are the professors in the college of arts and sciences
+      - dean college of arts and science
+      - dean ng college of arts and science
+      - professors cas
+      - professors college of arts and sciences
+      - who is the dean in cas
+      - who's the dean in college of arts and sciences
+
+  - intent: cba
+    examples: |
+      - cba courses offered
+      - college of business administration courses offered
+      - college of business administration courses
+      - what are the programs in college of business administration
+      - programs offered in cba
+      - programs offereed in college of business administration
+      - ano ang mga courses sa cba
+      - ano ang mga course sa college of business administration
+      - what are the college of business administration courses
+
+  - intent: cba_faculty
+    examples: |
+      - sino ang mga prof sa cba
+      - who are the profs of cba
+      - sino ang dean sa cba
+      - sino ang dean sa college of business administration
+      - who is the dean of cba
+      - lists of professors in cba department
+      - lists of professors in college of business administration department
+      - sino ang mga prof sa college of business administration
+      - who are the professors in the college of business administration
+      - dean college of business administration
+      - sino ang mga prof sa college of business administration
+      - who are the profs of college of business administration
+      - sino ang dean sa college of business administration
+      - who is the dean of cba
+      - who is the dean of college of business administration
+      - who's the dean in cba
+
+  - intent: ced
+    examples: |
+      - ano ang mga courses sa college of education
+      - college of education courses offered
+      - programs offered sa college of education
+      - programs offered in the college of education
+      - what are the programs offered in the college of education
+      - education courses offered
+      - ano ang mga courses sa college of educ
+      - what are the courses in college of educ
+      - what are the courses in college of education
+      - courses sa educ
+      - courses sa education
+      - courses sa college of education
+
+  - intent: ced_faculty
+    examples: |
+      - sino ang mga prof sa educ
+      - sino ang mga prof sa college of education
+      - who are the prof in educ
+      - who are the prof in college of education
+      - sino ang dean sa educ
+      - sino ang dean sa education
+      - who is the dean of educ
+      - who is the dean of education
+      - dean ng educ
+      - lists of professors in educ
+      - who's the dean of college of education
+
+  - intent: cen
+    examples: |
+      - engineering courses offered
+      - programs offered sa college of engineering
+      - programs offered in the college of engineering
+      - ano ang mga courses sa college of engineering
+      - what are the courses in the college of engineering
+      - courses sa eng
+      - courses sa engineering
+      - engineering courses
+
+  - intent: cen_faculty
+    examples: |
+      - dean ng college of engineering
+      - dean of the college of engineering
+      - lists ng prof ng college of engineering
+      - lists ng prof ng cen
+      - lists of prof of college of engineering
+      - professors ng college of engineering
+      - professors of the college of engineering
+      - sino ang dean ng cen
+      - who is the dean of cen
+      - sino ang dean ng college of engineering
+      - who is the dean of the college of engineering
+
+  - intent: chm
+    examples: |
+      - courses sa hospitality management
+      - hospitality management courses
+      - programs offered sa chm
+      - programs offered sa college of hospitality management
+      - ano ang mga course na offer ng chm department
+      - what are the courses offered by the chm department
+      - what are the courses offered by the college of hospitality management department
+      - ano anong course meron sa hospitality management
+      - what course is there in hospitality management
+
+  - intent: chm_faculty
+    examples: |
+      - sino ang dean ng college of hospitality management
+      - sino ang dean ng chm
+      - professors ng chm
+      - professors ng college of hospitality management
+      - lists of professors in chm
+      - lists of professors in college of hospitality management
+      - who is the dean of the college of hospitality management
+      - who is the dean of chm
+      - professors of the college of hospitality management
+
+  - intent: cit
+    examples: |
+      - courses offered ng cit
+      - courses offered by cit
+      - courses offered by college of industrial technology
+      - ano ang mga course na offered sa cit department
+      - ano ang mga course na offered sa college of industrial technology department
+      - what are the courses offered in the college of industrial technology department
+      - college of industrial technology courses offered
+      - ano anong mga course ang inooffer ng cit
+      - what courses does cit offer
+
+  - intent: cit_faculty
+    examples: |
+      - sino ang dean ng cit
+      - sino ang dean ng college of industrial technology
+      - lists of professors in college of industrial technology
+      - who's the dean in college of industrial technology
+      - sino ang dean sa cit
+      - sino ang mga prof sa cit
+      - who is the dean of cit
+      - who is the dean of college of industrial technology
+      - who is the dean of the cit
+      - who is the dean of the college of industrial technology
+      - who are the prof in cit
+      - who are the prof in college of industrial technology
+
+  - intent: cpac
+    examples: |
+      - ano ang mga course na offered sa cpac
+      - what are the courses offered at cpac
+      - courses offered sa cpac
+      - ano ang mga course sa college of public administration and criminology
+      - what are the college courses of public administration and criminology
+      - cpac
+      - college of public administration and criminology
+
+  - intent: cpac_faculty
+    examples: |
+      - sino ang dean sa cpac
+      - lists of professors in cpac
+      - sino ang mga prof sa cpac
+      - sino ang dean ng college of public administration and criminology
+      - sino ang mga prof sa college of public administration and criminology
+      - who are the prof in cpac
+      - who is the dean of cpac
+      - who is the dean of the college of public administration and criminology
+      - who are the professors in the college of public administration and criminology
+
+  - intent: f_enrollment
+    examples: |
+      - first year enrollment
+      - kailangang dokumento sa pag enroll first year
+      - anong mga kailangan na dokumento pag mag eenroll ako incoming first year
+      - anong documents kailangan pag mag eenroll first year
+      - anong kailangan na documents sa mga incoming first year
+      - anong kailangan na dokuments sa incoming 1st year
+      - ano ano ang mga requirements kung sakaleng tumatanggap ng transferee
+      - ano kailangan na dokumento para sa pag enroll ng mga freshman
+      - what documents are required for the enrollment of freshmen
+      - what are the requirements in case of accepting a transferee
+      - what documents are needed in the incoming 1st year
+      - what documents are needed in the incoming first year
+      - what documents do you need to enroll first year
+      - first year enrollment document required
+      - what documents are needed when I enroll incoming first year
+
+  - intent: f_docs_submission
+    examples: |
+      - pano e susubmit ang mga documents
+      - pano ang proseso ng pag pasa ng mga documents
+      - pano ang submission ng original documents
+      - pano mag submit ng docu sa earist
+      - paano mag submit ng docu sa earist
+      - how to submit a docu to the earist
+      - how to submit original documents
+      - how to submit the documents
+
+  - intent: enrollment
+    examples: |
+      - show prisms enrollment
+      - how to enroll online
+      - paano mag enroll online
+      - pano mag enroll
+      - pano ang enrollment
+      - pano ang process ng enrollment
+      - how is the enrollment process
+      - how to enroll online
+      - how to enroll
+
+  - intent: feature_love
+    examples: |
+      - i love you
+      - mahal kita
+      - mahal na yata kita
+<<<<<<< HEAD
+      - mahal na ata kita
+      - aylabyu
+      - labyu
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+      - ily
+      - love you
+      - iloveyou
+      - love
+<<<<<<< HEAD
+      - mahal mo ba ako
+      - mahal
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  - intent: challenge_courses_quantity_overall
+    examples: |
+      - bilang ng course na available
+      - ilan ang courses
+      - gaano kadami ang course
+      - ilan lahat ng courses na offered
+<<<<<<< HEAD
+      - ilan lahat ng course mayroon sa paaralan na ito
+      - ilan lahat ng courses na pwede pag aralan dito
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+      - ilan lahat ng program na offered
+      - how many courses are available
+      - number of courses available
+      - how many courses
+<<<<<<< HEAD
+      - how many courses are available in this school
+      - quantities of courses available in this institution
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  - intent: challenge_college_degree_courses
+    examples: |
+      - ilan lahat ng college courses
+      - ilan lahat ng available na college course
+      - ilan ang courses na offered sa college
+<<<<<<< HEAD
+      - ilan lahat ng college degree course dito sa school
+      - ilan lahat ng college degree course na mayroon sa paaralan
+      - ilan ang lahat ng college degree course na pwede pag aralan dito
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+      - how many college courses are there
+      - how many are all college courses
+      - how many are the total college courses
+      - how many courses are offered in college
+
+  - intent: challenge_graduate_school
+    examples: |
+      - ilan lahat ng offer na courses sa graduate school
+      - ilan lahat ng available na course sa graduate school
+      - ilan ang course na offer sa grad school
+<<<<<<< HEAD
+      - ilan ang courses sa graduate school
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+      - how many graduate courses are offered
+      - how many courses are available in graduate school
+      - how many graduate school courses are offered
+
+  - intent: tertiary_education_act
+    examples: |
+      - is earist a free school
+      - free tuition ba sa EARIST
+      - may tuition ba sa EARIST
+      - may miscellaneous ba sa EARIST
+      - Magkano tuition
+<<<<<<< HEAD
+      - magkano tuition fee
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+      - libre ba mag aral sa Earist?
+      - may babayaran pa ba para makapag aral dito
+      - may bayad ba pag mag aaral dito
+      - may bayad ba pag aaral dito
+      - libre pa ba ang pag-aaral sa earist
+      - is there a tuition at earist
+      - is there any miscellaneous in EARIST
+      - how much is the tuition
+<<<<<<< HEAD
+      - libre ba mag aral dito
+      - magkano ang babayaran para makapag aral dito
+=======
+>>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
+
+  - intent: foul_words
+    examples: |
+      - idiot bobo
+      - fuck pakyu
+      - tangina tarantado taena kingina amputa
+      - gagu gago ka
+      - tanga trash inutil
+      - shit pokpok burat pakshet tite
+      - putang ina puta pucha
+      - bwiset buwisit
+      - ulol ul0l
+      - yawa pesteng yawa
+      - hinayupak punyeta
+      - kupal leche ungas
+      - tangina mo
+      - tanga
+      - bobo
+      - inutil
+      - amputa
+      - animal ka
+      - bilat
+      - bogo
+      - boto
+      - burat
+      - engot
+      - etits
+      - gaga gagi gago
+      - gaga
+      - gagi
+      - gago
+      - hayup
+      - hinayupak
+      - hindot
+      - hindotan
+      - hudas
+      - iniyot
+      - inutel
+      - iyot
+      - kagaguhan
+      - kantot
+      - kantotan
+      - kantut
+      - kantutan
+      - kupal
+      - lechugas
+      - lintik
+      - pakingshet
+      - putaragis
+      - puta
+      - putragis
+      - ulol
+      - ulul
+      - potangina
+      - bitch
+      - bitch
