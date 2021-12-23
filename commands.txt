@@ -1,7 +1,7 @@
-rasa run -m models --enable-api --cors “*” --debug
 rasa run --m ./models --endpoints endpoints.yml --port 5005 -vv --enable-api --cors “*”
 python -m http.server 8000
 
+cd..
 cd Earist - faq
 cd..
 cd faq-bot-rasa
