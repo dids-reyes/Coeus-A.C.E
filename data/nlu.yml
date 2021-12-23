@@ -13,24 +13,6 @@ nlu:
       - meron ba swimming
       - meron ba football
       - may chess ba
-      - mayroon bang chess
-      - may sepak takraw ba
-      - mayroon bang sepak takraw
-      - may arnis ba
-      - mayroon bang arnis
-      - may volleyball ba
-      - mayroon bang volleyball
-      - may dance sport ba
-      - mayroon bang dance sport
-      - may basketball ba
-      - mayroon bang basketball
-      - may athletics ba
-      - mayroon bang athletics
-      - may track and field ba
-      - may swimming ba
-      - mayroon bang swimming
-      - may football ba
-      - mayroon bang soccer
       - may sepak takraw ba
       - may arnis ba
       - may volleyball ba
@@ -73,7 +55,6 @@ nlu:
       - available sports here in earist
       - what sports are played here
       - Is there a varsity?
-      - what sports can i join here
       - arnis
       - volleyball
       - dance sport
@@ -103,9 +84,6 @@ nlu:
       - where can i find eulogio amang rodriguez institute of science and technology
       - address ng school na eto
       - anong address ng school
-      - complete address ng school na ito
-      - location ng school
-      - location of the school
 
   - intent: chief_mds
     examples: |
@@ -2953,10 +2931,7 @@ nlu:
     examples: |
       - sino si eulogio amang rodriguez
       - sino si amang
-<<<<<<< HEAD
       - sino si eulogio amang
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
       - who is eulogio amang rodriguez
       - who is amang
       - sino ba si amang
@@ -3149,7 +3124,6 @@ nlu:
       - HA HA HA
       - HAHHAHAHAHAAHAHHAHAHAHAHAHHAHAHAHHAHAHAHAHAHAHHAHAHHAHAH
       - HAHASJSAHJSHJSAHAAHJAHJAJHAHAHAHAHAJHAJHAJHAJHAJHAHJAJH
-      - HAKHAKHKAKAHHAKAHHAAHWAH
 
   - intent: cafa_faculty
     examples: |
@@ -3415,21 +3389,10 @@ nlu:
       - i love you
       - mahal kita
       - mahal na yata kita
-<<<<<<< HEAD
-      - mahal na ata kita
-      - aylabyu
-      - labyu
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
       - ily
       - love you
       - iloveyou
       - love
-<<<<<<< HEAD
-      - mahal mo ba ako
-      - mahal
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   - intent: challenge_courses_quantity_overall
     examples: |
@@ -3437,32 +3400,16 @@ nlu:
       - ilan ang courses
       - gaano kadami ang course
       - ilan lahat ng courses na offered
-<<<<<<< HEAD
-      - ilan lahat ng course mayroon sa paaralan na ito
-      - ilan lahat ng courses na pwede pag aralan dito
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
       - ilan lahat ng program na offered
       - how many courses are available
       - number of courses available
       - how many courses
-<<<<<<< HEAD
-      - how many courses are available in this school
-      - quantities of courses available in this institution
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   - intent: challenge_college_degree_courses
     examples: |
       - ilan lahat ng college courses
       - ilan lahat ng available na college course
       - ilan ang courses na offered sa college
-<<<<<<< HEAD
-      - ilan lahat ng college degree course dito sa school
-      - ilan lahat ng college degree course na mayroon sa paaralan
-      - ilan ang lahat ng college degree course na pwede pag aralan dito
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
       - how many college courses are there
       - how many are all college courses
       - how many are the total college courses
@@ -3473,10 +3420,6 @@ nlu:
       - ilan lahat ng offer na courses sa graduate school
       - ilan lahat ng available na course sa graduate school
       - ilan ang course na offer sa grad school
-<<<<<<< HEAD
-      - ilan ang courses sa graduate school
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
       - how many graduate courses are offered
       - how many courses are available in graduate school
       - how many graduate school courses are offered
@@ -3488,10 +3431,6 @@ nlu:
       - may tuition ba sa EARIST
       - may miscellaneous ba sa EARIST
       - Magkano tuition
-<<<<<<< HEAD
-      - magkano tuition fee
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
       - libre ba mag aral sa Earist?
       - may babayaran pa ba para makapag aral dito
       - may bayad ba pag mag aaral dito
@@ -3500,11 +3439,6 @@ nlu:
       - is there a tuition at earist
       - is there any miscellaneous in EARIST
       - how much is the tuition
-<<<<<<< HEAD
-      - libre ba mag aral dito
-      - magkano ang babayaran para makapag aral dito
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   - intent: foul_words
     examples: |
@@ -3559,5 +3493,4 @@ nlu:
       - ulol
       - ulul
       - potangina
-      - bitch
       - bitch

@@ -315,13 +315,8 @@ responses:
   utter_welcome_message:
   - text: "Hi I'm Coeus! Earist's virtual agent, don't worry I can understand tagalog. How may I help you?"
 
-<<<<<<< HEAD
   utter_default:
   - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
-=======
-#  utter_default:
-#  - text: "Sorry ☹️ I did not understand that, please rephrase and be specific, use either English/Tagalog Language."
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   utter_please_rephrase:
   - text: "Sorry ☹️ I did not understand that, please rephrase and be specific, use either English/Tagalog Language."
@@ -1675,11 +1670,6 @@ responses:
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGx_b4cGQgNDWZ49VSbBqROKdvLNnGDgU3NBGBPh5xdKljSj4gG0GCyR3nvEqXhA1nI6A&usqp=CAU"
-<<<<<<< HEAD
-  - text: "Here is something to cheer you up:"
-    image: "https://i.pinimg.com/originals/c4/47/2d/c4472d087571693eeffc84e24cee138d.jpg"
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -1734,22 +1724,12 @@ responses:
 
   utter_happy:
   - text: "Great, carry on!"
-<<<<<<< HEAD
-  - text: "😀"
-  - text: "🙂"
-  - text: "😊"
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   utter_goodbye:
   - text: "Bye-bye! 😘"
 
   utter_iamabot:
-<<<<<<< HEAD
-  - text: "I'm a bot 🤖 created by EARIST."
-=======
   - text: "I'm a bot created by Earist."
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   utter_foul_words:
   - text: "🤬 Profanities are not allowed"
@@ -1757,11 +1737,6 @@ responses:
 
   utter_emotionless:
   - text: "😂 must be nice to feel emotions"
-<<<<<<< HEAD
-  - text: "HAHAHAHAkdog 🌭"
-  - text: "🌭"
-=======
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   utter_f_enrollment:
   - text: "First you will need a Long Brown Envelope... see sample below"
@@ -1800,11 +1775,7 @@ responses:
   utter_feature_love_respo:
   - text: "I love you too 😍"
   - text: "🥰❤️"
-<<<<<<< HEAD
   - text: "I ❤️ U too"
-=======
-  - text: "🤟 - this gesture means 'I love you' in American Sign Language. 🤟2"
->>>>>>> 94eacac2d4285865f7ccc8e3afc293511521c64e
 
   utter_tertiary_education_act:
   - text: "EARIST is part of the government's free tertiary program officially designated as Republic Act No. 10931
