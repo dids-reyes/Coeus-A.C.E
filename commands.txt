@@ -8,3 +8,8 @@ cd faq-bot-rasa
 virtualenv/Scripts/activate
 cd..
 cd earist-faq-bot-rasa
+
+heroku login // from deployment directory
+heroku container:login
+heroku container:push web -a coeus-earist
+heroku container:release web -a coeus-earist
