@@ -313,7 +313,7 @@ intents:
 
 responses:
   utter_welcome_message:
-  - text: "Hi I'm Coeus! Earist's virtual agent, don't worry I can understand tagalog. How may I help you?"
+  - text: "Hi I'm Coeus!  \n\nEarist's virtual agent, don't worry I can understand tagalog.  \n\nHow may I help you?"
 
   utter_default:
   - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
@@ -624,7 +624,7 @@ responses:
         payload: "payload_for_no_intent_identify_unq"
 
   utter_article_vii_disc_sec3_info:
-  - text: "Probationary status is two types:  \n1. Academic Probation: is imposed if the student's problem is academic in nature. A student is placed under academic probation under any of the following circumstances:  \nFailure in one(1) major course  \nFailure in two(2) minor course  \nThe Academic Probation is for one(1) semester and is automatically lifted when the student has passed all his courses in the semester that the Academic Probation is being served. Further failure in any course shall debar the student from readmission.  \n\n2. Disciple Probation: is imposed if the student has committed a major offense meriting this sanction within a semester or three (3) minor offenses. The Disciplinary Probation shall be for a minimum of sixty (60) school days and a maximum of one hundred (100) school days. A student may be placed on probation only twice during his/her stay in the school, and further violations shall be subject to dismissal.  \n\nIn both types of probation, the student and his/her parents/guardian are informed in writing. Likewise, they are all informed of the lifting of such Academic or Disciplinary Probation status. The Counseling and Testing Office Issues the communication as regards lifting of the probation status after a counseling session has been held."
+  - text: "Probationary status is two types:  \n1. Academic Probation: is imposed if the student's problem is academic in nature. A student is placed under academic probation under any of the following circumstances:  \nFailure in one(1) major course  \nFailure in two(2) minor course  \nThe Academic Probation is for one(1) semester and is automatically lifted when the student has passed all his courses in the semester that the Academic Probation is being served. Further failure in any course shall debar the student from readmission.  \n\n 2. Disciple Probation: is imposed if the student has committed a major offense meriting this sanction within a semester or three (3) minor offenses. The Disciplinary Probation shall be for a minimum of sixty (60) school days and a maximum of one hundred (100) school days. A student may be placed on probation only twice during his/her stay in the school, and further violations shall be subject to dismissal.  \n\nIn both types of probation, the student and his/her parents/guardian are informed in writing. Likewise, they are all informed of the lifting of such Academic or Disciplinary Probation status. The Counseling and Testing Office Issues the communication as regards lifting of the probation status after a counseling session has been held."
 
   utter_article_vii_disc_sec3:
   - text: "Probation may be given to a student whose action and/or behavior would otherwise merit separation from the school."
