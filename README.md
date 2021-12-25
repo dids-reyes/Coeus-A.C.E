@@ -71,5 +71,16 @@ Initialize RASA:
 ```console
 rasa init
 ```
+
+After cloning this repository open a prompt/terminal inside the directory where the files are located. To test the bot type the command below:
+```console
+rasa shell
+```
+
+If you have a Front-End website to run the bot, enter the command:
+```console
+rasa run --m ./models --endpoints endpoints.yml --port 5005 -vv --enable-api --cors “*”
+```
+
 ## Support this project by buying the dev a cup of coffee :coffee:  
 <a href="https://www.buymeacoffee.com/dids" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
