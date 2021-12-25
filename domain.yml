@@ -313,7 +313,7 @@ intents:
 
 responses:
   utter_welcome_message:
-  - text: "Hi I'm Coeus!  \n\nEarist's virtual agent, don't worry I can understand tagalog.  \n\nHow may I help you?"
+  - text: "Hi I'm Coeus! Earist's virtual agent.  \n\nDon't worry I can understand tagalog.  \n\nHow may I help you?"
 
   utter_default:
   - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
