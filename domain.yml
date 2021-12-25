@@ -310,6 +310,7 @@ intents:
   - chief_mds
   - challenge_sports
   - campus_addr
+  - school_id_req
 
 responses:
   utter_welcome_message:
@@ -1789,6 +1790,12 @@ responses:
 
   utter_challenge_college_degree_courses:
   - text: "There are a total of 39 College Degree Courses offered by EARIST."
+
+  utter_school_id_req:
+  - text: "For Request of School ID (Applicable to Higher Year and Graduate School. Kindly click the link below:"
+
+  utter_school_id_req_link:
+  - text: "https://calendly.com/earist-registrar/claiming-of-school-id"
 
 session_config:
   session_expiration_time: 60

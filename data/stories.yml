@@ -1716,3 +1716,9 @@ stories:
       - intent: campus_addr
       - action: utter_campus_addr
       - action: utter_campus_addr_link
+
+  - story: school_id_req path
+    steps:
+      - intent: school_id_req
+      - action: utter_school_id_req
+      - action: utter_school_id_req_link

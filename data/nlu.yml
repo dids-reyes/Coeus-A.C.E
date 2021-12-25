@@ -66,6 +66,16 @@ nlu:
       - football
       - soccer
 
+  - intent: school_id_req
+    examples: |
+      - paano mag request ng school id
+      - request of identity card
+      - for request of school id
+      - school id
+      - pano kumuha ng school id
+      - pano kunin ang school id
+      - kukuha ng school id
+
   - intent: campus_addr
     examples: |
       - earist address
