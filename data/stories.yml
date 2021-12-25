@@ -1722,3 +1722,38 @@ stories:
       - intent: school_id_req
       - action: utter_school_id_req
       - action: utter_school_id_req_link
+
+  - story: senior_high_req path
+    steps:
+      - intent: senior_high_req
+      - action: utter_senior_high_req
+
+  - story: application_time path
+    steps:
+      - intent: application_time
+      - action: utter_application_time
+
+  - story: diff_school path
+    steps:
+      - intent: diff_school
+      - action: utter_diff_school
+
+  - story: app_q path
+    steps:
+      - intent: app_q
+      - action: utter_app_q
+
+  - story: application_adm_n_s path
+    steps:
+      - intent: application_adm_n_s
+      - action: utter_application_adm_n_s
+
+  - story: miss_docu path
+    steps:
+      - intent: miss_docu
+      - action: utter_miss_docu
+
+  - story: shs_ng
+    steps:
+      - intent: shs_ng
+      - action: utter_shs_ng

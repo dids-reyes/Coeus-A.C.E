@@ -311,6 +311,13 @@ intents:
   - challenge_sports
   - campus_addr
   - school_id_req
+  - senior_high_req
+  - application_time
+  - diff_school
+  - app_q
+  - application_adm_n_s
+  - miss_docu
+
 
 responses:
   utter_welcome_message:
@@ -1796,6 +1803,27 @@ responses:
 
   utter_school_id_req_link:
   - text: "https://calendly.com/earist-registrar/claiming-of-school-id"
+
+  utter_senior_high_req:
+  - text: "Card needed is Grade 12 - Senior High School Card or the latest card you obtained after moving up."
+
+  utter_application_time:
+  - text: "Until your selected course is available and not full you can still submit an application."
+
+  utter_diff_school:
+  - text: "Yes, as long as you don't have any failed or dropped subjects from your school. And your course is still available, there's no reason to reject your application."
+
+  utter_app_q:
+  - text: "Your application is only to show if you can be a student of EARIST base on your submitted documents. First you need to pass the entrance exam, then you may proceed to next steps to be a bonafide student of EARIST."
+
+  utter_application_adm_n_s:
+  - text: "You will receive a message from your respective college department where you applied if your submitted documents passed, or you may check from time to time your college Facebook page, they may post the names of the students who passed the admission."
+
+  utter_miss_docu:
+  - text: "You may need to complete your documents first before submitting an application or admission, missing documents may not be entertained."
+
+  utter_shs_ng:
+  - text: "We only accept students who graduated Senior High School (SHS). If you're not SHS Graduate you need to take or pass your pre-requisite subjects."
 
 session_config:
   session_expiration_time: 60

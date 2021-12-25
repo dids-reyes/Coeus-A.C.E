@@ -66,6 +66,67 @@ nlu:
       - football
       - soccer
 
+  - intent: shs_ng
+    examples: |
+      - ako po ay hindi graduate ng senior high school, pwede ba ako mag college
+      - ako po ay hindi graduate ng senior high school pwede ba mag college
+      - pwede ba mag college kapag hindi graduate ng shs
+      - di grad ng shs pwede ba ako mag college
+      - pwede ba makapag college kahit di shs graduate
+      - pwede ba makapag college kahit di senior high school graduate
+
+  - intent: miss_docu
+    examples: |
+      - kulang po requirements ko, maari po bang isunod na lang
+      - pano po kapag kulang ang isusubmit na requirements
+      - kulang na requirements
+      - kulang ng requirements
+
+  - intent: application_adm_n_s
+    examples: |
+      - anong next step pag pasa ng application for admission
+      - ano ang sunod na gagawin pagka-pasa ng application for admission
+      - application for admission next step
+      - next step after submission of application for admission
+      - pag tapos mag pasa ng application for admission anong sunod na gagawin
+      - pagkatapos magpasa ng application for admission
+      - anong susunod na gagawin pag tapos ng application for admission
+
+  - intent: app_q
+    examples: |
+      - kapag nag apply po ba ako ay pasado na
+      - kapag nag apply ba ako ay sure pass na
+      - pag nag submit ako application pasado na ba ako nun
+      - if i applied, am i already passed as a student
+      - am i a student of earist if i passed an application
+
+  - intent: diff_school
+    examples: |
+      - transferee po ako galing ibang eskwelahan maari ba akong mag apply
+      - pwede ba transferee
+      - pwede ba lumipat galing akong ibang school
+      - pwede lumipat galing ibang school
+      - lipat po ako galing ibang school
+      - lilipat po ako galing ibang school
+      - pwede mag transfer dito from different school
+      - transfer from different school
+
+  - intent: application_time
+    examples: |
+      - hanggang kelan lang pwede mag pasa ng application
+      - hanggang kailan lang pwede magpasa ng application
+      - hanggang kelan lang pwede mag pass ng application
+      - hanggang kailan po pwede magpasa ng application
+      - until when can i pass an application
+      - hanggang kelan pwede mag apply
+      - hanggang kelan lang pwede mag apply sa course
+
+  - intent: senior_high_req
+    examples: |
+      - ano po bang senior high school card ang ipapasa
+      - anong card ang ipapasa kapag mag eenroll senior high school
+      - senior high school card
+
   - intent: school_id_req
     examples: |
       - paano mag request ng school id
