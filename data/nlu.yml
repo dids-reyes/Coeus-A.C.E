@@ -74,6 +74,12 @@ nlu:
       - di grad ng shs pwede ba ako mag college
       - pwede ba makapag college kahit di shs graduate
       - pwede ba makapag college kahit di senior high school graduate
+      - im not a senior high school graduate can i still enter this school
+      - i am not a shs graduate
+      - im not a shs graduate
+      - im not a senior high school graduate
+      - can i still study in this school if im not a shs graduate
+      - can i still study in this school if im not a senior high school graduate
 
   - intent: miss_docu
     examples: |
@@ -81,6 +87,11 @@ nlu:
       - pano po kapag kulang ang isusubmit na requirements
       - kulang na requirements
       - kulang ng requirements
+      - my requirements are not complete can i still proceed
+      - some of my documents are missing
+      - my requirements are incomplete
+      - missing requirements
+      - lack of documents
 
   - intent: application_adm_n_s
     examples: |
@@ -91,6 +102,9 @@ nlu:
       - pag tapos mag pasa ng application for admission anong sunod na gagawin
       - pagkatapos magpasa ng application for admission
       - anong susunod na gagawin pag tapos ng application for admission
+      - what's the next step after the submission of application for admission
+      - next step after application of admission
+      - what is the next step after i passed an application for admission
 
   - intent: app_q
     examples: |
@@ -110,6 +124,7 @@ nlu:
       - lilipat po ako galing ibang school
       - pwede mag transfer dito from different school
       - transfer from different school
+      - can i study in this school im a transferee
 
   - intent: application_time
     examples: |
@@ -120,6 +135,8 @@ nlu:
       - until when can i pass an application
       - hanggang kelan pwede mag apply
       - hanggang kelan lang pwede mag apply sa course
+      - until when can i submit an application
+      - until when can i enroll
 
   - intent: senior_high_req
     examples: |
@@ -136,6 +153,7 @@ nlu:
       - pano kumuha ng school id
       - pano kunin ang school id
       - kukuha ng school id
+      - request of school id
 
   - intent: campus_addr
     examples: |
