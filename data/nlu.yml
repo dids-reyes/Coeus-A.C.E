@@ -143,6 +143,7 @@ nlu:
       - ano po bang senior high school card ang ipapasa
       - anong card ang ipapasa kapag mag eenroll senior high school
       - senior high school card
+      - what report card should i pass
 
   - intent: school_id_req
     examples: |

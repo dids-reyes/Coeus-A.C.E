@@ -59,6 +59,7 @@ stories:
     steps:
       - intent: foul_words
       - action: utter_foul_words
+      - action: utter_foul_words_u
 
   - story: f_enrollment_path
     steps:

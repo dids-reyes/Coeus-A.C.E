@@ -1743,6 +1743,9 @@ responses:
   - text: "🤬 Profanities are not allowed"
     image: "https://i.ibb.co/TqYDGnq/profanity.jpg"
 
+  utter_foul_words_u:
+  - text: "Please use appropriate language."
+
   utter_emotionless:
   - text: "😂 must be nice to feel emotions"
 
