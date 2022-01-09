@@ -13,7 +13,7 @@ intents:
   - cafa
   - f_enrollment
   - f_docs_submission
-  - hello
+  - start
   - enrollment
   - feature_love
   - tertiary_education_act
