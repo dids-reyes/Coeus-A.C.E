@@ -15,6 +15,7 @@ rules:
     steps:
       - intent: foul_words
       - action: utter_foul_words
+      - action: utter_foul_words_u
 
   - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
     steps:

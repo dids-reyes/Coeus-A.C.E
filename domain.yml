@@ -317,6 +317,7 @@ intents:
   - app_q
   - application_adm_n_s
   - miss_docu
+  - shs_ng
 
 
 responses:
