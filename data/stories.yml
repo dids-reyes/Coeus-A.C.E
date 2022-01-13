@@ -81,7 +81,7 @@ stories:
 
   - story: welcome_path
     steps:
-      - intent: hello
+      - intent: start
       - action: utter_welcome_message
 
   - story: enrollment_path
