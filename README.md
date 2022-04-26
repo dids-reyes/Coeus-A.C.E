@@ -55,7 +55,7 @@ Front-End Widget Used: RASA Webchat <https://github.com/botfront/rasa-webchat.gi
 I. Quick Installation of RASA Open Source
 ```console
 pip3 install -U pip
-pip3 install rasa
+pip install rasa==2.2.7
 ```
 II. Virtual Environment Setup
 
@@ -80,6 +80,13 @@ rasa shell
 If you have a Front-End website to run the bot, enter the command:
 ```console
 rasa run --m ./models --endpoints endpoints.yml --port 5005 -vv --enable-api --cors “*”
+```
+
+#### Trained Model is not included in this repository.
+Git Large File is not used in this repo.
+In order to create model in your local machine run or type the command below:
+```console
+rasa train
 ```
 
 ## Support this project by buying the dev a cup of coffee :coffee:  
