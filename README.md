@@ -36,6 +36,63 @@ Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD6
 
 <br/>
 
+## Usage
+
+:warning: Before proceeding to this step, make sure that python and pip are installed.
+
+I. Virtual Environment Setup
+
+Create a new virtual environment by choosing a Python interpreter and making a .\\venv directory to hold it:
+
+```console
+python3 -m venv ./venv
+```
+
+Activate the virtual environment:
+
+```console
+source ./venv/bin/activate
+```
+
+test addition
+
+II. Quick Installation of RASA Open Source
+
+```console
+pip install rasa
+```
+
+III. Clone Repository and Train/Run
+
+```console
+git clone https://github.com/skedaddl3/Coeus-A.C.E.git
+```
+
+After cloning this repository open a prompt/terminal inside the directory where the files are located.
+
+Train Model and Test it on your own machine:
+Run Command below if `rasa run` did not work.
+
+Make sure that you're running this command inside the COEUS-A.C.E directory.
+
+#### Trained Model is not included in this repository.
+
+Git Large File is not used in this repository. That's why the repository does not contain any pre-trained model.
+
+In order to create model in your local machine run or type the command below:
+
+```console
+rasa train
+```
+
+Wait for the model to be trained, it usually takes 10-20+ minutes depending on the specifications of your machine.
+
+After model training, Test it in your terminal, run:
+
+```console
+rasa shell
+```
+
 Front-End Widget Used: RASA Webchat <https://github.com/botfront/rasa-webchat.git>
 
 ```js
@@ -63,54 +120,11 @@ Front-End Widget Used: RASA Webchat <https://github.com/botfront/rasa-webchat.gi
   </script>
 ```
 
-## Usage
-
-I. Quick Installation of RASA Open Source
-
-```console
-pip install rasa
-```
-
-II. Virtual Environment Setup
-
-Create a new virtual environment by choosing a Python interpreter and making a .\\venv directory to hold it:
-
-```console
-python3 -m venv ./venv
-```
-
-Activate the virtual environment:
-
-```console
-source ./venv/bin/activate
-```
-
-Train Model and Test it on your own machine:
-Run Command below if `rasa run` did not work.
-
-```console
-rasa train
-```
-
-After cloning this repository open a prompt/terminal inside the directory where the files are located. To test the bot type the command below:
-
-```console
-rasa shell
-```
-
-If you have a Front-End website to run the bot, enter the command:
+If you have a Front-End website to run the bot, Embed the Script above in your local website.
+And enter the command:
 
 ```console
 rasa run --m ./models --endpoints endpoints.yml --port 5005 -vv --enable-api --cors “*”
-```
-
-#### Trained Model is not included in this repository.
-
-Git Large File is not used in this repo.
-In order to create model in your local machine run or type the command below:
-
-```console
-rasa train
 ```
 
 ## Support this project by buying the dev a cup of coffee :coffee:
