@@ -1,30 +1,43 @@
 # **<p align="center">:robot: Coeus - EARIST A.C.E :speech_balloon:</p>**
+
 Coeus is an Artificial Conversational Entity for queries in Eulogio "Amang" Rodriguez Institute of Science and Technology, using Open Source Machine Learning Framework RASA NLU.
 
 ![alt text](https://i.ibb.co/jD9V5vz/5-SVXe-Qdc-4x.jpg)
 
 ## Implementation
-:warning: Before Cloning this project make sure you have `python` installed on your machine.
+
+:warning: Before Cloning this project make sure you have `python` and `pip` installed on your machine.
 
 - Machine Learning Framework Used: RASA <https://rasa.com/docs/rasa/>
 - Repository Software for Python: PythonPackageIndex <https://pypi.org/>
-<br/>
+  <br/>
 
 :heavy_check_mark: Check if Pip is Already Installed: Open a command prompt type the command below:
+
 ```console
-pip help
+pip --version
 ```
+
+:heavy_check_mark: Check if Python is Already Installed: Open a command prompt type the command below:
+
+```console
+python --version
+```
+
 <br/>
 
 :heavy_check_mark: Confirm that Python is installed: Open a command prompt type `python` then hit enter.\
 If Python is installed correctly, you should see output similar to what is shown below.
+
 ```sh
 Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
  Type "help", "copyright", "credits" or "license" for more information.
 ```
+
 <br/>
 
 Front-End Widget Used: RASA Webchat <https://github.com/botfront/rasa-webchat.git>
+
 ```js
 <script>!(function () {
     let e = document.createElement("script"),
@@ -53,41 +66,53 @@ Front-End Widget Used: RASA Webchat <https://github.com/botfront/rasa-webchat.gi
 ## Usage
 
 I. Quick Installation of RASA Open Source
+
 ```console
-pip3 install -U pip
-pip install rasa==2.2.7
+pip install rasa
 ```
+
 II. Virtual Environment Setup
 
 Create a new virtual environment by choosing a Python interpreter and making a .\\venv directory to hold it:
+
 ```console
-C:\> python3 -m venv ./venv
+python3 -m venv ./venv
 ```
+
 Activate the virtual environment:
+
 ```console
-C:\> .\venv\Scripts\activate
+source ./venv/bin/activate
 ```
-Initialize RASA:
+
+Train Model and Test it on your own machine:
+Run Command below if `rasa run` did not work.
+
 ```console
-rasa init
+rasa train
 ```
 
 After cloning this repository open a prompt/terminal inside the directory where the files are located. To test the bot type the command below:
+
 ```console
 rasa shell
 ```
 
 If you have a Front-End website to run the bot, enter the command:
+
 ```console
 rasa run --m ./models --endpoints endpoints.yml --port 5005 -vv --enable-api --cors “*”
 ```
 
 #### Trained Model is not included in this repository.
+
 Git Large File is not used in this repo.
 In order to create model in your local machine run or type the command below:
+
 ```console
 rasa train
 ```
 
-## Support this project by buying the dev a cup of coffee :coffee:  
+## Support this project by buying the dev a cup of coffee :coffee:
+
 <a href="https://www.buymeacoffee.com/dids" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
