@@ -4,6 +4,8 @@ Coeus is an Artificial Conversational Entity for queries in Eulogio "Amang" Rodr
 
 ![alt text](https://i.ibb.co/jD9V5vz/5-SVXe-Qdc-4x.jpg)
 
+![coeus_demo](https://i.ibb.co/4NXFL6Y/Coeus.gif)
+
 ## Implementation
 
 :warning: Before Cloning this project make sure you have `python` and `pip` installed on your machine.
